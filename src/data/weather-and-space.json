@@ -1,0 +1,501 @@
+[
+  {
+    "id": "tornado-hurricane-typhoon-cyclone",
+    "category": "Weather & Space",
+    "title": "Tornado vs. Hurricane vs. Typhoon vs. Cyclone",
+    "question": "Is a typhoon just a hurricane somewhere else?",
+    "answer": "Yes. Hurricanes, typhoons and tropical cyclones are the same kind of storm, and the name depends on which ocean it forms over. A tornado is something else: a much smaller, shorter-lived storm that drops from a thunderstorm over land.",
+    "details": [
+      {
+        "term": "Tropical cyclone",
+        "text": "The umbrella term. A rotating system of clouds and thunderstorms that forms over warm tropical or subtropical water. It becomes a hurricane or typhoon once sustained winds reach 74 mph."
+      },
+      {
+        "term": "Hurricane",
+        "text": "The name used in the North Atlantic and the central and eastern North Pacific."
+      },
+      {
+        "term": "Typhoon",
+        "text": "The name for the same storm in the Northwest Pacific. In the South Pacific and Indian Ocean, forecasters just say \"tropical cyclone\"."
+      },
+      {
+        "term": "Tornado",
+        "text": "Usually a few hundred feet wide and lasts minutes. A hurricane is roughly a thousand times wider (60 to over 1,000 miles across) and can last days or weeks."
+      }
+    ],
+    "bonus": "A storm can change names mid-life. In August 2023, Hurricane Dora crossed the International Date Line and became Typhoon Dora.",
+    "sources": [
+      "https://oceanservice.noaa.gov/facts/cyclone.html",
+      "https://gpm.nasa.gov/resources/faq/what-difference-between-tornado-and-hurricane",
+      "https://www.foxweather.com/weather-news/hurricane-dora-wildfires-high-surf-hawaii"
+    ]
+  },
+  {
+    "id": "weather-climate",
+    "category": "Weather & Space",
+    "title": "Weather vs. Climate",
+    "question": "If it's freezing today, does that tell you anything about the climate?",
+    "answer": "Not much. Weather is what happens over hours or days. Climate is the average of that weather in a place over a long period, usually 30 years or more.",
+    "details": [
+      {
+        "term": "Weather",
+        "text": "A specific event over a short time: a rainstorm, a hot afternoon, a blizzard. It can rain at your house and stay dry a few blocks away."
+      },
+      {
+        "term": "Climate",
+        "text": "The typical conditions of a region, worked out from at least 30 years of records. Desert, tundra and rainforest are climate types."
+      }
+    ],
+    "bonus": "Climate can change sharply over short distances. NOAA notes that the Big Island of Hawaii has 10 or 11 climate zones in about 4,000 square miles.",
+    "sources": [
+      "https://www.nesdis.noaa.gov/about/k-12-education/understanding-our-planet/whats-the-difference-between-weather-and-climate",
+      "https://climatekids.nasa.gov/weather-climate/weather-climate_poster.pdf"
+    ]
+  },
+  {
+    "id": "meteoroid-meteor-meteorite",
+    "category": "Weather & Space",
+    "title": "Meteoroid vs. Meteor vs. Meteorite",
+    "question": "Is a shooting star a meteor or a meteorite?",
+    "answer": "A meteor. These are three names for the same space rock at different stages. It is a meteoroid in space, a meteor while it burns through the air, and a meteorite if any of it reaches the ground.",
+    "details": [
+      {
+        "term": "Meteoroid",
+        "text": "A rock in space, from a dust grain up to about 1 meter across. Larger objects are usually called asteroids."
+      },
+      {
+        "term": "Meteor",
+        "text": "The streak of light when a meteoroid hits the atmosphere at high speed and burns up. A meteor brighter than Venus is called a fireball."
+      },
+      {
+        "term": "Meteorite",
+        "text": "Whatever survives the trip and lands. Usually less than 5% of the original object makes it to the ground."
+      }
+    ],
+    "bonus": "NASA estimates that about 48.5 tons of meteoritic material falls on Earth every day.",
+    "sources": [
+      "https://science.nasa.gov/solar-system/meteors-meteorites/facts/",
+      "https://www.planetary.org/articles/asteroids-vs-comets-vs-meteorites-meteoroids-meteors"
+    ]
+  },
+  {
+    "id": "asteroid-comet",
+    "category": "Weather & Space",
+    "title": "Asteroid vs. Comet",
+    "question": "What makes a comet different from an asteroid?",
+    "answer": "What they are made of. Asteroids are rock and metal. Comets are mostly ice and dust, and that ice turns to gas near the Sun, which gives a comet its glowing head and tail.",
+    "details": [
+      {
+        "term": "Asteroid",
+        "text": "A rocky or metallic body orbiting the Sun. Most sit in the main belt between Mars and Jupiter. The largest, Vesta, is about 329 miles across."
+      },
+      {
+        "term": "Comet",
+        "text": "Ice and frozen gases mixed with dust, coated in dark material. The solid core is often only a few miles across. Most comets come from the cold outer solar system, beyond Neptune or much farther out in the Oort Cloud."
+      },
+      {
+        "term": "The tail",
+        "text": "A comet's tail points away from the Sun, not behind the comet. Sunlight and the solar wind push the gas and dust outward."
+      }
+    ],
+    "bonus": "All the asteroids in the solar system put together have less mass than Earth's Moon.",
+    "sources": [
+      "https://science.nasa.gov/solar-system/asteroids/facts/",
+      "https://science.nasa.gov/solar-system/comets/facts/",
+      "https://www.planetary.org/articles/asteroids-vs-comets-vs-meteorites-meteoroids-meteors"
+    ]
+  },
+  {
+    "id": "sleet-freezing-rain-hail-graupel",
+    "category": "Weather & Space",
+    "title": "Sleet vs. Freezing Rain vs. Hail vs. Graupel",
+    "question": "Are sleet and hail the same thing?",
+    "answer": "No. Sleet is small ice pellets from winter storms. Hail is larger ice that grows inside thunderstorms, often in summer. Freezing rain lands as liquid and turns to ice on contact, and graupel is soft, crumbly snow pellets.",
+    "details": [
+      {
+        "term": "Sleet",
+        "text": "Snow melts in a warm layer of air, then refreezes into pellets in a deep cold layer near the ground. The pellets bounce when they land. US forecasters also call it ice pellets."
+      },
+      {
+        "term": "Freezing rain",
+        "text": "Same setup, but the cold layer at the ground is too thin for the drops to refreeze. They land as liquid and freeze on roads, trees and power lines. Several hours of it is an ice storm."
+      },
+      {
+        "term": "Hail",
+        "text": "Ice that grows in thunderstorm updrafts as water freezes onto it layer by layer. It has to be larger than 5 mm (0.2 inch) to count as hail."
+      },
+      {
+        "term": "Graupel",
+        "text": "Supercooled water droplets freeze onto a snowflake and make a soft white pellet. It crushes easily between your fingers, unlike sleet or hail."
+      }
+    ],
+    "bonus": "\"Sleet\" means different things in different countries. In the US it means ice pellets. The UK Met Office uses it for a mix of rain and snow, and says the word has no internationally agreed definition.",
+    "sources": [
+      "https://forecast.weather.gov/glossary.php?word=sleet",
+      "https://nssl.noaa.gov/education/svrwx101/hail/types",
+      "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/snow/sleet"
+    ]
+  },
+  {
+    "id": "fog-mist-haze",
+    "category": "Weather & Space",
+    "title": "Fog vs. Mist vs. Haze",
+    "question": "Is mist just light fog?",
+    "answer": "Yes. Fog and mist are both tiny water droplets in the air, and the difference is how far you can see: under 1,000 meters is fog, 1,000 meters or more is mist. Haze is different. It is made of dry particles, not water.",
+    "details": [
+      {
+        "term": "Fog",
+        "text": "Water droplets that cut visibility below 1,000 meters (about 0.6 mile)."
+      },
+      {
+        "term": "Mist",
+        "text": "The same thing at lower density, with visibility of 1,000 meters or more."
+      },
+      {
+        "term": "Haze",
+        "text": "Very small dry particles such as dust, smoke or pollution. It can make sunrises and sunsets look reddish."
+      }
+    ],
+    "bonus": "The Met Office describes fog simply as a cloud at ground level.",
+    "sources": [
+      "https://www.metoffice.gov.uk/blog/2025/whats-the-difference-between-mist-fog-and-haze",
+      "https://metoffice.gov.uk/learning/fog/difference-mist-and-fog"
+    ]
+  },
+  {
+    "id": "lake-pond",
+    "category": "Weather & Space",
+    "title": "Lake vs. Pond",
+    "question": "How big does a pond have to be to become a lake?",
+    "answer": "There is no official cutoff. The US Geological Survey says there are no official definitions for these terms. People generally agree a pond is smaller than a lake, but even that is not always true.",
+    "details": [
+      {
+        "term": "Lake",
+        "text": "In the USGS national place-name database, a lake is any \"natural body of inland water.\" Features called ponds are filed under lake too."
+      },
+      {
+        "term": "Pond",
+        "text": "Usually smaller and shallower, but that is local custom. Some US regions use a size rule, such as under 10 acres. Some scientists have proposed a pond is water shallow enough for light to reach the bottom, but that is hard to measure and not widely used."
+      }
+    ],
+    "bonus": "The same database lumps 54 other words in with \"lake\". It also files every river, creek, brook and run under one category, \"stream\", because no naming rule separates them.",
+    "sources": [
+      "https://www.usgs.gov/media/audio/what-difference-between-lake-and-pond-mountain-and-hill-or-river-and-creek",
+      "https://en.wikipedia.org/wiki/Pond"
+    ]
+  },
+  {
+    "id": "sea-ocean",
+    "category": "Weather & Space",
+    "title": "Sea vs. Ocean",
+    "question": "Is a sea just a smaller ocean?",
+    "answer": "Mostly, yes. A sea is a smaller part of an ocean, usually where land and ocean meet, and usually partly enclosed by land. The Bering Sea, for example, is part of the Pacific Ocean.",
+    "details": [
+      {
+        "term": "Ocean",
+        "text": "One of the large basins of the single connected body of salt water that covers most of the planet."
+      },
+      {
+        "term": "Sea",
+        "text": "A smaller area of an ocean, usually partly bordered by land. The Sargasso Sea is an exception: it has no coastline and is defined only by ocean currents."
+      }
+    ],
+    "bonus": "Some \"seas\" are not seas at all. The Caspian Sea has no outlet to the ocean and is often described as the world's largest lake. Its water is about a third as salty as seawater.",
+    "sources": [
+      "https://oceanservice.noaa.gov/facts/oceanorsea.html",
+      "https://en.wikipedia.org/wiki/Caspian_Sea"
+    ]
+  },
+  {
+    "id": "magma-lava",
+    "category": "Weather & Space",
+    "title": "Magma vs. Lava",
+    "question": "Are magma and lava the same stuff?",
+    "answer": "Yes. The difference is location. Molten rock underground is magma. Once it reaches the surface, it is lava.",
+    "details": [
+      {
+        "term": "Magma",
+        "text": "Molten rock below ground. It can carry crystals, bits of surrounding rock and dissolved gases."
+      },
+      {
+        "term": "Lava",
+        "text": "Molten rock that has broken through the surface. It is red-hot when it erupts, then darkens to red, gray or black as it cools and hardens."
+      },
+      {
+        "term": "Runny or thick",
+        "text": "Hot lava rich in iron and magnesium flows easily, like hot tar. Cooler lava high in silicon moves slowly, like thick honey."
+      }
+    ],
+    "bonus": "Lava from Hawaii's Kilauea volcano erupts at about 1,170 °C (2,140 °F). Its outer surface cools by hundreds of degrees per second once it meets the air.",
+    "sources": [
+      "https://www.usgs.gov/media/audio/what-difference-between-magma-and-lava",
+      "https://www.usgs.gov/faqs/how-hot-hawaiian-volcano"
+    ]
+  },
+  {
+    "id": "stalactite-stalagmite",
+    "category": "Weather & Space",
+    "title": "Stalactite vs. Stalagmite",
+    "question": "Which one hangs from the cave ceiling?",
+    "answer": "The stalactite. Stalactites hang down from the ceiling. Stalagmites grow up from the floor where the drips land. A common memory aid: stalactites hold on \"tight\", and stalagmites \"might\" reach the ceiling someday.",
+    "details": [
+      {
+        "term": "Stalactite",
+        "text": "Hangs from a ceiling or ledge. Water carrying dissolved limestone drips down, gives off carbon dioxide in the cave air, and leaves a ring of the mineral calcite behind. It starts as a hollow tube."
+      },
+      {
+        "term": "Stalagmite",
+        "text": "A cone or pillar that builds up on the floor where those drops fall."
+      },
+      {
+        "term": "Column",
+        "text": "What you get when a stalactite and stalagmite grow until they join."
+      }
+    ],
+    "bonus": "They grow very slowly. In Lehman Caves in Nevada, one stalagmite has been dated at about 2.2 million years old.",
+    "sources": [
+      "https://www.nps.gov/grba/learn/nature/speleothems-cave-formations.htm",
+      "https://www.nps.gov/ozar/learn/education/speleothems.htm"
+    ]
+  },
+  {
+    "id": "rock-mineral",
+    "category": "Weather & Space",
+    "title": "Rock vs. Mineral",
+    "question": "Is quartz a rock or a mineral?",
+    "answer": "A mineral. A mineral is a single natural substance with a fixed chemical makeup and an orderly crystal structure. A rock is a mix of one or more minerals, or of other material such as shells or plant matter.",
+    "details": [
+      {
+        "term": "Mineral",
+        "text": "A naturally formed, inorganic solid with a set chemical composition and crystal structure. Examples: quartz, feldspar, mica, calcite."
+      },
+      {
+        "term": "Rock",
+        "text": "A solid mass made of minerals or other natural material. Quartz and feldspar together make the rock granite. Some rocks form from compressed plants or old shells."
+      }
+    ],
+    "bonus": "Ice counts as a mineral when it forms in nature, such as a snowflake. An ice cube from your freezer does not, because people made it.",
+    "sources": [
+      "https://www.usgs.gov/faqs/what-difference-between-a-rock-and-a-mineral",
+      "https://www.usgs.gov/news/earthword-rock-vs-mineral",
+      "https://geology.com/articles/water-mineral/"
+    ]
+  },
+  {
+    "id": "planet-dwarf-planet",
+    "category": "Weather & Space",
+    "title": "Planet vs. Dwarf Planet",
+    "question": "Why isn't Pluto a planet anymore?",
+    "answer": "Because it has not cleared its orbit. Since 2006, the International Astronomical Union (the world body of astronomers) says a planet must orbit the Sun, be big enough for gravity to pull it round, and have cleared other similar-sized objects from its path. Pluto does the first two but not the third.",
+    "details": [
+      {
+        "term": "Planet",
+        "text": "Meets all three tests. The solar system has eight: Mercury through Neptune."
+      },
+      {
+        "term": "Dwarf planet",
+        "text": "Orbits the Sun and is nearly round, but shares its orbit with lots of other objects and is not a moon. Pluto's orbit runs through the Kuiper Belt, a band of icy bodies beyond Neptune."
+      },
+      {
+        "term": "The official five",
+        "text": "Ceres, Pluto, Haumea, Makemake and Eris. The IAU says there may be more than a hundred more waiting to be found."
+      }
+    ],
+    "bonus": "Pluto is not the first world to lose planet status. Ceres was hailed as a planet after its discovery in 1801, was soon reclassified as an asteroid, and became a dwarf planet in 2006.",
+    "sources": [
+      "https://science.nasa.gov/dwarf-planets/",
+      "https://ssd.jpl.nasa.gov/planets/def.html",
+      "https://starchild.gsfc.nasa.gov/docs/StarChild/solar_system_level1/ceres.html"
+    ]
+  },
+  {
+    "id": "watch-warning",
+    "category": "Weather & Space",
+    "title": "Weather Watch vs. Warning",
+    "question": "Which is more serious: a tornado watch or a tornado warning?",
+    "answer": "A warning. A watch means conditions could produce the danger, so get ready. A warning means it is happening or expected, so act now.",
+    "details": [
+      {
+        "term": "Tornado watch",
+        "text": "Tornadoes are possible in and near the area. The area is usually large, often many counties or even several states."
+      },
+      {
+        "term": "Tornado warning",
+        "text": "A tornado has been seen or shows up on radar. The area is much smaller, about the size of a city or small county."
+      },
+      {
+        "term": "Hurricane watch and warning",
+        "text": "Same idea, plus a time rule. A watch is typically issued about 48 hours before tropical-storm-force winds are expected, and a warning about 36 hours before."
+      }
+    ],
+    "bonus": "Different offices issue them. A tornado watch comes from the national Storm Prediction Center. A tornado warning comes from your local National Weather Service office.",
+    "sources": [
+      "https://www.weather.gov/safety/tornado-ww",
+      "https://oceanservice.noaa.gov/facts/watch-warning.html",
+      "https://www.weather.gov/wrn/hurricane-sm"
+    ]
+  },
+  {
+    "id": "tsunami-tidal-wave",
+    "category": "Weather & Space",
+    "title": "Tsunami vs. Tidal Wave",
+    "question": "Is \"tidal wave\" just another word for tsunami?",
+    "answer": "No, and NOAA calls that use incorrect. Tsunamis have nothing to do with tides. They are caused by a sudden shove of water, usually from an undersea earthquake or volcanic eruption.",
+    "details": [
+      {
+        "term": "Tsunami",
+        "text": "A series of waves set off when a large amount of water is suddenly displaced. Earthquakes and undersea volcanoes are the usual causes."
+      },
+      {
+        "term": "Tidal wave",
+        "text": "Strictly, the regular rise and fall of the tide, driven by the pull of the Moon and Sun."
+      }
+    ],
+    "bonus": "In the deep ocean, a tsunami can travel over 500 mph, as fast as a jet, yet is rarely more than about 3 feet high. Ships usually don't notice it passing beneath them.",
+    "sources": [
+      "https://oceanservice.noaa.gov/facts/tidalwave.html",
+      "https://oceanservice.noaa.gov/facts/tsunami.html",
+      "https://www.noaa.gov/jetstream/tsunamis/tsunami-propagation"
+    ]
+  },
+  {
+    "id": "earthquake-magnitude-intensity",
+    "category": "Weather & Space",
+    "title": "Earthquake Magnitude vs. Intensity",
+    "question": "Why can one earthquake have a single number but many different shaking reports?",
+    "answer": "Because they measure different things. Magnitude is the size of the earthquake at its source, so each quake gets one value. Intensity is how hard the ground shook at a particular place, so it varies from town to town.",
+    "details": [
+      {
+        "term": "Magnitude",
+        "text": "Calculated from seismograph readings. Each whole number up means about 10 times more ground motion on the seismogram and about 32 times more energy released."
+      },
+      {
+        "term": "Intensity",
+        "text": "Based on what people felt and what was damaged at a location. In the US it uses the Modified Mercalli scale, written in Roman numerals from I to XII."
+      },
+      {
+        "term": "Richter scale",
+        "text": "Rarely used by seismologists today, mainly for small local quakes. Most reported magnitudes now use the moment magnitude scale."
+      }
+    ],
+    "bonus": "Because each step is about 32 times more energy, a magnitude 7 releases roughly 1,000 times the energy of a magnitude 5.",
+    "sources": [
+      "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity"
+    ]
+  },
+  {
+    "id": "equinox-solstice",
+    "category": "Weather & Space",
+    "title": "Equinox vs. Solstice",
+    "question": "Which one gives you the longest day of the year?",
+    "answer": "The solstice. Solstices are when the Sun is farthest north or south, giving the longest and shortest days. Equinoxes are when the Sun is directly over the equator, and day and night are close to equal.",
+    "details": [
+      {
+        "term": "Solstice",
+        "text": "Around June 21 and December 21. In June the Sun is directly over the Tropic of Cancer, the Northern Hemisphere's longest day. In December it is over the Tropic of Capricorn."
+      },
+      {
+        "term": "Equinox",
+        "text": "Around March 20 and September 22. The name comes from the Latin for \"equal night\", but day and night are not exactly 12 hours each. The air bends sunlight over the horizon, which adds a few minutes of daylight."
+      }
+    ],
+    "bonus": "Seasons come from Earth's tilt, not its distance from the Sun. Earth is actually closest to the Sun in early January (January 3 in 2026), during the Northern Hemisphere's winter.",
+    "sources": [
+      "https://www.weather.gov/ilx/spring-begins",
+      "https://svs.gsfc.nasa.gov/14366/",
+      "https://www.nationalgeographic.com/science/article/what-is-perihelion-earth-orbit"
+    ]
+  },
+  {
+    "id": "stars-planets-twinkle",
+    "category": "Weather & Space",
+    "title": "Star vs. Planet in the Night Sky",
+    "question": "How can you tell a bright planet from a star with just your eyes?",
+    "answer": "Stars twinkle and planets usually shine steadily. Stars are so far away that they are single points of light, and moving air bends that point around. Planets are close enough to be tiny disks, so the flicker from different parts of the disk averages out.",
+    "details": [
+      {
+        "term": "Star",
+        "text": "Its light passes through miles of moving air at different temperatures, which bend it slightly in shifting directions. To us it seems to flicker."
+      },
+      {
+        "term": "Planet",
+        "text": "Appears as a small disk, not a point. Each part of the disk flickers on its own, and the total stays steady."
+      }
+    ],
+    "bonus": "Stars near the horizon twinkle more, because their light passes through much more air on the way to you.",
+    "sources": [
+      "https://www.scientificamerican.com/article/why-do-stars-twinkle",
+      "https://starchild.gsfc.nasa.gov/docs/StarChild/questions/question26.html",
+      "https://science.nasa.gov/image-article/apod-2000-july-25-why-stars-twinkle/"
+    ]
+  },
+  {
+    "id": "humidity-dew-point",
+    "category": "Weather & Space",
+    "title": "Relative Humidity vs. Dew Point",
+    "question": "Why can 100% humidity feel less muggy than 50%?",
+    "answer": "Because relative humidity depends on temperature. It compares the water in the air to the most the air could hold at that temperature. The dew point tracks the actual moisture, so it is the better guide to how sticky it feels.",
+    "details": [
+      {
+        "term": "Relative humidity",
+        "text": "A percentage: how full the air is of water vapor compared with its limit at the current temperature. Warm air can hold more, so the same moisture gives a lower percentage on a hot day."
+      },
+      {
+        "term": "Dew point",
+        "text": "The temperature the air would have to cool to for water vapor to condense into droplets. The higher it is, the muggier it feels."
+      }
+    ],
+    "bonus": "The National Weather Service gives this example: 50 °F with a 50 °F dew point is 100% humidity, while 90 °F with a 69 °F dew point is only 50%. The 90-degree day feels far more humid.",
+    "sources": [
+      "https://www.weather.gov/tbw/dewpoint"
+    ]
+  },
+  {
+    "id": "blizzard-snowstorm",
+    "category": "Weather & Space",
+    "title": "Blizzard vs. Snowstorm",
+    "question": "How much snow does it take to make a blizzard?",
+    "answer": "None, officially. The US National Weather Service defines a blizzard by wind and visibility, not snowfall. A heavy snowstorm with calm winds is not a blizzard.",
+    "details": [
+      {
+        "term": "Blizzard",
+        "text": "Winds or frequent gusts of at least 35 mph, plus falling or blowing snow that cuts visibility to a quarter mile or less, lasting 3 hours or more."
+      },
+      {
+        "term": "Winter storm",
+        "text": "Defined mainly by how much snow or ice is expected. One NWS office, for example, generally uses 6 inches or more in 6 to 9 hours, or 8 inches or more in 12 hours. Thresholds vary by region."
+      }
+    ],
+    "bonus": "A \"ground blizzard\" happens when strong winds whip up snow that is already on the ground. The NWS notes you can have one under sunny skies.",
+    "sources": [
+      "https://www.weather.gov/abr/blizzardrecap",
+      "https://www.weather.gov/dtx/winter_defs"
+    ]
+  },
+  {
+    "id": "geyser-hot-spring",
+    "category": "Weather & Space",
+    "title": "Geyser vs. Hot Spring",
+    "question": "Why do some hot springs erupt while others just sit there?",
+    "answer": "Plumbing. A geyser is a hot spring with narrow spots in its underground channels. Those narrow spots trap heat and steam until the pressure blasts the water out. A hot spring has open plumbing, so the water circulates and never builds up enough pressure.",
+    "details": [
+      {
+        "term": "Hot spring",
+        "text": "A pool of water heated underground. Hot water rises, cools at the surface, sinks and is replaced, which keeps it from erupting."
+      },
+      {
+        "term": "Geyser",
+        "text": "A hot spring with constrictions in its plumbing. Steam builds up below them and periodically forces the water above out in an eruption."
+      },
+      {
+        "term": "Fumarole",
+        "text": "A steam vent. There is so little water that it boils away before reaching the surface."
+      }
+    ],
+    "bonus": "Yellowstone has more than 10,000 hydrothermal features, including more than 500 geysers. The park says over half of the world's geysers are there.",
+    "sources": [
+      "https://www.nps.gov/yell/learn/nature/hydrothermal-features.htm",
+      "https://home.nps.gov/yell/learn/kidsyouth/hydrothermal.htm"
+    ]
+  }
+]

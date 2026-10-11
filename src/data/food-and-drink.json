@@ -1,0 +1,346 @@
+[
+  {
+    "id": "jam-jelly-preserves-marmalade",
+    "category": "Food & Drink",
+    "title": "Jam vs. Jelly vs. Preserves vs. Marmalade",
+    "question": "What actually separates jam, jelly, preserves and marmalade?",
+    "answer": "It comes down to which part of the fruit goes in. Jelly is made from strained fruit juice, so it is clear and smooth. Jam and preserves are made from the fruit itself, and marmalade is made from citrus fruit, usually with the peel.",
+    "details": [
+      { "term": "Jelly", "text": "Made from fruit juice that has been strained or filtered, so it has no pieces of fruit. US rules require at least 45 parts juice for every 55 parts sugar, and the finished jelly must be at least 65% soluble solids (mostly sugar)." },
+      { "term": "Jam and preserves", "text": "Made from crushed, chopped or whole fruit. Under the US federal standard, \"jam\" and \"preserves\" are the same product, and a maker can use either name. People often use \"preserves\" for jars with bigger chunks, but that is a habit, not a rule." },
+      { "term": "Marmalade", "text": "In the UK and the EU, \"marmalade\" is a protected name. It must be made from citrus fruit, with at least 200 g of citrus in every kilogram." }
+    ],
+    "bonus": "EU jam rules count carrots, tomatoes, sweet potatoes, cucumbers, pumpkins, melons and rhubarb stalks as \"fruit\". So a carrot jam can legally be sold as jam.",
+    "sources": [
+      "https://www.law.cornell.edu/cfr/text/21/150.140",
+      "https://www.law.cornell.edu/cfr/text/21/150.160",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32001L0113"
+    ]
+  },
+  {
+    "id": "sweet-potato-yam",
+    "category": "Food & Drink",
+    "title": "Sweet Potato vs. Yam",
+    "question": "Is a yam just another name for a sweet potato?",
+    "answer": "No. They are different plants from unrelated plant families. But almost every \"yam\" sold in a US supermarket is actually an orange-fleshed sweet potato.",
+    "details": [
+      { "term": "Sweet potato", "text": "A root from the morning glory family (Ipomoea batatas). It has thin, smooth skin. The flesh ranges from white to deep orange. The soft, orange kinds common in the US turn moist and sweet when cooked." },
+      { "term": "True yam", "text": "A tuber from a different family (Dioscorea). It has tough, scaly skin that is hard to peel, and starchier, drier flesh. Yams are mostly tropical. Africa grows about 95% of the world's crop, and Nigeria is the largest producer." },
+      { "term": "Why the mix-up", "text": "US growers had firm sweet potatoes first. When soft, sweet varieties arrived, they needed a name to tell them apart. They used \"yam\", a word enslaved Africans had already applied to them because they looked like African yams. The USDA requires that a sweet potato labeled \"yam\" also say \"sweet potato\"." }
+    ],
+    "bonus": "True yams can grow up to five feet long and weigh more than 100 pounds.",
+    "sources": [
+      "https://extension.illinois.edu/blogs/good-growing/2019-11-25-whats-difference-between-sweet-potatoes-and-yams"
+    ]
+  },
+  {
+    "id": "cilantro-coriander",
+    "category": "Food & Drink",
+    "title": "Cilantro vs. Coriander",
+    "question": "Are cilantro and coriander two different plants?",
+    "answer": "No. They are the same plant, Coriandrum sativum. In American English, \"cilantro\" means the fresh leaves and stems and \"coriander\" means the dried seeds. In British English and many other places, the leaves are also called coriander, or \"fresh coriander\".",
+    "details": [
+      { "term": "Cilantro", "text": "The leaves and stems. Americans took the word from Spanish, because the herb is so common in Mexican cooking." },
+      { "term": "Coriander", "text": "In the US, the dried seeds, used whole or ground as a spice. Elsewhere, the word can mean any part of the plant." },
+      { "term": "The rest of the plant", "text": "Every part is edible. The roots have a stronger flavor than the leaves and are used in Thai soups and curry pastes." }
+    ],
+    "bonus": "A 2012 study of about 25,000 people of European ancestry linked the \"tastes like soap\" reaction to a genetic variant near a group of smell-receptor genes. Genes explain only a small part of who dislikes it.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Coriander",
+      "https://en.wiktionary.org/wiki/cilantro",
+      "https://flavourjournal.biomedcentral.com/articles/10.1186/2044-7248-1-22"
+    ]
+  },
+  {
+    "id": "baking-soda-baking-powder",
+    "category": "Food & Drink",
+    "title": "Baking Soda vs. Baking Powder",
+    "question": "If both make cakes rise, why do recipes ask for one or the other?",
+    "answer": "Baking soda is pure sodium bicarbonate, and it only makes bubbles when it meets an acid. Baking powder is baking soda already mixed with dry acids, so it brings its own acid. Recipes with an acidic ingredient such as buttermilk can use soda; recipes without one need powder.",
+    "details": [
+      { "term": "Baking soda", "text": "A base. It reacts right away with acids such as buttermilk, yogurt or vinegar, releasing carbon dioxide gas that lifts the batter." },
+      { "term": "Baking powder", "text": "Baking soda plus one or more acid salts, plus a starch such as cornstarch to keep it dry in the tin. Water starts the reaction." },
+      { "term": "Double-acting", "text": "Most baking powder sold today. One acid reacts when the batter gets wet. A second acid reacts only when the batter gets hot, giving a second rise in the oven." }
+    ],
+    "bonus": "In 1843 the English chemist Alfred Bird made an early baking powder because his wife was allergic to eggs and yeast.",
+    "sources": [
+      "https://news.ncsu.edu/2014/05/baking-soda-powder",
+      "https://en.wikipedia.org/wiki/Baking_powder"
+    ]
+  },
+  {
+    "id": "stock-broth",
+    "category": "Food & Drink",
+    "title": "Stock vs. Broth",
+    "question": "Is there a real difference between stock and broth?",
+    "answer": "The usual rule is that stock is made mainly from bones and broth mainly from meat. Bones release gelatin, so stock is thicker and often sets like jelly in the fridge. There is no strict definition, and many cooks use the words interchangeably.",
+    "details": [
+      { "term": "Stock", "text": "Simmered mostly from bones, often for longer. The gelatin gives it body. It is often left unsalted because it is meant as a base for sauces, soups and gravies." },
+      { "term": "Broth", "text": "Simmered mostly from meat. It is usually seasoned and can be eaten on its own." }
+    ],
+    "bonus": "By the bones-versus-meat rule, \"bone broth\" is really a stock. Many health claims made for it have no scientific evidence behind them.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Stock_(food)"
+    ]
+  },
+  {
+    "id": "champagne-prosecco-sparkling-wine",
+    "category": "Food & Drink",
+    "title": "Champagne vs. Prosecco vs. Sparkling Wine",
+    "question": "Is all bubbly wine champagne?",
+    "answer": "No. \"Sparkling wine\" is the whole category. Champagne is sparkling wine from the Champagne region of France that gets its bubbles in each individual bottle. Prosecco is Italian sparkling wine made mostly from the Glera grape, and usually gets its bubbles in large pressurized tanks.",
+    "details": [
+      { "term": "Sparkling wine", "text": "Any wine with enough dissolved carbon dioxide to fizz. Cava, crémant and many American and Australian wines are in this group." },
+      { "term": "Champagne", "text": "Made almost entirely from Chardonnay, Pinot noir and Pinot meunier grapes. A second fermentation happens inside each bottle. Non-vintage Champagne must age at least 15 months, and vintage Champagne at least 3 years." },
+      { "term": "Prosecco", "text": "Made in Veneto and Friuli Venezia Giulia in northeast Italy, with at least 85% Glera grapes. Most is made by the tank method, where the second fermentation happens in big steel tanks. This is faster and cheaper." }
+    ],
+    "bonus": "US wine brands approved before 2006 can still call their wine \"Champagne\" if the label names the real origin, such as \"California Champagne\". New US brands cannot.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Champagne",
+      "https://en.wikipedia.org/wiki/Prosecco"
+    ]
+  },
+  {
+    "id": "whiskey-bourbon-scotch-rye",
+    "category": "Food & Drink",
+    "title": "Whiskey vs. Bourbon vs. Scotch vs. Rye",
+    "question": "Is bourbon a kind of whiskey, or something else?",
+    "answer": "Whiskey is the whole category: a spirit distilled from fermented grain and usually aged in wood. Bourbon and rye are American whiskeys named for their main grain. Scotch is whisky made and aged in Scotland.",
+    "details": [
+      { "term": "Bourbon", "text": "At least 51% corn, aged in new charred oak containers, and made in the United States. It does not have to come from Kentucky. Plain bourbon has no minimum age, but \"straight bourbon\" must age at least two years." },
+      { "term": "Rye", "text": "The same US rules as bourbon, but the grain mix must be at least 51% rye." },
+      { "term": "Scotch", "text": "Must be distilled and matured in Scotland for at least three years in oak casks no larger than 700 litres, and bottled at 40% alcohol or more. Only water and plain caramel coloring may be added." }
+    ],
+    "bonus": "US federal regulations spell it \"whisky\", without the e, even though most American brands write \"whiskey\".",
+    "sources": [
+      "https://www.law.cornell.edu/cfr/text/27/5.143",
+      "https://www.legislation.gov.uk/uksi/2009/2890/regulation/3/made"
+    ]
+  },
+  {
+    "id": "sherbet-sorbet",
+    "category": "Food & Drink",
+    "title": "Sherbet vs. Sorbet",
+    "question": "Sherbet and sorbet look alike. What sets them apart?",
+    "answer": "Dairy. Sherbet contains a small amount of milk; sorbet contains none. In the US, sherbet must have 1% to 2% milkfat.",
+    "details": [
+      { "term": "Sherbet", "text": "US rules require 1% to 2% milkfat and 2% to 5% total milk solids. For comparison, ice cream needs at least 10% milkfat." },
+      { "term": "Sorbet", "text": "Fruit or juice, sugar and water, with no milk. US rules have no category called \"sorbet\". The closest is \"water ice\", which may contain no milk and no egg except egg white." }
+    ],
+    "bonus": "\"Sherbet\" and \"sorbet\" come from the same word, traced through Turkish and Persian to an Arabic root meaning \"to drink\". In the UK, \"sherbet\" usually means a fizzy sweet powder.",
+    "sources": [
+      "https://www.law.cornell.edu/cfr/text/21/135.140",
+      "https://www.law.cornell.edu/cfr/text/21/135.160",
+      "https://en.wiktionary.org/wiki/sherbet"
+    ]
+  },
+  {
+    "id": "ice-cream-gelato-frozen-custard",
+    "category": "Food & Drink",
+    "title": "Ice Cream vs. Gelato vs. Frozen Custard",
+    "question": "Is gelato just Italian for ice cream?",
+    "answer": "Not quite. In the US, ice cream must have at least 10% milkfat, and frozen custard is ice cream with added egg yolk. Gelato has no US legal definition. It is usually made with less fat and less air, which makes it denser, and it is served slightly warmer.",
+    "details": [
+      { "term": "Ice cream", "text": "At least 10% milkfat and at least 4.5 pounds per gallon. The weight rule limits how much air can be whipped in." },
+      { "term": "Frozen custard", "text": "Ice cream with at least 1.4% egg yolk solids. US rules also allow the name \"French ice cream\" for it." },
+      { "term": "Gelato", "text": "Commonly around 4% to 9% fat, with less air than ice cream. Because no US standard exists, recipes vary widely by maker." }
+    ],
+    "bonus": "Even with the 4.5-pound rule, a US carton of ice cream can be roughly half air by volume.",
+    "sources": [
+      "https://www.law.cornell.edu/cfr/text/21/135.110",
+      "https://www.idfa.org/news/idfa-opposes-petition-for-new-gelato-standard-in-california",
+      "https://www.consumerreports.org/consumerist/whats-the-difference-between-ice-cream-frozen-custard-and-gelato/"
+    ]
+  },
+  {
+    "id": "fruit-vegetable",
+    "category": "Food & Drink",
+    "title": "Fruit vs. Vegetable",
+    "question": "Is a tomato a fruit or a vegetable?",
+    "answer": "Both, depending on who you ask. In botany, a fruit is the part that grows from a flower's ovary and holds the seeds, so a tomato is a fruit. \"Vegetable\" is not a botanical term at all. It is a cooking term for savory plant parts.",
+    "details": [
+      { "term": "Botanical fruit", "text": "Any seed-bearing part grown from a flower. Tomatoes, cucumbers, squash, peppers, eggplants, pea pods and corn kernels all count." },
+      { "term": "Culinary fruit", "text": "Sweet or sour plant parts usually eaten raw or as dessert, such as apples, bananas and lemons." },
+      { "term": "Vegetable", "text": "Any savory edible plant part: leaves, stems, roots, bulbs, tubers, flower buds, and many botanical fruits. Rhubarb goes the other way. It is cooked like fruit, but you are eating a leaf stalk." }
+    ],
+    "bonus": "In 1893 the US Supreme Court ruled in Nix v. Hedden that tomatoes are vegetables for import taxes. The court admitted they are botanically fruits but went with how people eat them.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fruit",
+      "https://en.wikipedia.org/wiki/Nix_v._Hedden"
+    ]
+  },
+  {
+    "id": "what-counts-as-a-berry",
+    "category": "Food & Drink",
+    "title": "Berry vs. \"Berry\"",
+    "question": "Why do botanists say bananas are berries but strawberries aren't?",
+    "answer": "To a botanist, a berry is a fleshy fruit that grows from one flower with a single ovary, with the seeds inside the flesh. Bananas, grapes, tomatoes and blueberries fit that. Strawberries, raspberries and blackberries do not.",
+    "details": [
+      { "term": "True berries", "text": "Banana, grape, tomato, blueberry, eggplant, chili pepper and kiwifruit. Citrus fruits, melons and cucumbers are special types of berry too." },
+      { "term": "Strawberry", "text": "The red flesh is not grown from the ovary. It is the swollen base of the flower, called the receptacle. Botanists call this an accessory fruit." },
+      { "term": "Raspberry and blackberry", "text": "Each one is a cluster of many tiny fruits called drupelets, and each drupelet comes from a separate ovary. This is an aggregate fruit." }
+    ],
+    "bonus": "The \"seeds\" on the outside of a strawberry are each a tiny separate fruit, called an achene, with one seed inside.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Berry_(botany)",
+      "https://en.wikipedia.org/wiki/Strawberry"
+    ]
+  },
+  {
+    "id": "what-counts-as-a-nut",
+    "category": "Food & Drink",
+    "title": "Nut vs. \"Nut\"",
+    "question": "Is a peanut actually a nut?",
+    "answer": "No. A peanut is a legume, in the same family as peas and beans. To a botanist, a true nut is a fruit with a hard shell around a single seed that does not split open on its own. Hazelnuts, chestnuts and acorns qualify. Most nuts in a mixed bowl do not.",
+    "details": [
+      { "term": "True nuts", "text": "Hazelnuts, chestnuts and acorns." },
+      { "term": "Peanut", "text": "A legume. The flowers bloom above ground. After pollination, a stalk called a peg grows down into the soil, and the pod develops underground." },
+      { "term": "Almond, cashew, pistachio", "text": "These are the seeds of drupes, the same fruit type as cherries and peaches. Walnuts and pecans are hard to classify, and some definitions count them as nuts." }
+    ],
+    "bonus": "Cashews are never sold in the shell. The cashew is in the same plant family as poison ivy, and the shell holds an oil that irritates skin. Heat treatment removes it.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nut_(fruit)",
+      "https://en.wikipedia.org/wiki/Peanut",
+      "https://www.ipm.org/amomentofscience/why-cashews-arent-sold-in-the-shell/"
+    ]
+  },
+  {
+    "id": "herb-spice",
+    "category": "Food & Drink",
+    "title": "Herb vs. Spice",
+    "question": "What makes something an herb rather than a spice?",
+    "answer": "The part of the plant. An herb is the leaf of a plant used in cooking. A spice is almost any other part, usually dried: seeds, bark, roots, buds, berries, even parts of a flower. It is a cooking convention, not a strict scientific rule.",
+    "details": [
+      { "term": "Herb", "text": "Leaves, often used fresh and in larger amounts. Basil, parsley, dill and bay leaves are examples." },
+      { "term": "Spice", "text": "Other plant parts, usually dried and stronger. Cinnamon is bark, ginger is a root, cloves are flower buds, peppercorns are berries and cumin is a seed." },
+      { "term": "Both from one plant", "text": "Coriander leaves are an herb and coriander seeds are a spice. Dill works the same way." }
+    ],
+    "bonus": "Saffron is the dried stigma of a crocus flower. Each flower has three, and it takes about 150 to 170 flowers to make one gram.",
+    "sources": [
+      "https://www.mccormickscienceinstitute.com/about/faqs",
+      "https://yardandgarden.extension.iastate.edu/faq/what-difference-between-herb-and-spice",
+      "https://www.uvm.edu/news/extension/saffron-worlds-most-expensive-spice"
+    ]
+  },
+  {
+    "id": "macaron-macaroon",
+    "category": "Food & Drink",
+    "title": "Macaron vs. Macaroon",
+    "question": "Macaron or macaroon: does one letter really matter?",
+    "answer": "Yes. A macaron is a French sandwich cookie: two smooth almond-and-meringue shells with a filling. A macaroon is a lumpy drop cookie made mostly of shredded coconut. Both come from the same early sweet made of almonds and egg whites.",
+    "details": [
+      { "term": "Macaron (mack-uh-RAHN)", "text": "Ground almonds, sugar and egg whites, baked into round shells and sandwiched with buttercream, ganache or jam. Often brightly colored." },
+      { "term": "Macaroon (mack-uh-ROON)", "text": "Shredded coconut bound with egg white and sugar, sometimes dipped in chocolate. It has no flour, which made it a common Passover sweet." },
+      { "term": "How they split", "text": "The almond version was known in France by the 1500s. English speakers later added the extra \"o\". In the late 1800s, coconut replaced the almonds in the American version." }
+    ],
+    "bonus": "\"Macaron\" and \"macaroni\" come from the same Italian root word.",
+    "sources": [
+      "https://www.mentalfloss.com/food/macaroon-vs-macaron-whats-the-difference"
+    ]
+  },
+  {
+    "id": "latte-cappuccino-flat-white",
+    "category": "Food & Drink",
+    "title": "Latte vs. Cappuccino vs. Flat White",
+    "question": "They're all espresso and milk. So what's the difference?",
+    "answer": "How much milk, and how much foam. A cappuccino is small with a thick layer of foam. A latte is bigger and mostly steamed milk. A flat white is small like a cappuccino but has only a thin layer of fine foam, so it tastes stronger than a latte.",
+    "details": [
+      { "term": "Cappuccino", "text": "Traditionally about equal parts espresso, steamed milk and foam, in a 150 to 180 ml cup. The foam layer is roughly 1 cm or more." },
+      { "term": "Latte", "text": "A larger cup, often 6 to 8 ounces or more. It is mostly steamed milk with a thin layer of foam, so the coffee tastes milder." },
+      { "term": "Flat white", "text": "About the size of a cappuccino, but with a thin, glossy layer of microfoam instead of thick foam. It has more espresso relative to milk than a latte." }
+    ],
+    "bonus": "Australia and New Zealand both claim the flat white. A Sydney café review mentioned one in 1983, but the name also appears in a 1963 British film, so its origin is unsettled.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Flat_white",
+      "https://en.wikipedia.org/wiki/Cappuccino",
+      "https://www.breville.com/nz/en/coffee-journey/inspiration/taste/How-are-flat-whites-cappuccinos-lattes-different.html"
+    ]
+  },
+  {
+    "id": "scallion-shallot-leek",
+    "category": "Food & Drink",
+    "title": "Scallion vs. Green Onion vs. Shallot vs. Leek",
+    "question": "How do scallions, green onions, shallots and leeks differ?",
+    "answer": "Scallions and green onions are the same thing: young onions picked before they form a large bulb. Shallots are a kind of onion that grows in clusters of small bulbs, a bit like garlic. Leeks are a separate species grown for their thick, mild stalks.",
+    "details": [
+      { "term": "Scallion / green onion", "text": "These are market names, not plant species. They can be a non-bulbing onion (Allium fistulosum) or a common onion harvested young. \"Spring onion\" often means a slightly older plant with a small round bulb." },
+      { "term": "Shallot", "text": "A type of common onion (Allium cepa) that forms a cluster of bulbs. It tastes like a milder onion. In New South Wales, Australia, \"shallot\" can mean a scallion." },
+      { "term": "Leek", "text": "A different species (Allium ampeloprasum). You eat the white base and light green part. The dark green tops are tough but add flavor to stock." }
+    ],
+    "bonus": "\"Scallion\" and \"shallot\" come from the same Old French word. It traces back to the Latin for \"onion of Ascalon\", an ancient port city.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Scallion",
+      "https://en.wikipedia.org/wiki/Shallot",
+      "https://en.wikipedia.org/wiki/Leek"
+    ]
+  },
+  {
+    "id": "cider-us-uk",
+    "category": "Food & Drink",
+    "title": "Cider (US) vs. Cider (UK)",
+    "question": "Why does ordering \"cider\" get you juice in Vermont and a drink with alcohol in London?",
+    "answer": "In the US and Canada, \"apple cider\" usually means raw, unfiltered apple juice with no alcohol, and the alcoholic version is called \"hard cider\". In the UK and most of the rest of the world, \"cider\" means the alcoholic drink, and the unfiltered juice is called \"cloudy apple juice\".",
+    "details": [
+      { "term": "US apple cider", "text": "Pressed apple juice that is not filtered or sweetened. Fine bits of apple make it cloudy. It may or may not be pasteurized." },
+      { "term": "Apple juice", "text": "Filtered to remove solids and pasteurized, so it is clearer and keeps longer. The US has no single national line between cider and juice, though Massachusetts and Canada draw one." },
+      { "term": "Hard cider / cider", "text": "Apple juice fermented into an alcoholic drink. Americans add \"hard\" to tell it apart from the juice." }
+    ],
+    "bonus": "After E. coli outbreaks in the late 1990s were traced to unpasteurized cider, the FDA required juice makers in 2001 to cut harmful bacteria by a factor of 100,000.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Apple_cider"
+    ]
+  },
+  {
+    "id": "grits-polenta",
+    "category": "Food & Drink",
+    "title": "Grits vs. Polenta",
+    "question": "Aren't grits and polenta the same corn porridge?",
+    "answer": "They are close. Both are coarse-ground dried corn cooked in liquid. The differences are the type of corn and the grind: US grits usually come from dent corn, while traditional Italian polenta comes from flint corn. In a side-by-side test by Milk Street, they tasted nearly the same but polenta was silkier.",
+    "details": [
+      { "term": "Grits", "text": "Ground dent (field) corn, a Southern US staple. Traditional coarse grits are milled in one pass, so the pieces vary in size and stay a bit grainy." },
+      { "term": "Hominy grits", "text": "Made from corn soaked in an alkaline solution such as lime or lye, a process called nixtamalization. It changes the flavor and texture. Polenta is never made this way." },
+      { "term": "Polenta", "text": "An Italian dish of boiled cornmeal. Once cooked, it can be cooled until firm, then sliced and fried, baked or grilled." }
+    ],
+    "bonus": "Polenta is older than corn in Italy. Before maize arrived from the Americas in the 1500s, Italians made it from farro, chestnut flour, millet, spelt or chickpeas.",
+    "sources": [
+      "https://www.177milkstreet.com/2021/09/whats-the-difference-between-grits-and-polenta",
+      "https://en.wikipedia.org/wiki/Polenta"
+    ]
+  },
+  {
+    "id": "seltzer-club-soda-tonic-mineral-water",
+    "category": "Food & Drink",
+    "title": "Seltzer vs. Club Soda vs. Tonic vs. Mineral Water",
+    "question": "What's actually different about all those fizzy waters?",
+    "answer": "What is in the water besides bubbles. Seltzer is plain water with carbon dioxide added. Club soda also has added minerals. Sparkling mineral water comes from an underground source with its own natural minerals. Tonic water adds bitter quinine and, usually, sugar.",
+    "details": [
+      { "term": "Seltzer", "text": "Water plus carbon dioxide, usually with nothing else added." },
+      { "term": "Club soda", "text": "Carbonated water with added minerals such as sodium bicarbonate, potassium sulfate or salt. They give it a slightly salty taste." },
+      { "term": "Sparkling mineral water", "text": "In the US, mineral water must come from a protected underground source and contain at least 250 parts per million of dissolved solids. Minerals may not be added." },
+      { "term": "Tonic water", "text": "Carbonated water with quinine, from cinchona tree bark, plus sugar or sweetener to offset the bitterness. US rules cap quinine at 83 parts per million and require the label to say it is there." }
+    ],
+    "bonus": "Tonic water glows under ultraviolet light, such as a black light, because quinine is fluorescent.",
+    "sources": [
+      "https://www.law.cornell.edu/cfr/text/21/165.110",
+      "https://www.law.cornell.edu/cfr/text/21/172.575",
+      "https://en.wikipedia.org/wiki/Tonic_water"
+    ]
+  },
+  {
+    "id": "maple-syrup-pancake-syrup",
+    "category": "Food & Drink",
+    "title": "Maple Syrup vs. Pancake Syrup",
+    "question": "Is pancake syrup just cheaper maple syrup?",
+    "answer": "No. Maple syrup is boiled-down sap from maple trees, and US law defines it that way. Pancake or table syrup has no legal standard and is usually corn syrup with flavoring and coloring. It may contain no maple at all.",
+    "details": [
+      { "term": "Maple syrup", "text": "Concentrated maple sap. It must be at least 66% sugar solids, and all of them must come from the sap. Only salt, preservatives and defoaming agents may be added." },
+      { "term": "Pancake syrup", "text": "No federal standard. Popular brands are mostly corn syrup or high-fructose corn syrup, water, and artificial or \"natural\" flavor, with caramel color or molasses for color." }
+    ],
+    "bonus": "It takes about 40 gallons of sap to make one gallon of maple syrup. Where the sap is less sweet, it can take 86 gallons.",
+    "sources": [
+      "https://www.law.cornell.edu/cfr/text/21/168.140",
+      "https://www.tastingtable.com/1858323/pancake-syrup-vs-maple-syrup/",
+      "https://ky-maplesyrup.mgcafe.uky.edu/about-maple-syrup"
+    ]
+  }
+]

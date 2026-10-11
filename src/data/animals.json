@@ -1,0 +1,589 @@
+[
+  {
+    "id": "cougar-puma-mountain-lion-panther",
+    "category": "Animals",
+    "title": "Cougar vs. Puma vs. Mountain Lion vs. Panther",
+    "question": "Are cougars, pumas, mountain lions and panthers different animals?",
+    "answer": "In North America, no. Cougar, puma, mountain lion and panther are all names for one species, Puma concolor. Which name you hear mostly depends on the region.",
+    "details": [
+      {
+        "term": "Cougar, puma, mountain lion",
+        "text": "Three names for the same cat. Guinness World Records lists the puma as the mammal with the most names, with more than 40 in English alone, including catamount and painter."
+      },
+      {
+        "term": "Panther",
+        "text": "In the US, 'panther' usually means this same cat, as in the Florida panther, a small population in southern Florida. Whether the Florida panther counts as its own subspecies is debated. Elsewhere, 'black panther' means a black leopard or a black jaguar."
+      },
+      {
+        "term": "Not a true lion",
+        "text": "Despite the name 'mountain lion', it is not in the lion's genus. It cannot roar, but it can purr. Its closest living relative is the jaguarundi, a small wild cat, followed by the cheetah."
+      }
+    ],
+    "bonus": "No black cougar has ever been confirmed. The Missouri Department of Conservation says a black mountain lion has never been recorded anywhere from Canada to South America.",
+    "sources": [
+      "https://www.guinnessworldrecords.com/world-records/78143-mammal-with-the-most-names",
+      "https://mdc.mo.gov/wildlife/report-wildlife-sightings/mountain-lion-reports/mountain-lion-facts",
+      "https://panthera.org/blog-post/florida-panther"
+    ]
+  },
+  {
+    "id": "leopard-jaguar-cheetah",
+    "category": "Animals",
+    "title": "Leopard vs. Jaguar vs. Cheetah",
+    "question": "How can you tell a leopard, a jaguar and a cheetah apart?",
+    "answer": "Check the spots and the continent. Cheetahs have solid black spots. Leopards and jaguars have rosettes (rings of spots), and only the jaguar's rosettes usually have a dot inside. Jaguars live in the Americas. Leopards and cheetahs live in Africa and Asia.",
+    "details": [
+      {
+        "term": "Jaguar",
+        "text": "Heavier and stockier, with a broad head. Large rosettes, often with a dot in the middle. Lives in Central and South America and is at home in water, where it hunts caimans and capybaras."
+      },
+      {
+        "term": "Leopard",
+        "text": "Slimmer, with longer legs and tail for its size. Smaller, tightly packed rosettes with no dot inside. Lives in Africa and Asia and tends to hunt on land."
+      },
+      {
+        "term": "Cheetah",
+        "text": "Built for sprinting. Solid round spots, not rosettes. Its claws only partly retract, which gives grip at speed. It is in its own genus and cannot roar."
+      },
+      {
+        "term": "Black panther",
+        "text": "Not a separate species. It is a black leopard or a black jaguar. The rosettes are still there, just hard to see against the dark fur."
+      }
+    ],
+    "bonus": "For its size, the jaguar has the strongest bite of any big cat. It often kills by biting straight through the skull of its prey.",
+    "sources": [
+      "https://hub.four-paws.org/en-za/publications-guides/exclusive-za/jaguar-versus-leopard-spots-heads-and-more",
+      "https://nationalzoo.si.edu/node/10504",
+      "https://www.discoverwildlife.com/animal-facts/mammals/which-big-cat-has-the-strongest-bite"
+    ]
+  },
+  {
+    "id": "alligator-crocodile-caiman",
+    "category": "Animals",
+    "title": "Alligator vs. Crocodile vs. Caiman",
+    "question": "What is the difference between an alligator, a crocodile and a caiman?",
+    "answer": "All three are crocodilians. Alligators and caimans belong to one family, and crocodiles to another. The quickest tell is the snout: alligators have a wide U-shaped snout that hides the lower teeth when the mouth is shut, while crocodiles have a narrower V-shaped snout with teeth showing on both jaws.",
+    "details": [
+      {
+        "term": "Alligator",
+        "text": "Only two species: the American alligator of the southeastern US and the small Chinese alligator. Usually darker, and mostly found in fresh water."
+      },
+      {
+        "term": "Crocodile",
+        "text": "Many species across the tropics. Usually lighter, olive or tan. Salt glands on the tongue work better than an alligator's, so many crocodiles live in salty coastal water."
+      },
+      {
+        "term": "Caiman",
+        "text": "Close relatives of alligators, in the same family, living in Central and South America. Most are smaller than alligators, but the black caiman grows bigger than any alligator."
+      }
+    ],
+    "bonus": "South Florida is the only place on Earth where wild alligators and wild crocodiles live side by side.",
+    "sources": [
+      "https://www.pbs.org/wnet/nature/blog/alligator-vs-crocodile-whats-the-difference",
+      "https://www.discoverwildlife.com/animal-facts/reptiles/crocodile-vs-alligator",
+      "https://www.worldatlas.com/articles/what-are-the-differences-between-a-caiman-and-an-alligator.html"
+    ]
+  },
+  {
+    "id": "frog-toad",
+    "category": "Animals",
+    "title": "Frog vs. Toad",
+    "question": "Is a toad a kind of frog, or something else?",
+    "answer": "A toad is a kind of frog. 'Frog' covers the whole group (the order Anura). 'Toad' usually means the true toads, family Bufonidae, plus other frogs with dry, bumpy skin. The two words are everyday labels, not strict scientific categories.",
+    "details": [
+      {
+        "term": "Frog",
+        "text": "Usually smooth, moist skin and long back legs for leaping. Most stay close to water."
+      },
+      {
+        "term": "Toad",
+        "text": "Usually thick, dry, bumpy skin and shorter legs, so they walk or make short hops. The thicker skin holds water better, so toads can live farther from ponds."
+      },
+      {
+        "term": "Exceptions",
+        "text": "Some frogs are bumpy and some toads are smooth, so looks alone will not settle it. Both groups breed in water, and both can release toxins through their skin."
+      }
+    ],
+    "bonus": "Touching a toad does not give you warts. The idea is a myth, probably inspired by the toad's bumpy skin.",
+    "sources": [
+      "https://www.psu.edu/news/research/story/probing-question-whats-difference-between-frogs-and-toads",
+      "https://sciencenotes.org/frogs-vs-toads-what-is-the-difference-between-frogs-and-toads/"
+    ]
+  },
+  {
+    "id": "rabbit-hare",
+    "category": "Animals",
+    "title": "Rabbit vs. Hare",
+    "question": "Is a hare just a big rabbit?",
+    "answer": "No. They are different species in the same family. The clearest difference is at birth: baby hares are born with fur and open eyes and can move within hours, while baby rabbits are born naked, blind and helpless.",
+    "details": [
+      {
+        "term": "Rabbit",
+        "text": "Smaller, with shorter legs and ears. Many live in groups in underground burrows. Babies are called kits or kittens. Pregnancy lasts about 30 to 31 days."
+      },
+      {
+        "term": "Hare",
+        "text": "Larger, with long, powerful back legs built for running. Lives above ground and more alone. Babies are called leverets. Pregnancy lasts about 42 days."
+      },
+      {
+        "term": "Misleading names",
+        "text": "The jackrabbit is a hare. The 'Belgian hare' is a breed of domestic rabbit."
+      }
+    ],
+    "bonus": "Not every rabbit burrows. The cottontail, the common wild rabbit of North America, does not dig burrows.",
+    "sources": [
+      "https://www.nationalgeographic.com/animals/article/141219-rabbits-hares-animals-science-mating-courtship",
+      "https://modernfarmer.com/2017/03/five-differences-rabbits-hares/"
+    ]
+  },
+  {
+    "id": "turtle-tortoise-terrapin",
+    "category": "Animals",
+    "title": "Turtle vs. Tortoise vs. Terrapin",
+    "question": "Is a tortoise a turtle?",
+    "answer": "Yes. 'Turtle' is the umbrella word for every shelled reptile (the order Testudines). A tortoise is a turtle that lives on land (family Testudinidae). 'Terrapin' usually means a small turtle of fresh or brackish water, but how people use it depends on the country.",
+    "details": [
+      {
+        "term": "Turtle",
+        "text": "Any shelled reptile. In everyday speech it usually means one that spends time in water, with a flatter shell and webbed feet or flippers."
+      },
+      {
+        "term": "Tortoise",
+        "text": "Land-dwelling turtles with high, domed shells and thick, column-like back legs often called 'elephantine'. No webbed feet. Mostly plant-eaters."
+      },
+      {
+        "term": "Terrapin",
+        "text": "In the US the word is rarely used except for the diamondback terrapin of coastal salt marshes. In Britain, 'terrapin' is used for freshwater turtles in general, and 'turtle' often means a sea turtle."
+      }
+    ],
+    "bonus": "Box turtles look like small tortoises and live on land, but they are not tortoises. They belong to a different family.",
+    "sources": [
+      "https://www.mentalfloss.com/animals/reptiles/whats-difference-between-turtle-and-tortoise",
+      "https://www.dictionary.com/e/?p=174973",
+      "https://www.pbspettravel.co.uk/blog/what-is-the-difference-between-terrapins-and-turtles/"
+    ]
+  },
+  {
+    "id": "moth-butterfly",
+    "category": "Animals",
+    "title": "Moth vs. Butterfly",
+    "question": "What actually separates a moth from a butterfly?",
+    "answer": "Less than you might think: butterflies are a specialised group within the moths. As a rule of thumb, butterflies have antennae with a club at the tip, fly by day and fold their wings upright at rest. Moths have thread-like or feathery antennae, mostly fly at night and rest with wings flat. Every one of these rules has exceptions.",
+    "details": [
+      {
+        "term": "Antennae",
+        "text": "The most reliable clue. Butterflies have a thickened club or hook at the tip. Moths have plain or feathery antennae. A few moths, such as sun moths, have clubbed antennae."
+      },
+      {
+        "term": "Wings",
+        "text": "Most moths have a bristle (frenulum) that hooks the front and back wings together, and they rest with wings flat. Butterflies lack it and usually rest with wings held together above the body."
+      },
+      {
+        "term": "Pupa",
+        "text": "Many moths spin a silk cocoon. Butterflies form a bare chrysalis. Many moths do not spin cocoons, though."
+      }
+    ],
+    "bonus": "Moths make up more than 95 percent of the species in their insect order, Lepidoptera. Butterflies are one small branch.",
+    "sources": [
+      "https://australian.museum/learn/animals/insects/what-are-the-differences-between-butterflies-and-moths/",
+      "https://en.wikipedia.org/wiki/Comparison_of_butterflies_and_moths"
+    ]
+  },
+  {
+    "id": "dolphin-porpoise",
+    "category": "Animals",
+    "title": "Dolphin vs. Porpoise",
+    "question": "Is a porpoise just a small dolphin?",
+    "answer": "No. They are separate families of toothed whales. Dolphins usually have a long beak, cone-shaped teeth and a curved, hooked dorsal fin. Porpoises have a short, rounded face, flat spade-shaped teeth and a small triangular fin.",
+    "details": [
+      {
+        "term": "Dolphin",
+        "text": "More than 30 species, found in every ocean. Leaner bodies. Very social and talkative, using clicks and whistles, and often curious about boats."
+      },
+      {
+        "term": "Porpoise",
+        "text": "Only about six or seven species, with stockier bodies. Shy, less social and tend to avoid boats. They use very high-pitched clicks that humans cannot hear."
+      },
+      {
+        "term": "Teeth",
+        "text": "The surest test. Dolphin teeth are pointed cones. Porpoise teeth are flat, like little spades."
+      }
+    ],
+    "bonus": "The killer whale, or orca, is a dolphin. NOAA calls it the largest member of the dolphin family. Pilot whales are dolphins too.",
+    "sources": [
+      "https://oceanservice.noaa.gov/facts/dolphin_porpoise.html",
+      "https://www.fisheries.noaa.gov/feature-story/it-dolphin-or-porpoise",
+      "https://www.fisheries.noaa.gov/species/killer-whale"
+    ]
+  },
+  {
+    "id": "seal-sea-lion-walrus",
+    "category": "Animals",
+    "title": "Seal vs. Sea Lion vs. Walrus",
+    "question": "What is the difference between a seal, a sea lion and a walrus?",
+    "answer": "All three are pinnipeds ('fin-footed' mammals), but they belong to three different families. Sea lions have small ear flaps and can swing their back flippers forward to walk. True seals have only ear holes and wriggle on their bellies on land. The walrus is in a family of its own and has tusks.",
+    "details": [
+      {
+        "term": "Sea lion",
+        "text": "Visible ear flaps and long, mostly bare front flippers. Can 'walk' on all fours. Loud and barking, and gathers in groups that can reach 1,500 animals."
+      },
+      {
+        "term": "Seal",
+        "text": "No ear flaps, just small holes. Short front flippers with a claw on each toe. Back flippers point backward and cannot turn forward. Quieter, and often lives alone."
+      },
+      {
+        "term": "Walrus",
+        "text": "The only living member of its family. Both males and females have tusks, which are long canine teeth. It has no ear flaps, like a seal, but walks on all fours, like a sea lion."
+      }
+    ],
+    "bonus": "Fur seals are not true seals. They have ear flaps and belong to the same family as sea lions.",
+    "sources": [
+      "https://oceanservice.noaa.gov/facts/seal-sealion.html",
+      "https://www.fisheries.noaa.gov/seals-sea-lions",
+      "https://seaworld.org/animals/all-about/walrus/characteristics/"
+    ]
+  },
+  {
+    "id": "venomous-poisonous",
+    "category": "Animals",
+    "title": "Venomous vs. Poisonous",
+    "question": "Is a rattlesnake poisonous?",
+    "answer": "No, it is venomous. The difference is how the toxin gets into you. Venom is injected through a wound from a bite, sting or spine. Poison works when you eat it, touch it or breathe it in. Put simply: if it bites you and you get sick, it is venomous; if you bite it and get sick, it is poisonous.",
+    "details": [
+      {
+        "term": "Venomous",
+        "text": "The animal delivers its toxin. Examples: snakes such as vipers, bees and wasps, and lionfish with their spines."
+      },
+      {
+        "term": "Poisonous",
+        "text": "The toxin harms whoever eats or touches the animal. Examples: poison dart frogs, whose skin toxins can kill, and pufferfish, which are dangerous to eat."
+      },
+      {
+        "term": "Both",
+        "text": "The blue-ringed octopus carries a toxin that harms anything that eats it and can also inject it with a bite. A spitting cobra's venom counts as a poison when it is sprayed into an eye and absorbed."
+      }
+    ],
+    "bonus": "Some animals borrow their toxins. The Asian tiger snake has a venomous bite and also stores poison in glands on its neck, taken from the toads it eats.",
+    "sources": [
+      "https://www.nhm.ac.uk/discover/bite-or-be-bitten.html",
+      "https://australian.museum/blog-archive/at-the-museum/venomous-vs-poisonous/",
+      "https://www.sciencefocus.com/nature/what-is-the-difference-between-venomous-and-poisonous"
+    ]
+  },
+  {
+    "id": "monkey-ape",
+    "category": "Animals",
+    "title": "Monkey vs. Ape",
+    "question": "Is a chimpanzee a monkey?",
+    "answer": "No, it is an ape. The quickest test is the tail: almost all monkeys have one, and no ape does. Apes are also generally larger, with broad chests and flexible shoulders for swinging by their arms. Humans are apes too.",
+    "details": [
+      {
+        "term": "Monkey",
+        "text": "Most have tails and run along branches on all fours. Many monkeys of Central and South America have grasping tails that work like an extra hand."
+      },
+      {
+        "term": "Ape",
+        "text": "No tail. Two groups: the lesser apes (gibbons) and the great apes (orangutans, gorillas, chimpanzees, bonobos and humans)."
+      },
+      {
+        "term": "Exception",
+        "text": "The Barbary macaque of North Africa and Gibraltar has no visible tail, but its skeleton and teeth make it a monkey. The tail is a shortcut, not the definition."
+      }
+    ],
+    "bonus": "You can also tell them apart by their teeth. Apes, including humans, have five bumps in a Y pattern on their lower molars. Old World monkeys have four, lined up in two ridges.",
+    "sources": [
+      "https://wonderopolis.org/wonder/whats-the-difference-between-apes-and-monkeys",
+      "https://www.discoverwildlife.com/animal-facts/monkey-vs-ape"
+    ]
+  },
+  {
+    "id": "bee-wasp-hornet-yellowjacket",
+    "category": "Animals",
+    "title": "Bee vs. Wasp vs. Hornet vs. Yellowjacket",
+    "question": "Are hornets and yellowjackets bees or wasps?",
+    "answer": "Both are wasps. Bees themselves evolved from hunting wasps. The basic split: most bees are fuzzy and feed their young pollen and nectar, while most wasps are smoother and feed their young insects and other prey.",
+    "details": [
+      {
+        "term": "Bee",
+        "text": "Covered in branched hairs that trap pollen. A honeybee worker usually dies after stinging a person, because its barbed stinger tears out. Bumblebees can sting more than once."
+      },
+      {
+        "term": "Wasp",
+        "text": "Usually slimmer, with a narrow waist and shiny body. Most are hunters or scavengers. They can sting repeatedly."
+      },
+      {
+        "term": "Yellowjacket",
+        "text": "Social wasps, usually yellow and black, that build paper nests. The name is often used for kinds that nest underground, while 'hornet' gets used loosely for kinds with nests above ground."
+      },
+      {
+        "term": "Hornet",
+        "text": "Strictly, only the genus Vespa. The only true hornet established in North America is the European hornet, which arrived by accident."
+      }
+    ],
+    "bonus": "The bald-faced hornet is not a true hornet. It is a black-and-white yellowjacket.",
+    "sources": [
+      "https://extension.psu.edu/baldfaced-hornet",
+      "https://uwm.edu/field-station/bug-of-the-week/bald-faced-hornet/",
+      "https://sare.org/publications/managing-alternative-pollinators/chapter-three-a-brief-natural-history-of-bees"
+    ]
+  },
+  {
+    "id": "bison-buffalo",
+    "category": "Animals",
+    "title": "Bison vs. Buffalo",
+    "question": "Are the 'buffalo' of the American West really buffalo?",
+    "answer": "No. They are bison. True buffalo are the water buffalo of Asia and the Cape buffalo of Africa. Bison live in North America and Europe.",
+    "details": [
+      {
+        "term": "Bison",
+        "text": "A big muscular hump at the shoulders, a massive head, a beard and short, sharp horns. Grows a thick, shaggy coat for winter. The European bison is called the wisent."
+      },
+      {
+        "term": "Buffalo",
+        "text": "Little or no hump, no beard and a thinner coat. Much longer horns: a water buffalo's can reach about 5 feet."
+      },
+      {
+        "term": "The name",
+        "text": "Nobody is sure how the mix-up started. A common theory is that early Europeans named the American animal after the buffalo they already knew."
+      }
+    ],
+    "bonus": "The bison is the national mammal of the United States. It got that title by law in May 2016.",
+    "sources": [
+      "https://www.dictionary.com/articles/bison-vs-buffalo",
+      "https://www.worldwildlife.org/resources/explainers/bison-vs-buffalo/",
+      "https://www.gpo.gov/fdsys/pkg/PLAW-114publ152/html/PLAW-114publ152.htm"
+    ]
+  },
+  {
+    "id": "donkey-mule-hinny",
+    "category": "Animals",
+    "title": "Donkey vs. Mule vs. Hinny",
+    "question": "What is the difference between a mule and a hinny?",
+    "answer": "Which parent was which. Both are donkey-horse hybrids. A mule has a donkey father and a horse mother. A hinny has a horse father and a donkey mother. A donkey is its own species.",
+    "details": [
+      {
+        "term": "Donkey",
+        "text": "A separate species from the horse. A male is a jack and a female is a jenny."
+      },
+      {
+        "term": "Mule",
+        "text": "Donkey father, horse mother. Much more common, and usually bigger and stronger than a hinny."
+      },
+      {
+        "term": "Hinny",
+        "text": "Horse father, donkey mother. Rarer, and often closer to a donkey in size."
+      },
+      {
+        "term": "Why they are sterile",
+        "text": "Horses have 64 chromosomes and donkeys have 62. Mules and hinnies get 63, which cannot pair up properly to make eggs or sperm."
+      }
+    ],
+    "bonus": "Female mules have very rarely given birth: about 60 cases have been recorded since 1527. No male mule has been confirmed as a father.",
+    "sources": [
+      "https://horses.extension.org/is-there-a-chance-that-a-mule-may-reproduce-if-bred/",
+      "https://equinehelper.com/difference-between-mule-and-hinny/",
+      "https://pubmed.ncbi.nlm.nih.gov/3378453/"
+    ]
+  },
+  {
+    "id": "reindeer-caribou",
+    "category": "Animals",
+    "title": "Reindeer vs. Caribou",
+    "question": "Are reindeer and caribou the same animal?",
+    "answer": "Yes. Both are Rangifer tarandus. In North America, wild ones are called caribou and herded, domesticated ones are called reindeer. In Europe and Asia, 'reindeer' covers both wild and herded animals.",
+    "details": [
+      {
+        "term": "Reindeer",
+        "text": "Semi-domesticated. Shorter and stouter, with thicker fur. They roam within a grazing area but do not make long seasonal journeys. Calves arrive in late April."
+      },
+      {
+        "term": "Caribou",
+        "text": "Wild. Longer-legged, and many herds make long migrations between winter grounds and calving grounds. Calves arrive in late May."
+      },
+      {
+        "term": "Still debated",
+        "text": "Scientists usually treat them as subspecies of one species. A 2022 proposal argued for splitting the group into several species."
+      }
+    ],
+    "bonus": "Unlike nearly all other deer, female reindeer grow antlers. Females keep theirs through the winter, while males drop theirs in late autumn.",
+    "sources": [
+      "https://uaf.edu/news/archives/news-archives-2002-2010/featured/04/reindeer/difference.php",
+      "https://www.pbs.org/wnet/nature/blog/reindeer-fact-sheet",
+      "https://www.mentalfloss.com/animals/reindeer-vs-caribou-difference"
+    ]
+  },
+  {
+    "id": "elk-moose",
+    "category": "Animals",
+    "title": "Elk vs. Moose",
+    "question": "Why does a British 'elk' look like an American moose?",
+    "answer": "Because it is one. In North America, 'moose' means Alces alces and 'elk' means a different deer, Cervus canadensis. In Britain and much of Europe, 'elk' means Alces alces. The same word names two different animals.",
+    "details": [
+      {
+        "term": "Moose (European 'elk')",
+        "text": "Alces alces, the largest deer in the world. Males grow broad, flat antlers. It has a long, bulbous muzzle and lives in northern forests of North America, Europe and Asia."
+      },
+      {
+        "term": "Elk (wapiti)",
+        "text": "Cervus canadensis, the second-largest deer. Its antlers branch like a tree, and it is closely related to Europe's red deer. Lives in North America and eastern Asia."
+      },
+      {
+        "term": "How to avoid confusion",
+        "text": "Say 'moose' and 'wapiti', or use the scientific names."
+      }
+    ],
+    "bonus": "'Wapiti' comes from a Shawnee and Cree word meaning 'white rump', after the pale patch on the animal's rear.",
+    "sources": [
+      "https://www.discoverwildlife.com/animal-facts/mammals/moose-elk-difference",
+      "https://www.countryfile.com/wildlife/mammals/moose-elk-difference",
+      "https://www.dictionary.com/browse/wapiti"
+    ]
+  },
+  {
+    "id": "octopus-squid-cuttlefish",
+    "category": "Animals",
+    "title": "Octopus vs. Squid vs. Cuttlefish",
+    "question": "How do you tell an octopus, a squid and a cuttlefish apart?",
+    "answer": "Count the limbs and look for hard parts inside. An octopus has eight arms and no tentacles. Squid and cuttlefish have eight arms plus two longer tentacles for grabbing prey. A squid has a thin internal 'pen', a cuttlefish has a cuttlebone, and an octopus has almost no hard parts.",
+    "details": [
+      {
+        "term": "Arms vs. tentacles",
+        "text": "Arms have suckers along their whole length. Tentacles are longer and usually have suckers only on a wider pad at the tip."
+      },
+      {
+        "term": "Octopus",
+        "text": "Eight flexible arms and no internal shell. Its arms are flexible enough to walk on and handle objects."
+      },
+      {
+        "term": "Squid",
+        "text": "Eight arms, two tentacles and a stiff, feather-shaped 'pen' inside that supports its body."
+      },
+      {
+        "term": "Cuttlefish",
+        "text": "Eight arms, two tentacles and a cuttlebone, an internal shell it uses to control buoyancy."
+      }
+    ],
+    "bonus": "An octopus has three hearts and blue blood. Its blood carries oxygen with a copper-based protein instead of the iron-based one in ours.",
+    "sources": [
+      "https://ocean.si.edu/ocean-life/invertebrates/cephalopods",
+      "https://www.smithsonianmag.com/science-nature/fourteen-fun-facts-about-squid-octopuses-and-other-cephalopods-45444510/",
+      "https://www.scienceabc.com/nature/animals/why-do-octopuses-have-three-hearts.html"
+    ]
+  },
+  {
+    "id": "raven-crow",
+    "category": "Animals",
+    "title": "Raven vs. Crow",
+    "question": "Is a raven just a big crow?",
+    "answer": "No. They are different species in the same genus. In North America, the common raven is much bigger than the American crow, has a wedge-shaped tail in flight and a deep, croaking call. The crow is smaller, has a squared or rounded tail and says 'caw'.",
+    "details": [
+      {
+        "term": "Size",
+        "text": "A common raven is about 25 inches long. An American crow is about 17.5 inches. Sizes overlap, so size alone can mislead."
+      },
+      {
+        "term": "Tail",
+        "text": "The most reliable clue in flight. A raven's tail is wedge-shaped. A crow's is squared or rounded."
+      },
+      {
+        "term": "Voice",
+        "text": "Ravens make a deep, throaty croak. Crows make a harsh caw."
+      },
+      {
+        "term": "Habits",
+        "text": "Crows are very social and gather in large flocks. Ravens are usually alone or in pairs. Ravens also have shaggy throat feathers."
+      }
+    ],
+    "bonus": "Ravens are absent from most of the American Midwest and Southeast, so a big black bird there is almost always a crow.",
+    "sources": [
+      "https://corvidresearch.blog/2020/04/16/the-definitive-guide-for-distinguishing-american-crows-common-ravens/",
+      "https://birds.cornell.edu/k12/identifying-black-birds",
+      "https://www.allaboutbirds.org/news/?p=17109"
+    ]
+  },
+  {
+    "id": "llama-alpaca",
+    "category": "Animals",
+    "title": "Llama vs. Alpaca",
+    "question": "How do you tell a llama from an alpaca?",
+    "answer": "Size and ears. A llama is about twice the size of an alpaca and has long, curved, banana-shaped ears. An alpaca has short, straight, spear-shaped ears and a blunt, fluffy face. Llamas were bred to carry loads, alpacas for soft fiber.",
+    "details": [
+      {
+        "term": "Llama",
+        "text": "Roughly 200 to 350 pounds. Longer face and less hair on it. A coarse outer coat over a softer inner one. Used as a pack animal and sometimes to guard smaller livestock."
+      },
+      {
+        "term": "Alpaca",
+        "text": "Roughly 100 to 175 pounds. A fine, soft fleece, which is what it was bred for. A strong herd animal that does not like to be alone."
+      },
+      {
+        "term": "Wild ancestors",
+        "text": "The llama descends from the guanaco. DNA evidence points to the vicuña as the alpaca's ancestor, though the two domestic animals have also interbred."
+      }
+    ],
+    "bonus": "Scientists long assumed both came from the guanaco. A 2001 DNA study pointed to the vicuña for the alpaca, and its scientific name was changed to Vicugna pacos.",
+    "sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC1088918",
+      "https://modernfarmer.com/2015/09/difference-between-llama-and-alpaca/",
+      "https://www.farmbrite.com/amp/7-differences-between-llamas-and-alpacas"
+    ]
+  },
+  {
+    "id": "mammoth-mastodon",
+    "category": "Animals",
+    "title": "Mammoth vs. Mastodon",
+    "question": "Were mammoths and mastodons the same kind of animal?",
+    "answer": "No. Both were Ice Age relatives of elephants, but not close relatives of each other. The best tell is the teeth: mastodon molars have cone-shaped bumps for crushing twigs and leaves, while mammoth molars have flat ridges for grinding grass.",
+    "details": [
+      {
+        "term": "Mastodon",
+        "text": "A browser that ate twigs, shrubs and leaves, mostly in forests. Lower, flatter head. Its line split from the elephant family tree about 25 million years ago."
+      },
+      {
+        "term": "Mammoth",
+        "text": "A grazer that ate grasses on open plains. A domed skull and long, strongly curved tusks. A close relative of today's elephants; their lines split only about 5 million years ago."
+      },
+      {
+        "term": "Teeth",
+        "text": "The name 'mastodon' refers to the bumps on its molars. Bumpy cones mean mastodon. Flat ridges, like a washboard, mean mammoth."
+      }
+    ],
+    "bonus": "'Mastodon' comes from Greek for 'breast tooth'. The naturalist Georges Cuvier named it after the nipple-shaped bumps on its molars.",
+    "sources": [
+      "https://www.amnh.org/explore/news-blogs/mammoth-mastodon-differences",
+      "https://story.illinoisstatemuseum.org/node/152",
+      "https://zmescience.com/feature-post/the-difference-between-mammoths-and-mastodons"
+    ]
+  },
+  {
+    "id": "dinosaur-pterosaur-marine-reptile",
+    "category": "Animals",
+    "title": "Dinosaur vs. Pterosaur vs. Marine Reptile",
+    "question": "Were pterodactyls and plesiosaurs dinosaurs?",
+    "answer": "No. Pterosaurs (the flying reptiles) and marine reptiles such as plesiosaurs and ichthyosaurs lived at the same time as dinosaurs, but they are separate groups. Birds, on the other hand, are dinosaurs.",
+    "details": [
+      {
+        "term": "Dinosaur",
+        "text": "Defined by anatomy, not by size or age. One key feature: dinosaurs stood with their legs directly under the body, held in place by an open hip socket. Lizards and crocodiles have legs that sprawl to the sides."
+      },
+      {
+        "term": "Pterosaur",
+        "text": "Flying reptiles and close cousins of dinosaurs, but outside the dinosaur group. 'Pterodactyl' is properly the name of just one genus of pterosaur."
+      },
+      {
+        "term": "Marine reptiles",
+        "text": "Plesiosaurs and ichthyosaurs were sea-living reptiles from separate lineages. Scientists still debate exactly where they sit in the reptile family tree."
+      },
+      {
+        "term": "Birds",
+        "text": "Birds descend from small, feathered dinosaurs and are classified as dinosaurs themselves."
+      }
+    ],
+    "bonus": "By the scientific definition, a pigeon is a dinosaur and a pterosaur is not.",
+    "sources": [
+      "https://www.amnh.org/learn-teach/curriculum-collections/dinosaurs-activities-and-lesson-plans/what-makes-a-dinosaur-a-dinosaur",
+      "https://www.amnh.org/explore/videos/dinosaurs-and-fossils/why-isn-t-pterodactyl-a-dinosaur",
+      "https://www.snexplores.org/article/lets-learn-about-dinosaur-relatives-pterosaurs-batrachopus-ichthyosaurs-mesozoic-reptiles"
+    ]
+  }
+]

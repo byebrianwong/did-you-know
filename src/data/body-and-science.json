@@ -1,0 +1,551 @@
+[
+  {
+    "id": "virus-bacteria",
+    "category": "Body & Health",
+    "title": "Virus vs. Bacteria",
+    "question": "Why won't antibiotics cure a cold?",
+    "answer": "Because colds are caused by viruses, and antibiotics only work on bacteria. Bacteria are living single cells that can grow and divide on their own. Viruses are much smaller and can only make copies of themselves inside another living cell.",
+    "details": [
+      {
+        "term": "Bacteria",
+        "text": "Tiny living organisms made of a single cell. They reproduce by themselves. Most types don't make you sick, and some, like the bacteria in your gut, help you digest food."
+      },
+      {
+        "term": "Virus",
+        "text": "Genetic material (DNA or RNA) inside a protein coat. A virus can't reproduce on its own. It gets into a cell and uses that cell to make new viruses."
+      },
+      {
+        "term": "Antibiotics",
+        "text": "These drugs attack parts and processes that bacterial cells have and viruses don't. The CDC lists colds, flu and most sore throats as illnesses antibiotics will not treat."
+      }
+    ],
+    "bonus": "You may have heard that bacteria in your body outnumber your own cells 10 to 1. A 2016 recount by Weizmann Institute researchers put it closer to 1 to 1: just under 40 trillion bacteria and about 30 trillion human cells in a typical adult.",
+    "sources": [
+      "https://medlineplus.gov/bacterialinfections.html",
+      "https://medlineplus.gov/viralinfections.html",
+      "https://www.cdc.gov/antibiotic-use/about/index.html",
+      "https://wis-wander.weizmann.ac.il/node/7871"
+    ]
+  },
+  {
+    "id": "heart-attack-cardiac-arrest-stroke",
+    "category": "Body & Health",
+    "title": "Heart Attack vs. Cardiac Arrest vs. Stroke",
+    "question": "Is a heart attack the same as your heart stopping?",
+    "answer": "No. In a heart attack, blood can't reach part of the heart muscle, but the heart usually keeps beating. In cardiac arrest, the heart suddenly stops pumping, usually because its electrical rhythm fails. A stroke is a loss of blood supply to part of the brain.",
+    "details": [
+      {
+        "term": "Heart attack",
+        "text": "Blood flow carrying oxygen to part of the heart muscle is suddenly blocked, usually by a clot in a narrowed artery. That part of the muscle is damaged if blood flow isn't restored quickly."
+      },
+      {
+        "term": "Cardiac arrest",
+        "text": "The heart suddenly and unexpectedly stops pumping, most often because of a dangerous rhythm such as ventricular fibrillation. Blood stops reaching the brain, and the person collapses. It is fatal without fast CPR and a defibrillator (AED)."
+      },
+      {
+        "term": "Stroke",
+        "text": "Part of the brain loses its blood supply. Just under 90% of strokes are caused by a blocked blood vessel (ischemic stroke). The rest are caused by a blood vessel bleeding inside the brain (hemorrhagic stroke)."
+      }
+    ],
+    "bonus": "The two heart emergencies are linked: a heart attack can trigger cardiac arrest. A common way to remember the difference is that a heart attack is a plumbing problem and cardiac arrest is an electrical problem.",
+    "sources": [
+      "https://www.nhlbi.nih.gov/health/heart-attack",
+      "https://www.nhlbi.nih.gov/health/cardiac-arrest",
+      "https://www.nhlbi.nih.gov/health/stroke"
+    ]
+  },
+  {
+    "id": "alzheimers-dementia",
+    "category": "Body & Health",
+    "title": "Alzheimer's vs. Dementia",
+    "question": "Is dementia just another word for Alzheimer's?",
+    "answer": "No. Dementia is the name for a group of symptoms: loss of memory, reasoning and other thinking skills that is bad enough to disrupt daily life. Alzheimer's is one disease that causes dementia. It is the most common cause, behind an estimated 60–80% of cases.",
+    "details": [
+      {
+        "term": "Dementia",
+        "text": "An umbrella term, like 'heart disease'. It describes what is happening to a person's thinking, not what is causing it. Many different conditions can cause it."
+      },
+      {
+        "term": "Alzheimer's disease",
+        "text": "A specific brain disease that slowly destroys brain cells. Its symptoms get worse over time."
+      },
+      {
+        "term": "Mixed dementia",
+        "text": "Many people have brain changes from more than one type of dementia at the same time."
+      }
+    ],
+    "bonus": "Dementia is not a normal part of aging. It becomes more common with age, but many people live into their 80s and beyond without it.",
+    "sources": [
+      "https://www.alz.org/alzheimers-dementia/difference-between-dementia-and-alzheimer-s",
+      "https://www.cdc.gov/alzheimers-dementia/about/index.html"
+    ]
+  },
+  {
+    "id": "psychologist-psychiatrist-therapist",
+    "category": "Body & Health",
+    "title": "Psychologist vs. Psychiatrist vs. Therapist",
+    "question": "Which one can prescribe medication?",
+    "answer": "The psychiatrist. A psychiatrist is a medical doctor who specializes in mental health and can prescribe drugs. A psychologist has a doctorate in psychology and mainly does talk therapy and testing. 'Therapist' is a general word for someone who provides talk therapy, and the training behind it varies.",
+    "details": [
+      {
+        "term": "Psychiatrist",
+        "text": "Goes to medical school (MD or DO), then does a four-year psychiatry residency. Can diagnose, order medical tests and prescribe medication."
+      },
+      {
+        "term": "Psychologist",
+        "text": "Holds a PhD or PsyD and completes a supervised clinical internship. Not a medical doctor. In most US states, cannot prescribe."
+      },
+      {
+        "term": "Therapist",
+        "text": "Often a licensed counselor, clinical social worker or marriage and family therapist, usually with a master's degree. Psychologists and psychiatrists can do therapy too. The license after someone's name tells you their training. The word 'therapist' does not."
+      }
+    ],
+    "bonus": "A handful of US states let psychologists prescribe after extra training, starting with New Mexico in 2002 and Louisiana in 2004. They need an additional master's degree in clinical psychopharmacology and must pass a national exam.",
+    "sources": [
+      "https://health.clevelandclinic.org/psychiatrist-vs-psychologist",
+      "https://www.pharmacytimes.com/view/states-grant-prescribing-authority-to-psychologists"
+    ]
+  },
+  {
+    "id": "md-do",
+    "category": "Body & Health",
+    "title": "MD vs. DO",
+    "question": "Is a DO a 'real' doctor?",
+    "answer": "Yes. In the US, MDs (Doctors of Medicine) and DOs (Doctors of Osteopathic Medicine) are both fully licensed physicians. They can prescribe the same drugs, do the same surgeries and practice any specialty. The main difference is that DO schools add training in hands-on treatment of muscles, bones and joints.",
+    "details": [
+      {
+        "term": "MD",
+        "text": "The more common degree. Most US doctors are MDs. Students take the USMLE licensing exams."
+      },
+      {
+        "term": "DO",
+        "text": "Same core medical training, plus about 200 extra hours on the musculoskeletal system and osteopathic manipulative treatment (OMT). Students take the COMLEX-USA exams, and many take the USMLE as well."
+      },
+      {
+        "term": "OMT",
+        "text": "A hands-on technique meant to improve movement and ease pain. Not every DO uses it in daily practice, especially those in surgical specialties."
+      }
+    ],
+    "bonus": "DOs are a fast-growing share of US medicine. More than 1 in 10 practicing US doctors is a DO, but nearly 30% of current US medical students attend osteopathic schools.",
+    "sources": [
+      "https://scripps.org/news_items/4898-md-vs-do-what-s-the-difference",
+      "https://www.aacom.org/news-and-events/fast-facts"
+    ]
+  },
+  {
+    "id": "tendon-ligament-cartilage",
+    "category": "Body & Health",
+    "title": "Tendon vs. Ligament vs. Cartilage",
+    "question": "What's the difference between a torn tendon and a torn ligament?",
+    "answer": "What they connect. Tendons attach muscle to bone. Ligaments attach bone to bone and hold joints steady. Cartilage is a different tissue: smooth, firm padding that cushions joints and gives shape to your nose and ears.",
+    "details": [
+      {
+        "term": "Tendon",
+        "text": "A tough cord that connects a muscle to a bone. When the muscle contracts, the tendon pulls the bone and you move."
+      },
+      {
+        "term": "Ligament",
+        "text": "A tough band that connects one bone to another across a joint. It keeps the joint stable and stops it from bending the wrong way."
+      },
+      {
+        "term": "Cartilage",
+        "text": "Smooth, flexible tissue that lines the ends of bones in joints and makes up your outer ear, parts of your nose and your windpipe. It has no blood vessels, so it heals slowly."
+      }
+    ],
+    "bonus": "Your Achilles tendon, which links your calf muscles to your heel bone, is the thickest and strongest tendon in your body. It can handle forces of about four times your body weight.",
+    "sources": [
+      "https://my.clevelandclinic.org/health/body/23173-cartilage",
+      "https://my.clevelandclinic.org/health/body/21927-achilles-tendon",
+      "https://www.niams.nih.gov/health-topics/sprains-and-strains"
+    ]
+  },
+  {
+    "id": "artery-vein",
+    "category": "Body & Health",
+    "title": "Artery vs. Vein",
+    "question": "Is the blood in your veins blue?",
+    "answer": "No. Human blood is always red. Arteries carry blood away from the heart, and veins carry it back. Vein blood is a darker red because it has less oxygen. Veins only look blue through skin because of the way skin absorbs and reflects light.",
+    "details": [
+      {
+        "term": "Artery",
+        "text": "Carries blood away from the heart under high pressure, so it has thick, muscular walls. Usually carries oxygen-rich, bright red blood."
+      },
+      {
+        "term": "Vein",
+        "text": "Carries blood back to the heart under lower pressure, with thinner walls. Many veins have one-way valves to stop blood flowing backward. Usually carries oxygen-poor, darker red blood."
+      },
+      {
+        "term": "The real rule",
+        "text": "Direction defines them, not oxygen. The pulmonary arteries carry oxygen-poor blood from the heart to the lungs, and the pulmonary veins bring oxygen-rich blood back. They are the only exceptions."
+      }
+    ],
+    "bonus": "Some animals really do have blue blood. Octopuses, snails and spiders carry oxygen with a copper-based molecule called hemocyanin instead of iron-based hemoglobin.",
+    "sources": [
+      "https://my.clevelandclinic.org/health/body/23360-veins",
+      "https://my.clevelandclinic.org/health/body/21486-pulmonary-arteries",
+      "https://health.clevelandclinic.org/what-color-is-blood",
+      "https://www.mcgill.ca/oss/article/did-you-know/snails-spiders-and-octupi-all-have-blue-blood"
+    ]
+  },
+  {
+    "id": "cold-flu",
+    "category": "Body & Health",
+    "title": "Cold vs. Flu",
+    "question": "How can you tell a bad cold from the flu?",
+    "answer": "Flu usually comes on suddenly and hits harder, often with fever, body aches and exhaustion. A cold builds up gradually and is usually milder, with a runny or stuffy nose. They are caused by different viruses.",
+    "details": [
+      {
+        "term": "Cold",
+        "text": "Caused by many different viruses, including rhinoviruses and some seasonal coronaviruses. Symptoms are mostly in the nose and throat. Colds rarely lead to serious problems."
+      },
+      {
+        "term": "Flu",
+        "text": "Caused only by influenza viruses. Fever or chills, cough, sore throat, muscle aches, headache and fatigue are common. Flu can lead to pneumonia and hospital stays."
+      },
+      {
+        "term": "Telling them apart",
+        "text": "The symptoms overlap, so symptoms alone can't always settle it. A test can confirm flu."
+      }
+    ],
+    "bonus": "'Stomach flu' isn't flu. The vomiting-and-diarrhea illness people call stomach flu is often norovirus, which the CDC says is not related to influenza.",
+    "sources": [
+      "https://www.cdc.gov/flu/about/coldflu.html",
+      "https://www.cdc.gov/norovirus/about/index.html"
+    ]
+  },
+  {
+    "id": "allergy-intolerance",
+    "category": "Body & Health",
+    "title": "Food Allergy vs. Food Intolerance",
+    "question": "Is lactose intolerance a milk allergy?",
+    "answer": "No. A food allergy is your immune system reacting to a food, and even a tiny amount can cause a dangerous reaction. A food intolerance is a digestion problem. Lactose intolerance means your gut doesn't make enough of the enzyme that breaks down milk sugar.",
+    "details": [
+      {
+        "term": "Food allergy",
+        "text": "The immune system wrongly treats a food protein as a threat. Reactions can include hives, swelling and trouble breathing, and can be life-threatening (anaphylaxis)."
+      },
+      {
+        "term": "Milk allergy",
+        "text": "A reaction to the proteins in milk, such as casein and whey. It is most common in young children."
+      },
+      {
+        "term": "Lactose intolerance",
+        "text": "Not an immune reaction. Undigested milk sugar (lactose) reaches the large intestine and causes gas, bloating or diarrhea. Many people can handle small amounts."
+      }
+    ],
+    "bonus": "Losing the ability to fully digest lactose is the human norm. About 65% of people worldwide have a reduced ability to digest it after infancy. And lactose-free milk still contains milk proteins, so it is not safe for someone with a milk allergy.",
+    "sources": [
+      "https://www.niddk.nih.gov/health-information/digestive-diseases/lactose-intolerance/definition-facts",
+      "https://medlineplus.gov/genetics/condition/lactose-intolerance/"
+    ]
+  },
+  {
+    "id": "sprain-strain",
+    "category": "Body & Health",
+    "title": "Sprain vs. Strain",
+    "question": "Did you sprain it or strain it?",
+    "answer": "It depends on what got hurt. A sprain is an injury to a ligament, the band that joins two bones at a joint. A strain is an injury to a muscle or a tendon, the cord that joins muscle to bone.",
+    "details": [
+      {
+        "term": "Sprain",
+        "text": "Usually caused by a fall, twist or blow that forces a joint out of its normal position. Ankles, knees and wrists are the most common places."
+      },
+      {
+        "term": "Strain",
+        "text": "A twist, pull or tear of a muscle or tendon. It can happen suddenly or build up from repeating the same motion, as in tennis or golf."
+      },
+      {
+        "term": "Severity",
+        "text": "Both range from a slight overstretch to a complete tear."
+      }
+    ],
+    "bonus": "A memory trick: strain has a 't', like tendon. A rolled ankle is usually a sprain. A pulled hamstring is a strain.",
+    "sources": [
+      "https://www.niams.nih.gov/health-topics/sprains-and-strains"
+    ]
+  },
+  {
+    "id": "endemic-epidemic-pandemic",
+    "category": "Body & Health",
+    "title": "Endemic vs. Epidemic vs. Pandemic",
+    "question": "When does an outbreak become a pandemic?",
+    "answer": "When it spreads across several countries or continents. These words describe how widely and how unexpectedly a disease is spreading, not how deadly it is.",
+    "details": [
+      {
+        "term": "Endemic",
+        "text": "A disease that is always present in an area at a steady, expected level."
+      },
+      {
+        "term": "Epidemic",
+        "text": "Cases rise, often suddenly, above what is normally expected in an area. An 'outbreak' means the same thing but usually covers a smaller area."
+      },
+      {
+        "term": "Pandemic",
+        "text": "An epidemic that has spread over several countries or continents and usually affects a large number of people."
+      }
+    ],
+    "bonus": "Endemic doesn't mean harmless. Malaria is endemic in much of Africa, and WHO estimates it killed about 610,000 people worldwide in 2024.",
+    "sources": [
+      "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson1/section11.html",
+      "https://www.who.int/news-room/fact-sheets/detail/malaria"
+    ]
+  },
+  {
+    "id": "weight-mass",
+    "category": "Science & Tech",
+    "title": "Weight vs. Mass",
+    "question": "Would you weigh less on the Moon?",
+    "answer": "Yes, but your mass would stay the same. Mass is the amount of matter in you, measured in kilograms. Weight is the force of gravity pulling on that mass, measured in newtons. The Moon's gravity is about one-sixth of Earth's, so you would weigh about one-sixth as much.",
+    "details": [
+      {
+        "term": "Mass",
+        "text": "How much matter an object contains. It is the same on Earth, on the Moon or floating in space."
+      },
+      {
+        "term": "Weight",
+        "text": "The force gravity puts on an object: mass times the local pull of gravity. It changes when gravity changes."
+      },
+      {
+        "term": "In everyday use",
+        "text": "Shops, recipes and bathroom scales use 'weight' to mean mass. A scale senses force and is set up to show it as kilograms or pounds under Earth's gravity."
+      }
+    ],
+    "bonus": "Since 2019 the kilogram has been defined by a fixed value of a constant of nature, the Planck constant, instead of by a platinum-iridium cylinder kept in a vault in France since 1889.",
+    "sources": [
+      "https://www.nist.gov/pml/owm/si-units-mass",
+      "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/weight-equation-2/"
+    ]
+  },
+  {
+    "id": "temperature-heat",
+    "category": "Science & Tech",
+    "title": "Temperature vs. Heat",
+    "question": "Is something very hot the same as something with a lot of heat?",
+    "answer": "No. Temperature measures how fast an object's particles are moving on average. Heat is energy that flows from a hotter thing to a colder one. A large object at a mild temperature can hold far more total energy than a tiny object at a high temperature.",
+    "details": [
+      {
+        "term": "Temperature",
+        "text": "The average energy of motion of an object's molecules, measured in degrees (Celsius, Fahrenheit or Kelvin). It doesn't depend on how much stuff there is."
+      },
+      {
+        "term": "Heat",
+        "text": "Energy that moves because of a temperature difference, measured in joules or calories. It stops flowing once both things reach the same temperature."
+      },
+      {
+        "term": "Thermal energy",
+        "text": "The total energy of motion of all the molecules in an object. More stuff at the same temperature means more thermal energy."
+      }
+    ],
+    "bonus": "A bathtub of room-temperature water holds far more thermal energy than a milliliter of nearly boiling water, because it has about a billion times as many molecules. The milliliter still has the higher temperature.",
+    "sources": [
+      "https://k12.libretexts.org/Bookshelves/Science_and_Technology/Physics/09:_Thermal_Physics/9.01:_Heat_Temperature_and_Thermal_Energy",
+      "https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/The_Basics_of_General_Organic_and_Biological_Chemistry_(Ball_et_al.)/07:_Energy_and_Chemical_Processes/7.02:_Heat_and_Temperature"
+    ]
+  },
+  {
+    "id": "hypothesis-theory-law",
+    "category": "Science & Tech",
+    "title": "Hypothesis vs. Theory vs. Law",
+    "question": "Does a scientific theory become a law once it's proven?",
+    "answer": "No. They are different kinds of statements, not steps on a ladder. A law describes what happens, often as an equation. A theory explains why or how it happens. A hypothesis is a narrower, testable explanation.",
+    "details": [
+      {
+        "term": "Hypothesis",
+        "text": "A proposed explanation for a fairly narrow set of observations, which can be tested."
+      },
+      {
+        "term": "Theory",
+        "text": "A broad explanation that ties many facts together and is supported by a large body of evidence, such as germ theory or the theory of evolution."
+      },
+      {
+        "term": "Law",
+        "text": "A description of how nature behaves under certain conditions. Newton's law of gravitation gives the strength of the pull between two masses, but it doesn't say what gravity is. Einstein's general theory of relativity is an explanation of gravity."
+      }
+    ],
+    "bonus": "In everyday speech 'theory' means a guess. In science it is close to the opposite. The US National Academy of Sciences has defined a theory as a well-substantiated explanation of some aspect of the natural world.",
+    "sources": [
+      "https://ncse.ngo/misconception-monday-hypotheses-theories-and-laws-oh-my",
+      "https://facultyweb.kennesaw.edu/rmatson/links/theories.php"
+    ]
+  },
+  {
+    "id": "fission-fusion",
+    "category": "Science & Tech",
+    "title": "Fission vs. Fusion",
+    "question": "Which kind of nuclear reaction powers the Sun, and which powers nuclear plants?",
+    "answer": "Fusion powers the Sun. Fission powers today's nuclear power plants. Fission splits a heavy atom, such as uranium, into smaller ones. Fusion joins light atoms, such as hydrogen, into a heavier one. Both release large amounts of energy.",
+    "details": [
+      {
+        "term": "Fission",
+        "text": "A neutron hits a large atom, which splits and releases energy plus more neutrons. Those neutrons split more atoms in a chain reaction. Power plants use the heat to make steam that spins turbines."
+      },
+      {
+        "term": "Fusion",
+        "text": "Two light atoms combine into one heavier atom. It needs extreme heat and pressure, which is why it is so hard to sustain on Earth. It does not produce the highly radioactive waste products that fission does."
+      }
+    ],
+    "bonus": "In December 2022, the US National Ignition Facility got more energy out of a fusion reaction than its lasers delivered: 3.15 megajoules out for 2.05 in. But running the lasers drew about 300 megajoules from the grid, so practical fusion power is still a long way off.",
+    "sources": [
+      "https://www.energy.gov/ne/articles/fission-and-fusion-what-difference",
+      "https://lmf.llnl.gov/science/achieving-fusion-ignition",
+      "https://www.optica-opn.org/home/newsroom/2022/december/ignition_accomplished_nif_looks_to_the_future/"
+    ]
+  },
+  {
+    "id": "ac-dc",
+    "category": "Science & Tech",
+    "title": "AC vs. DC",
+    "question": "Why does your wall outlet give a different kind of electricity than a battery?",
+    "answer": "A battery gives direct current (DC), which flows in one direction. A wall outlet gives alternating current (AC), which reverses direction many times a second: 60 times in the US and 50 in much of the world. The grid uses AC because its voltage is easy to raise and lower with transformers.",
+    "details": [
+      {
+        "term": "DC (direct current)",
+        "text": "Flows steadily in one direction. Batteries, solar cells and fuel cells produce it."
+      },
+      {
+        "term": "AC (alternating current)",
+        "text": "Switches direction back and forth at a set rate. Transformers can step its voltage up for long-distance lines and back down for homes."
+      },
+      {
+        "term": "In your home",
+        "text": "Phones, laptops, LED bulbs and electric cars run on DC inside. Their chargers and power supplies convert the wall's AC to DC."
+      }
+    ],
+    "bonus": "In the 1880s and 1890s, Thomas Edison backed DC and George Westinghouse, using Nikola Tesla's motor patents, backed AC. AC won the grid, but some very long power lines today use high-voltage DC because it loses less energy over long distances.",
+    "sources": [
+      "https://www.energy.gov/articles/war-currents-ac-vs-dc-power",
+      "https://spectrum.ieee.org/why-does-the-world-harbor-so-many-different-voltages-plugs-and-sockets"
+    ]
+  },
+  {
+    "id": "volt-amp-watt",
+    "category": "Science & Tech",
+    "title": "Volt vs. Amp vs. Watt",
+    "question": "What does the 'watts' on a light bulb actually measure?",
+    "answer": "Power: how fast the device uses energy. Volts measure the electrical push that drives current. Amps measure how much current flows. Multiply volts by amps and you get watts.",
+    "details": [
+      {
+        "term": "Volt",
+        "text": "The unit of electric potential difference, the push that drives current through a circuit."
+      },
+      {
+        "term": "Amp (ampere)",
+        "text": "The unit of electric current, the rate at which electric charge flows."
+      },
+      {
+        "term": "Watt",
+        "text": "The unit of power. One watt is one volt times one amp. A 120-volt device drawing 5 amps uses 600 watts."
+      },
+      {
+        "term": "Kilowatt-hour",
+        "text": "What your electricity bill charges for. It is energy: one kilowatt (1,000 watts) used for one hour. A 1,500-watt heater running for 4 hours uses 6 kilowatt-hours."
+      }
+    ],
+    "bonus": "US outlets supply about 120 volts, while most of the world uses about 230 volts. That is why a US hair dryer can be damaged if plugged in abroad without a converter, while most phone chargers are built to handle both.",
+    "sources": [
+      "https://www.nist.gov/pml/owm/si-units-electric-current",
+      "https://www.eia.gov/energyexplained/electricity/measuring-electricity.php",
+      "https://spectrum.ieee.org/why-does-the-world-harbor-so-many-different-voltages-plugs-and-sockets"
+    ]
+  },
+  {
+    "id": "ram-storage",
+    "category": "Science & Tech",
+    "title": "RAM vs. Storage",
+    "question": "Why doesn't adding RAM give you more room for photos?",
+    "answer": "Because RAM isn't where files are kept. RAM is the computer's short-term working memory: fast, smaller, and cleared when the power goes off. Storage (an SSD or hard drive) is where your files and apps live long-term: larger, slower, and kept when the power is off.",
+    "details": [
+      {
+        "term": "RAM",
+        "text": "Holds the apps and files you have open right now so the processor can reach them quickly. More RAM lets you run more things at once without slowing down."
+      },
+      {
+        "term": "Storage",
+        "text": "Keeps the operating system, installed apps, documents and photos even when the computer is off. More storage means more room for files."
+      },
+      {
+        "term": "When RAM fills up",
+        "text": "The computer starts shuffling data between RAM and the much slower storage drive, which is why everything gets sluggish."
+      }
+    ],
+    "bonus": "This is why unsaved work disappears when a computer crashes or loses power. It existed only in RAM. Pressing 'save' copies it to storage.",
+    "sources": [
+      "https://www.intel.com/content/www/us/en/tech-tips-and-tricks/computer-ram.html"
+    ]
+  },
+  {
+    "id": "internet-web",
+    "category": "Science & Tech",
+    "title": "Internet vs. World Wide Web",
+    "question": "Aren't the internet and the web the same thing?",
+    "answer": "No. The internet is the worldwide network that connects computers. The World Wide Web is one service that runs on it: the system of linked pages you open in a browser. Email, video calls and many apps use the internet without being part of the web.",
+    "details": [
+      {
+        "term": "Internet",
+        "text": "The network of networks. It grew out of ARPANET, a US research network that sent its first message in 1969. ARPANET switched to the TCP/IP rules the internet still uses in 1983."
+      },
+      {
+        "term": "World Wide Web",
+        "text": "Proposed by Tim Berners-Lee at CERN in March 1989. The first web server and browser were running by the end of 1990, and CERN made the software free to use in 1993."
+      }
+    ],
+    "bonus": "The internet is about 20 years older than the web. Even in late 1993, the web made up only about 1% of internet traffic. The rest was mostly email, file transfers and remote logins.",
+    "sources": [
+      "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/",
+      "https://www.darpa.mil/news/features/arpanet"
+    ]
+  },
+  {
+    "id": "accuracy-precision",
+    "category": "Science & Tech",
+    "title": "Accuracy vs. Precision",
+    "question": "Can a measurement be precise and still wrong?",
+    "answer": "Yes. Accuracy is how close a measurement is to the true value. Precision is how close repeated measurements are to each other. A tool can give the same wrong answer every time.",
+    "details": [
+      {
+        "term": "Accuracy",
+        "text": "Closeness to the true or accepted value. On a dartboard: darts landing near the bullseye."
+      },
+      {
+        "term": "Precision",
+        "text": "Consistency of repeated measurements. On a dartboard: darts landing close together, wherever that is."
+      },
+      {
+        "term": "Precise but not accurate",
+        "text": "A bathroom scale that always reads 2 kg too heavy. This steady error is called systematic error, and calibrating the scale fixes it."
+      }
+    ],
+    "bonus": "In the international standard for measurement methods (ISO 5725), 'accuracy' is the umbrella word. It covers both 'trueness' (how close the average result is to the true value) and precision.",
+    "sources": [
+      "https://bio.libretexts.org/Courses/Irvine_Valley_College/Biotechnology_Techniques:_From_Theory_to_Practice_(BIOT173_at_IVC)/05:_Lab_Technician's_Guide_to_Accuracy_Precision_and_Reliability",
+      "https://www.iso.org/standard/69418.html"
+    ]
+  },
+  {
+    "id": "ton-tonne",
+    "category": "Science & Tech",
+    "title": "Ton vs. Tonne",
+    "question": "How many pounds are in a ton?",
+    "answer": "It depends which ton. A US short ton is 2,000 pounds. A British long ton is 2,240 pounds. A metric tonne is 1,000 kilograms, about 2,205 pounds.",
+    "details": [
+      {
+        "term": "Short ton",
+        "text": "2,000 pounds (about 907 kg). This is what 'ton' means in the US when nothing else is said."
+      },
+      {
+        "term": "Long ton",
+        "text": "2,240 pounds (about 1,016 kg). Used in the UK's older imperial system and rarely in the US."
+      },
+      {
+        "term": "Tonne (metric ton)",
+        "text": "Exactly 1,000 kilograms, about 2,204.6 pounds. Used in most of the world and in science."
+      }
+    ],
+    "bonus": "A ship's 'tonnage' usually isn't a weight. The word comes from the tun, a large wine cask that medieval England taxed by the shipload. A register ton is a unit of volume: 100 cubic feet.",
+    "sources": [
+      "https://www.nist.gov/pml/owm/metric-si/unit-conversion/approximate-conversions-us-customary-measures-metric",
+      "https://www.nist.gov/document/nist-hb-44-2024-appendix-c-general-tables-units-measurement",
+      "https://en.wikipedia.org/wiki/Tonnage"
+    ]
+  }
+]

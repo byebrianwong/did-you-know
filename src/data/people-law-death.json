@@ -1,0 +1,362 @@
+[
+  {
+    "id": "graveyard-cemetery",
+    "category": "Death & Burial",
+    "title": "Graveyard vs. Cemetery",
+    "question": "Is a graveyard the same thing as a cemetery?",
+    "answer": "Not quite. Strictly, a graveyard is a burial ground attached to a church, in its churchyard. A cemetery is a burial ground set up on its own land, not tied to a church. In everyday speech many people use the two words for the same thing.",
+    "details": [
+      { "term": "Graveyard", "text": "The part of a churchyard used for burials. Churchyards are the land around a church, usually owned by the church or parish. Graveyards tend to be older and smaller." },
+      { "term": "Cemetery", "text": "Land set aside only for burial, separate from any church. Cemeteries are often run by a town, city, or company and may take people of any faith or none." },
+      { "term": "Why both exist", "text": "In the 18th and 19th centuries many European churchyards ran out of space, and several states banned churchyard burial for public-health reasons. Separate cemeteries took over." }
+    ],
+    "bonus": "\"Cemetery\" comes from the Greek koimeterion, meaning \"sleeping place\". The word was first used for burial grounds in the Roman catacombs.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cemetery",
+      "https://en.wikipedia.org/wiki/Churchyard"
+    ]
+  },
+  {
+    "id": "coffin-casket",
+    "category": "Death & Burial",
+    "title": "Coffin vs. Casket",
+    "question": "Is a casket just a fancier word for a coffin?",
+    "answer": "They do the same job, but the shapes differ. A coffin is tapered, with six or eight sides, wider at the shoulders and narrower at the feet. A casket is a four-sided rectangular box. In American English, people often say \"casket\" for both.",
+    "details": [
+      { "term": "Coffin", "text": "Six- or eight-sided and shaped roughly like the human body. This is the traditional shape in Britain and Europe." },
+      { "term": "Casket", "text": "A rectangular box, often with a lid split in two so the upper half can open for a viewing. It is the usual shape sold in the United States." },
+      { "term": "Price", "text": "Caskets often cost more, partly because of extra material and fittings such as hinges and handles. This varies a lot by model." }
+    ],
+    "bonus": "\"Casket\" first meant a small box for jewelry or valuables. The funeral trade adopted it as a gentler-sounding word for a coffin.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Coffin",
+      "https://www.todayifoundout.com/index.php/2011/12/the-difference-between-a-coffin-and-a-casket/"
+    ]
+  },
+  {
+    "id": "mausoleum-crypt-tomb",
+    "category": "Death & Burial",
+    "title": "Mausoleum vs. Crypt vs. Tomb",
+    "question": "Are a mausoleum, a crypt, and a tomb different things?",
+    "answer": "Yes, though the words overlap. A mausoleum is a free-standing building that holds the dead. A crypt is a burial chamber, traditionally a stone room under a church, and today also a single burial space inside a mausoleum. A tomb is the broadest word: any chamber or vault where a body is placed.",
+    "details": [
+      { "term": "Mausoleum", "text": "A building, above ground, that encloses one or more burial spaces. It can be a private family building or a large public one holding many unrelated people." },
+      { "term": "Crypt", "text": "Originally a stone chamber below the floor of a church, often holding coffins or relics. In modern cemeteries, the individual space that holds a casket inside a mausoleum is also called a crypt." },
+      { "term": "Tomb", "text": "A general word for any burial chamber or vault, above or below ground. A mausoleum is one kind of tomb." }
+    ],
+    "bonus": "The word \"mausoleum\" comes from one specific grave: the tomb of Mausolus, a 4th-century BC ruler of Caria, at Halicarnassus (now Bodrum, Turkey). It was one of the Seven Wonders of the Ancient World.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mausoleum",
+      "https://en.wikipedia.org/wiki/Crypt",
+      "https://memorialplanning.com/resources/burials/mausoleum-vs-crypt-vs-tomb/"
+    ]
+  },
+  {
+    "id": "urn-niche-columbarium",
+    "category": "Death & Burial",
+    "title": "Urn vs. Niche vs. Columbarium",
+    "question": "Where do cremated remains go: an urn, a niche, or a columbarium?",
+    "answer": "Often all three, one inside the other. The urn is the container that holds the remains. The niche is a small compartment that holds the urn. The columbarium is the wall or building made up of many niches.",
+    "details": [
+      { "term": "Urn", "text": "The container for cremated remains. Urns are sold by how much they hold, so a large enough urn can still be the wrong shape for a given niche." },
+      { "term": "Niche", "text": "One compartment in a columbarium, usually set into a wall above ground. It is sealed with a plaque, and some have glass fronts." },
+      { "term": "Columbarium", "text": "A structure, indoors or outdoors, for storing urns. Some sit inside a mausoleum. A simple way to remember: crypts hold caskets, niches hold urns." },
+      { "term": "\"Ashes\"", "text": "Cremated remains are mostly bone fragments that are ground into a coarse powder after cremation, not ash from burning. The funeral trade often calls them \"cremains\"." }
+    ],
+    "bonus": "\"Columbarium\" comes from the Latin columba, \"dove\". It first meant a dovecote, a wall of small nesting boxes for doves and pigeons, which a wall of niches resembles.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Columbarium",
+      "https://funeral.com/blogs/the-journal/what-is-a-columbarium-niche-urn-and-inurnment-terms-explained",
+      "https://funeral.com/blogs/the-journal/are-cremains-really-ashes-what-they-look-like-weigh-and-why"
+    ]
+  },
+  {
+    "id": "burglary-robbery-theft",
+    "category": "Law & Crime",
+    "title": "Burglary vs. Robbery vs. Theft (Larceny)",
+    "question": "If someone steals your stuff, were you robbed, burgled, or just a victim of theft?",
+    "answer": "It depends on how it happened. Theft (traditionally called larceny) is taking someone's property without permission. Robbery is theft from a person using force or the threat of force. Burglary is entering a building unlawfully intending to commit a crime inside, and nothing has to be stolen.",
+    "details": [
+      { "term": "Theft / Larceny", "text": "Taking someone else's property intending to keep it from them. Most US states now fold larceny, embezzlement and similar crimes into one \"theft\" law, graded by the value of what was taken." },
+      { "term": "Robbery", "text": "Theft plus violence or a threat of violence against a person. That added force makes it a more serious crime. If your house was emptied while you were out, you were not robbed." },
+      { "term": "Burglary", "text": "A crime about entering, not taking. The intent to commit a crime inside must exist at the moment of entry. The crime is complete once the person is inside, even if they leave with nothing." }
+    ],
+    "bonus": "Under old English common law, burglary had to happen at night and in someone's home. Many modern laws have dropped both rules, but details still vary by state.",
+    "sources": [
+      "https://www.law.cornell.edu/wex/burglary",
+      "https://www.law.cornell.edu/wex/robbery",
+      "https://www.law.cornell.edu/wex/larceny"
+    ]
+  },
+  {
+    "id": "jail-prison",
+    "category": "Law & Crime",
+    "title": "Jail vs. Prison",
+    "question": "Are jail and prison the same place?",
+    "answer": "No. In the US, a jail is a local, short-term facility, usually run by a county or city. It holds people awaiting trial or sentencing and people serving short sentences, usually a year or less. A prison is run by a state or the federal government and holds people convicted of crimes, usually serving more than a year.",
+    "details": [
+      { "term": "Jail", "text": "Run locally, often by a county sheriff. Holds people who have just been arrested, people waiting for court, and people serving short sentences, often for misdemeanors." },
+      { "term": "Prison", "text": "Run by a state corrections department or the Federal Bureau of Prisons. Holds people after conviction, usually for felonies and sentences longer than a year." },
+      { "term": "Exceptions", "text": "The one-year line is a rule of thumb. Some states, such as Connecticut and Delaware, run their jails at state level, and some Massachusetts county jails hold people on sentences longer than a year." }
+    ],
+    "bonus": "Most people in US jails have not been convicted of anything. At midyear 2023, about 70% of the jail population was unconvicted, mostly waiting for their case to be decided.",
+    "sources": [
+      "https://bjs.ojp.gov/topics/corrections/correctional-institutions",
+      "https://bjs.ojp.gov/library/publications/jail-inmates-2023-statistical-tables/web-report",
+      "https://www.law.umich.edu/facultyhome/margoschlanger/Documents/Resources/The_Difference_Between_Jails_and_Prisons%20.pdf"
+    ]
+  },
+  {
+    "id": "homicide-murder-manslaughter",
+    "category": "Law & Crime",
+    "title": "Homicide vs. Murder vs. Manslaughter",
+    "question": "Is every homicide a murder?",
+    "answer": "No. Homicide means one person causing another person's death, and it is not always a crime. Murder and manslaughter are the two main kinds of criminal homicide. Murder involves \"malice aforethought\", such as intent to kill. Manslaughter is an unlawful killing without that malice.",
+    "details": [
+      { "term": "Homicide", "text": "Any killing of a person by another person. It is also a \"manner of death\" a medical examiner can record. Some homicides, such as killing in lawful self-defense, are not crimes." },
+      { "term": "Murder", "text": "An unlawful killing with malice: intent to kill, intent to cause serious harm, extreme recklessness, or a death during certain felonies. Most US states split it into degrees, with planned killings usually first degree." },
+      { "term": "Manslaughter", "text": "An unlawful killing with less blame. Voluntary manslaughter is a killing in the \"heat of passion\" after serious provocation. Involuntary manslaughter is a death caused by negligence or recklessness." }
+    ],
+    "bonus": "Under the \"felony murder\" rule, used in many US states, a person can be convicted of murder without intending to kill anyone, if a death happens while they are committing a serious felony such as robbery.",
+    "sources": [
+      "https://www.law.cornell.edu/wex/homicide",
+      "https://www.law.cornell.edu/wex/murder",
+      "https://www.law.cornell.edu/wex/manslaughter"
+    ]
+  },
+  {
+    "id": "felony-misdemeanor",
+    "category": "Law & Crime",
+    "title": "Felony vs. Misdemeanor",
+    "question": "What actually makes a crime a felony instead of a misdemeanor?",
+    "answer": "Mostly the maximum punishment the law allows. In US federal law and most states, a crime that can be punished by more than one year in prison is a felony. A crime punishable by one year or less is a misdemeanor. States set their own rules, so the line is not identical everywhere.",
+    "details": [
+      { "term": "Felony", "text": "The more serious class. Federal law sorts felonies into classes A through E by the maximum prison term, with Class E covering more than one year but less than five." },
+      { "term": "Misdemeanor", "text": "A less serious crime, usually punished with a fine or up to a year in jail. Below misdemeanors sit infractions, such as many traffic tickets." },
+      { "term": "Possible, not actual", "text": "The label depends on the sentence the law permits, not the one a person receives. Someone convicted of a felony can get probation and no prison time." }
+    ],
+    "bonus": "New Jersey does not use the words at all. Its law calls serious crimes \"indictable offenses\" and lesser ones \"disorderly persons offenses\". In California, some \"wobbler\" crimes can be charged either way.",
+    "sources": [
+      "https://www.law.cornell.edu/uscode/text/18/3559",
+      "https://www.womenslaw.org/laws/nj/state-gun-laws/basic-info-and-definitions/what-are-definitions-felony-indictable-offense-and",
+      "https://www.law.cornell.edu/wex/felony"
+    ]
+  },
+  {
+    "id": "defamation-libel-slander",
+    "category": "Law & Crime",
+    "title": "Defamation vs. Libel vs. Slander",
+    "question": "What's the difference between libel and slander?",
+    "answer": "Both are defamation: a false statement presented as fact that harms someone's reputation. Libel is defamation in written or recorded form. Slander is spoken defamation.",
+    "details": [
+      { "term": "Defamation", "text": "The umbrella term. In the US it is usually a civil wrong (a tort), not a crime. Truth is generally a complete defense." },
+      { "term": "Libel", "text": "Written, printed, or otherwise recorded. Courts have traditionally treated it as more harmful because it lasts and spreads." },
+      { "term": "Slander", "text": "Spoken and not recorded. It often requires proof of actual financial harm, except for certain categories such as falsely accusing someone of a serious crime." },
+      { "term": "Public figures", "text": "In the US, since New York Times v. Sullivan (1964), public officials must prove \"actual malice\": that the speaker knew the statement was false or recklessly ignored whether it was." }
+    ],
+    "bonus": "Radio and TV muddled the old line. UK law treats broadcasts as libel. US states split on it, and Georgia's courts coined a separate word for broadcast defamation: \"defamacast\".",
+    "sources": [
+      "https://www.law.cornell.edu/wex/defamation",
+      "https://www.legislation.gov.uk/ukpga/1990/42/section/166/enacted/data.htm",
+      "https://volokh.com/2008/07/29/defamacast/"
+    ]
+  },
+  {
+    "id": "lawyer-attorney-barrister-solicitor",
+    "category": "Law & Crime",
+    "title": "Lawyer vs. Attorney vs. Barrister vs. Solicitor",
+    "question": "Is a lawyer the same as an attorney? And what are barristers and solicitors?",
+    "answer": "In everyday American use, a lawyer and an attorney are the same: someone licensed to practice law. Strictly, \"attorney\" means anyone authorized to act for someone else, so not every attorney is a lawyer. Barristers and solicitors are the two separate branches of the legal profession in England and Wales.",
+    "details": [
+      { "term": "Lawyer / Attorney-at-law", "text": "A person licensed to practice law. In the US the two words are used interchangeably in daily speech." },
+      { "term": "Attorney-in-fact", "text": "Someone given power to act for another person, usually through a power of attorney. They do not need a law degree or a license; a family member can be one." },
+      { "term": "Solicitor", "text": "In England and Wales, the lawyer clients normally deal with directly. Solicitors handle advice, paperwork and case preparation, and can argue in lower courts. Some gain the right to appear in higher courts." },
+      { "term": "Barrister", "text": "A specialist in courtroom advocacy with the right to appear in all courts. Most are self-employed and share offices called chambers. They usually get work through a solicitor, though some now take clients directly." }
+    ],
+    "bonus": "Scotland uses different names again. Its equivalent of a barrister is an \"advocate\", and groups of advocates are called \"stables\" rather than chambers.",
+    "sources": [
+      "https://www.law.cornell.edu/wex/attorney",
+      "https://learnmore.lawbore.net/article/solicitor-or-barrister",
+      "https://targetjobs.co.uk/careers-advice/job-descriptions/advocate-scotland-job-description"
+    ]
+  },
+  {
+    "id": "parole-probation",
+    "category": "Law & Crime",
+    "title": "Parole vs. Probation",
+    "question": "Are parole and probation the same thing?",
+    "answer": "No. Probation is a sentence a judge gives, usually instead of jail or prison, served under supervision in the community. Parole is early, conditional release from prison, with supervision for the rest of the sentence. In short: probation usually replaces prison time; parole comes after some prison time.",
+    "details": [
+      { "term": "Probation", "text": "Ordered by a court. The person lives in the community under rules and check-ins. Some sentences combine a short jail stay with probation afterward." },
+      { "term": "Parole", "text": "Granted after part of a prison sentence is served, usually by a parole board or by law. Breaking the conditions can send the person back to prison." },
+      { "term": "Which is more common", "text": "Probation is far more common. In recent US Justice Department counts, about 80% of adults under community supervision were on probation and about 20% on parole." }
+    ],
+    "bonus": "The US federal system abolished parole for crimes committed after November 1, 1987. Federal prisoners now serve a fixed term of \"supervised release\" set by the judge instead. The word \"parole\" comes from the French for \"word\", as in a prisoner of war giving his word of honor.",
+    "sources": [
+      "https://bjs.ojp.gov/topics/corrections/community-corrections",
+      "https://www.justice.gov/archives/united-states-parole-commission",
+      "https://www.dictionary.com/browse/parole"
+    ]
+  },
+  {
+    "id": "arrested-charged-indicted",
+    "category": "Law & Crime",
+    "title": "Arrested vs. Charged vs. Indicted",
+    "question": "If someone is arrested, have they been charged? Is \"indicted\" the same as \"charged\"?",
+    "answer": "These are separate steps. An arrest is police taking someone into custody. A charge is a formal accusation of a crime, usually filed by a prosecutor. An indictment is one way of charging someone: a grand jury votes that there is enough evidence to go to trial.",
+    "details": [
+      { "term": "Arrest", "text": "Police take a person into custody because they have good reason to believe the person committed a crime. An arrest alone is not a formal charge, and some arrested people are never charged." },
+      { "term": "Charge", "text": "The formal accusation. A prosecutor can file it directly with a court, often called a complaint or an information, without a grand jury." },
+      { "term": "Indictment", "text": "A charge issued by a grand jury, a group of citizens who hear the prosecution's evidence in private and vote. The Fifth Amendment requires one for serious federal crimes unless the defendant waives it." },
+      { "term": "Order varies", "text": "Arrest often comes first, but in many federal cases the indictment comes first and the arrest follows." }
+    ],
+    "bonus": "US states do not have to use grand juries. In Hurtado v. California (1884), the Supreme Court ruled that the Fifth Amendment's grand jury rule applies only to the federal government, and that ruling still stands.",
+    "sources": [
+      "https://www.law.cornell.edu/wex/indictment",
+      "https://www.law.cornell.edu/wex/grand_jury",
+      "https://en.wikipedia.org/wiki/Hurtado_v._California"
+    ]
+  },
+  {
+    "id": "civil-criminal-case",
+    "category": "Law & Crime",
+    "title": "Civil Case vs. Criminal Case",
+    "question": "What's the difference between being sued and being prosecuted?",
+    "answer": "A criminal case is brought by the government to punish a crime, and it can end in jail or prison. A civil case is a dispute between private parties, usually over money or an order to stop doing something. The burden of proof is also different.",
+    "details": [
+      { "term": "Criminal case", "text": "The government (\"the State\" or \"the People\") prosecutes. Guilt must be proven \"beyond a reasonable doubt\", the highest standard, because a person's liberty is at stake." },
+      { "term": "Civil case", "text": "A person or company sues another. The plaintiff usually only has to show their claim is \"more likely than not\" true, called a preponderance of the evidence. Outcomes include money damages and court orders." },
+      { "term": "Both at once", "text": "The same act, such as assault, can lead to both a criminal prosecution and a civil lawsuit." }
+    ],
+    "bonus": "O.J. Simpson was acquitted of murder in his 1995 criminal trial. In 1997 a civil jury, using the lower standard of proof, found him liable for the same two deaths and awarded $33.5 million.",
+    "sources": [
+      "https://www.uscourts.gov/about-federal-courts/types-cases/civil-cases",
+      "https://www.law.cornell.edu/wex/burden_of_proof",
+      "https://www.cnn.com/US/9704/28/simpson/index.html"
+    ]
+  },
+  {
+    "id": "england-britain-uk-british-isles",
+    "category": "People & Places",
+    "title": "England vs. Great Britain vs. United Kingdom vs. British Isles",
+    "question": "Are England, Great Britain, and the UK all the same place?",
+    "answer": "No, each is bigger than the last. England is one country. Great Britain is the island that holds England, Scotland and Wales. The United Kingdom is the sovereign state made of those three plus Northern Ireland. The British Isles is a purely geographic name for Great Britain, all of Ireland, and the smaller islands around them.",
+    "details": [
+      { "term": "England", "text": "One of the four countries of the UK. It is not a sovereign state on its own." },
+      { "term": "Great Britain", "text": "Officially, England, Scotland and Wales and their nearby islands. It leaves out Northern Ireland, so it is not a synonym for the UK." },
+      { "term": "United Kingdom", "text": "Full name: the United Kingdom of Great Britain and Northern Ireland. This is the country that holds a UN seat and issues passports." },
+      { "term": "British Isles", "text": "A geographic term covering Great Britain, Ireland (including the independent Republic of Ireland) and about 5,000 smaller islands. It says nothing about nationality." }
+    ],
+    "bonus": "The Isle of Man and the Channel Islands (such as Jersey and Guernsey) are not part of the UK. They are Crown Dependencies, self-governing but under the British Crown.",
+    "sources": [
+      "https://www.ordnancesurvey.co.uk/blog/whats-the-difference-between-uk-britain-and-british-isles",
+      "https://www.dictionary.com/articles/great-britain-vs-uk-vs-england"
+    ]
+  },
+  {
+    "id": "holland-netherlands",
+    "category": "People & Places",
+    "title": "Holland vs. the Netherlands",
+    "question": "Is Holland just another name for the Netherlands?",
+    "answer": "Not officially. Holland is a region in the west made up of two of the country's twelve provinces, North Holland and South Holland. The country is the Netherlands. Its people and language are called Dutch.",
+    "details": [
+      { "term": "Holland", "text": "The former County of Holland, split in 1840 into North Holland (with Amsterdam) and South Holland (with Rotterdam and The Hague). It holds about 38% of the population. Using it for the whole country is common but inaccurate, and some Dutch people from other provinces dislike it." },
+      { "term": "The Netherlands", "text": "The country's name, meaning \"lower countries\", because much of it is low and flat. About a quarter of it lies below sea level. In 2019 the government said it would promote \"the Netherlands\" abroad instead of \"Holland\"." },
+      { "term": "Dutch", "text": "Comes from an old Germanic word meaning roughly \"of the people\", the same root as German \"Deutsch\". English once used \"Dutch\" for German speakers in general." }
+    ],
+    "bonus": "Amsterdam is the official capital, but the government, parliament and Supreme Court sit in The Hague. That is why foreign embassies to the Netherlands are in The Hague, not Amsterdam.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Holland",
+      "https://en.wikipedia.org/wiki/Netherlands",
+      "https://qz.com/1776078/why-the-netherlands-is-ditching-holland-as-its-nickname"
+    ]
+  },
+  {
+    "id": "republic-democracy",
+    "category": "People & Places",
+    "title": "Republic vs. Democracy",
+    "question": "Is the United States a republic or a democracy?",
+    "answer": "Both. The two words answer different questions. \"Democracy\" describes who holds power: the people. \"Republic\" describes a state with no monarch, where power rests with the public, usually through elected representatives. A country can be one without the other.",
+    "details": [
+      { "term": "Democracy", "text": "Government in which political power belongs to the people. In a direct democracy citizens vote on laws themselves. In a representative democracy they elect officials to make laws. From Greek demos (people) and kratos (power)." },
+      { "term": "Republic", "text": "From Latin res publica, \"the public thing\". The head of state is not a hereditary monarch. Historically, some republics were run by small elites and were not democratic." },
+      { "term": "Overlap", "text": "The US is a representative democracy and a republic. The \"republic, not a democracy\" argument usually uses \"democracy\" in the narrow sense of direct voting on every law." }
+    ],
+    "bonus": "The United Kingdom is a democracy but not a republic, because it has a monarch as head of state. Many other constitutional monarchies, such as Sweden and Japan, are also democracies without being republics.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Republic",
+      "https://en.wikipedia.org/wiki/Democracy"
+    ]
+  },
+  {
+    "id": "emigrate-immigrate-migrate",
+    "category": "People & Places",
+    "title": "Emigrate vs. Immigrate vs. Migrate",
+    "question": "Do you emigrate or immigrate when you move to a new country?",
+    "answer": "Both, depending on which end you're talking about. You emigrate from the country you leave. You immigrate to the country you settle in. Migrate is the general word for moving from one place to another, and it can be temporary or seasonal.",
+    "details": [
+      { "term": "Emigrate", "text": "To leave your country to live permanently somewhere else. The prefix e- means \"out\". Usually paired with \"from\": \"She emigrated from Ireland.\"" },
+      { "term": "Immigrate", "text": "To come into a new country to live permanently. The prefix im- means \"in\". Usually paired with \"to\": \"They immigrated to Canada.\"" },
+      { "term": "Migrate", "text": "To move from one region to another, for people or animals. It does not imply a permanent move. All three come from the Latin migrare, \"to move\"." }
+    ],
+    "bonus": "\"Émigré\", the French word for an emigrant, entered English for the royalists and aristocrats who fled France during the Revolution that began in 1789. It now usually means someone who left their country for political reasons.",
+    "sources": [
+      "https://grammarist.com/usage/emigrate-immigrate/",
+      "https://languagetool.org/insights/post/word-choice-immigrate-emigrate-migrate",
+      "https://www.dictionary.com/browse/emigre"
+    ]
+  },
+  {
+    "id": "embassy-consulate",
+    "category": "People & Places",
+    "title": "Embassy vs. Consulate",
+    "question": "What's the difference between an embassy and a consulate?",
+    "answer": "An embassy is a country's main diplomatic mission in another country, normally in the capital and led by an ambassador. A consulate is a smaller office in another city, led by a consul or consul general, mainly helping travelers and citizens with passports, visas and emergencies. A country usually has one embassy per host country but can have several consulates.",
+    "details": [
+      { "term": "Embassy", "text": "Handles relations between governments. Most embassies also have a consular section that issues passports and visas." },
+      { "term": "Consulate", "text": "A regional office in a large city with many travelers, residents or businesses. A larger one is called a consulate general." },
+      { "term": "Not always the capital", "text": "Embassies go where the host government sits. In the Netherlands that is The Hague, so about 109 embassies are there, while Amsterdam has consulates." }
+    ],
+    "bonus": "An embassy is not foreign soil. Under the 1961 Vienna Convention, the host country's officials cannot enter without permission, but the land remains part of the host country.",
+    "sources": [
+      "https://www.boundless.com/blog/consulate-vs-embassy-whats-the-difference",
+      "https://cjc.org.za/2019/02/01/nowhere-to-run-somewhere-to-hide-the-status-of-embassies-as-places-of-refuge/",
+      "https://en.wikipedia.org/wiki/List_of_diplomatic_missions_in_the_Netherlands"
+    ]
+  },
+  {
+    "id": "state-commonwealth",
+    "category": "People & Places",
+    "title": "State vs. Commonwealth",
+    "question": "Why are Kentucky, Massachusetts, Pennsylvania, and Virginia called commonwealths? Are they different from states?",
+    "answer": "Legally, no. Those four states chose \"commonwealth\" in their official names when they wrote their early constitutions, but the title gives them no special legal status. They have the same powers as the other 46 states.",
+    "details": [
+      { "term": "State", "text": "The usual name for the 50 members of the US. Commonwealths are states; the title is a naming choice." },
+      { "term": "Commonwealth", "text": "An old English word for a community organized for the \"common weal\", the common good. Virginia and Pennsylvania adopted it in 1776, Massachusetts in 1780, and Kentucky (once part of Virginia) used it from 1792, making it official in 1891." },
+      { "term": "Other commonwealths", "text": "Puerto Rico and the Northern Mariana Islands are also called commonwealths, but they are US territories, not states, and that is a different status." }
+    ],
+    "bonus": "The name shows up in court: criminal cases in these four states are titled \"Commonwealth v. [defendant]\" instead of \"State v.\". Yet all four call their police the \"State Police\".",
+    "sources": [
+      "https://blogs.loc.gov/law/2023/08/whats-in-a-name-the-four-u-s-states-that-are-technically-commonwealths/",
+      "https://www.dictionary.com/e/commonwealth-vs-state/"
+    ]
+  },
+  {
+    "id": "scandinavia-nordic",
+    "category": "People & Places",
+    "title": "Scandinavia vs. the Nordic Countries",
+    "question": "Is Finland part of Scandinavia?",
+    "answer": "Usually not. Scandinavia most commonly means just Denmark, Norway and Sweden. The Nordic countries are a wider group: those three plus Finland and Iceland, along with the Faroe Islands, Greenland and Åland.",
+    "details": [
+      { "term": "Scandinavia", "text": "Denmark, Norway and Sweden, which share history and closely related languages. Some people stretch it to include Iceland or Finland, but the narrow meaning is standard in the region itself." },
+      { "term": "Nordic countries", "text": "Five sovereign states (Denmark, Finland, Iceland, Norway, Sweden) plus three self-governing territories: the Faroe Islands and Greenland (part of the Kingdom of Denmark) and Åland (part of Finland). This is the group in the Nordic Council." },
+      { "term": "Language", "text": "Finnish is a Uralic language, unrelated to Swedish, Norwegian and Danish. Icelandic, by contrast, is closely related to them." }
+    ],
+    "bonus": "The Scandinavian Peninsula does not include Denmark at all, but it does include part of northern Finland.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Scandinavia",
+      "https://www.britannica.com/place/Nordic-countries",
+      "https://en.wikipedia.org/wiki/Nordic_countries"
+    ]
+  }
+]
