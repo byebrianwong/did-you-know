@@ -148,6 +148,38 @@
     "sources": [
       "https://news.ncsu.edu/2014/05/baking-soda-powder",
       "https://en.wikipedia.org/wiki/Baking_powder"
+    ],
+    "images": [
+      {
+        "src": "/images/baking-soda-baking-powder/baking-soda.jpg",
+        "label": "Sodium bicarbonate",
+        "note": "The only thing in baking soda",
+        "alt": "A small heap of fine white powder in a shallow glass dish.",
+        "credit": "Milda 444",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Hydrogenuhli%C4%8Ditan_sodn%C3%BD.jpg"
+      },
+      {
+        "src": "/images/baking-soda-baking-powder/soda-vinegar.jpg",
+        "label": "Baking soda plus vinegar",
+        "note": "The acid sets off the bubbles",
+        "alt": "Close-up of a glass beaker in which white baking soda and vinegar are fizzing with small bubbles.",
+        "credit": "katerha",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Baking_soda_and_vinegar.jpg"
+      },
+      {
+        "src": "/images/baking-soda-baking-powder/powder-foaming.jpg",
+        "label": "Baking powder in hot water",
+        "note": "No added acid needed",
+        "alt": "A small glass of hot water and baking powder foaming up over the rim, next to the edge of a red tin.",
+        "credit": "Lou Sander",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:BakingPowderFoaming.jpg"
+      }
     ]
   },
   {
@@ -163,6 +195,28 @@
     "bonus": "By the bones-versus-meat rule, \"bone broth\" is really a stock. Many health claims made for it have no scientific evidence behind them.",
     "sources": [
       "https://en.wikipedia.org/wiki/Stock_(food)"
+    ],
+    "images": [
+      {
+        "src": "/images/stock-broth/stock.jpg",
+        "label": "Stock simmering",
+        "note": "Beef bones for pho",
+        "alt": "Meaty bones, charred onions, star anise and a cinnamon stick simmering in a large pot.",
+        "credit": "Blue Lotus",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Making_stock_for_pho_bo.jpg"
+      },
+      {
+        "src": "/images/stock-broth/broth.jpg",
+        "label": "Broth",
+        "note": "Made from meat and vegetables",
+        "alt": "A pot of clear, golden-brown broth with a ladle resting in it.",
+        "credit": "Hannes Grobe",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Broth_hg.jpg"
+      }
     ]
   },
   {
@@ -180,6 +234,37 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Champagne",
       "https://en.wikipedia.org/wiki/Prosecco"
+    ],
+    "images": [
+      {
+        "src": "/images/champagne-prosecco-sparkling-wine/riddling.jpg",
+        "label": "Riddling racks in Champagne",
+        "note": "Pol Roger cellars, Épernay",
+        "alt": "Rows of dark green Champagne bottles pushed neck-first into wooden riddling racks in a long cellar.",
+        "credit": "Tomas er",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Pol_Roger_pupitre_2.jpg"
+      },
+      {
+        "src": "/images/champagne-prosecco-sparkling-wine/yeast-sediment.jpg",
+        "label": "Yeast inside the bottle",
+        "note": "Left by the second fermentation",
+        "alt": "Two hands hold a green Champagne bottle on its side up to the light, showing a layer of yeast sediment along the bottom.",
+        "credit": "BerndtF",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Undegorgierter_Champagner.jpg"
+      },
+      {
+        "src": "/images/champagne-prosecco-sparkling-wine/glera.jpg",
+        "label": "Glera grapes",
+        "note": "The main Prosecco grape",
+        "alt": "A bunch of pale green Glera grapes hanging from a vine.",
+        "credit": "Ursula Brühl, Julius Kühn-Institut",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:VIVC9741_GLERA_Cluster_in_the_field_17055.jpg"
+      }
     ]
   },
   {
@@ -197,6 +282,38 @@
     "sources": [
       "https://www.law.cornell.edu/cfr/text/27/5.143",
       "https://www.legislation.gov.uk/uksi/2009/2890/regulation/3/made"
+    ],
+    "images": [
+      {
+        "src": "/images/whiskey-bourbon-scotch-rye/charring.jpg",
+        "label": "Charring casks",
+        "note": "Fire blackens the inside of the oak",
+        "alt": "Tall flames rising out of two open casks behind a yellow safety rail, burning the inside of the wood.",
+        "credit": "Alan Murray-Rust",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Charring_the_casks_-_geograph.org.uk_-_6278873.jpg"
+      },
+      {
+        "src": "/images/whiskey-bourbon-scotch-rye/rack-house.jpg",
+        "label": "Bourbon aging in barrels",
+        "note": "A rack house in Clermont, Kentucky",
+        "alt": "Rows of wooden barrels stacked on racks along a long, narrow warehouse aisle.",
+        "credit": "Bbadgett",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Beam_Rack_House.jpg"
+      },
+      {
+        "src": "/images/whiskey-bourbon-scotch-rye/stills.jpg",
+        "label": "Stills at a Scotch distillery",
+        "note": "Dallas Dhu, near Forres, Scotland",
+        "alt": "Two large copper pot stills with pipes and gauges inside a white distillery room.",
+        "credit": "Nilfanion",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Stills_at_Dallas_Dhu.jpg"
+      }
     ]
   },
   {
@@ -214,6 +331,38 @@
       "https://www.law.cornell.edu/cfr/text/21/135.140",
       "https://www.law.cornell.edu/cfr/text/21/135.160",
       "https://en.wiktionary.org/wiki/sherbet"
+    ],
+    "images": [
+      {
+        "src": "/images/sherbet-sorbet/sherbet.jpg",
+        "label": "Sherbet (rainbow)",
+        "note": "Pale, creamy colors",
+        "alt": "A round scoop of pastel orange, green and pink rainbow sherbet in a metal dessert cup.",
+        "credit": "Prayitno",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Rainbow_Sherbet_(38251341974).jpg"
+      },
+      {
+        "src": "/images/sherbet-sorbet/sorbet.jpg",
+        "label": "Sorbet (strawberry)",
+        "note": "Bright and icy, no dairy",
+        "alt": "A scoop of bright red strawberry sorbet in a small white bowl.",
+        "credit": "star5112",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Strawberry_sorbet_zoomed.jpg"
+      },
+      {
+        "src": "/images/sherbet-sorbet/uk-sherbet.jpg",
+        "label": "Sherbet in the UK",
+        "note": "A fizzy powder, also called kali",
+        "alt": "Glass sweetshop jars of colored powder labeled lime, raspberry and rainbow kali, next to a jar of round sweets.",
+        "credit": "Andy Dingley",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Jars_of_Kali_or_Sherbet_powder.jpg"
+      }
     ]
   },
   {
@@ -232,6 +381,28 @@
       "https://www.law.cornell.edu/cfr/text/21/135.110",
       "https://www.idfa.org/news/idfa-opposes-petition-for-new-gelato-standard-in-california",
       "https://www.consumerreports.org/consumerist/whats-the-difference-between-ice-cream-frozen-custard-and-gelato/"
+    ],
+    "images": [
+      {
+        "src": "/images/ice-cream-gelato-frozen-custard/gelato.jpg",
+        "label": "Gelato in Italy",
+        "note": "Heaped in pans, served with a paddle",
+        "alt": "A shop counter of gelato heaped in metal pans, each with a serving paddle and a flavor label, some topped with fruit.",
+        "credit": "Maksym Kozlenko",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Gelato_in_Italy.jpg"
+      },
+      {
+        "src": "/images/ice-cream-gelato-frozen-custard/custard-machine.jpg",
+        "label": "Frozen custard being made",
+        "note": "Kopp's, Milwaukee",
+        "alt": "Brown frozen custard flowing out of a stainless steel machine down a chute.",
+        "credit": "eekim",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kopp%27s_Frozen_Custard_machines.jpg"
+      }
     ]
   },
   {
@@ -639,6 +810,28 @@
       "https://www.law.cornell.edu/cfr/text/21/165.110",
       "https://www.law.cornell.edu/cfr/text/21/172.575",
       "https://en.wikipedia.org/wiki/Tonic_water"
+    ],
+    "images": [
+      {
+        "src": "/images/seltzer-club-soda-tonic-mineral-water/tonic-uv.jpg",
+        "label": "Tonic water under UV light",
+        "note": "Quinine glows blue",
+        "alt": "The same glass of tonic water twice: clear in normal light, glowing bright blue under ultraviolet light.",
+        "credit": "GeoTrinity",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Tonic_Water_unter_Normal-_und_UV-Licht.jpg"
+      },
+      {
+        "src": "/images/seltzer-club-soda-tonic-mineral-water/cinchona-bark.jpg",
+        "label": "Cinchona bark",
+        "note": "Where quinine comes from",
+        "alt": "A dried, rolled strip of cinchona tree bark with a handwritten museum tag, on a black background.",
+        "credit": "Wellcome Images",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Strip_of_rolled_cinchona_bark,_India,_1860-1910_Wellcome_L0058853.jpg"
+      }
     ]
   },
   {
@@ -656,6 +849,37 @@
       "https://www.law.cornell.edu/cfr/text/21/168.140",
       "https://www.tastingtable.com/1858323/pancake-syrup-vs-maple-syrup/",
       "https://ky-maplesyrup.mgcafe.uky.edu/about-maple-syrup"
+    ],
+    "images": [
+      {
+        "src": "/images/maple-syrup-pancake-syrup/sap-buckets.jpg",
+        "label": "Collecting maple sap",
+        "note": "Buckets hung on tapped trees",
+        "alt": "A metal bucket with a lid and a blue plastic bag hanging from tapped maple trunks in a leafless spring forest.",
+        "credit": "Juliancolton",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Maple_sap_collecting_at_Bowdoin_Park,_New_York.JPG"
+      },
+      {
+        "src": "/images/maple-syrup-pancake-syrup/evaporator.jpg",
+        "label": "Boiling down the sap",
+        "note": "A wood-fired evaporator",
+        "alt": "Steam rising from a wood-fired maple syrup evaporator, with a fire burning in its firebox, as two men tend it.",
+        "credit": "amandabanana87",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Wood-fired_evaporator_(5024479952).jpg"
+      },
+      {
+        "src": "/images/maple-syrup-pancake-syrup/grades.jpg",
+        "label": "Maple syrup grades",
+        "note": "Golden to very dark, all Grade A",
+        "alt": "Four small glass jugs of Vermont maple syrup in a row, ranging from light golden to very dark.",
+        "credit": "Dvortygirl",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Syrup_grades_large.JPG"
+      }
     ]
   }
 ]
