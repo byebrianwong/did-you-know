@@ -3,6 +3,8 @@
 A small web app for learning the real differences between things people mix up:
 graveyard vs. cemetery, coffin vs. casket, tornado vs. hurricane vs. typhoon, and so on.
 
+Live site: https://did-you-know-phi.vercel.app
+
 It shows one fact at a time. Tap **Tell me** to see the answer. Then pick:
 
 - **I knew that** — the card is marked as known and does not come back.
@@ -20,6 +22,11 @@ Progress is saved in your browser (localStorage). Nothing is sent anywhere.
 npm install
 npm run dev
 ```
+
+## Deploys
+
+The repo is connected to a Vercel project. Every push to `main` deploys to the
+live site. Pushes to other branches get their own preview URL.
 
 ## Add facts
 
