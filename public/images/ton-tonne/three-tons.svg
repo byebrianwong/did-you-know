@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570 340" width="570" height="340" font-family="-apple-system, system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<rect width="570" height="340" fill="#fff"/>
+<line x1="540" y1="18" x2="540" y2="326" stroke="#6f655a" stroke-width="2" stroke-dasharray="6 6"/>
+<text x="20" y="52" font-size="26" fill="#221d18" text-anchor="start" font-weight="400"><tspan font-weight="600">Short ton (US)</tspan>  2,000 lb · 907 kg</text>
+<rect x="20" y="64" width="471.7" height="44" rx="6" fill="#c08a5b"/>
+<text x="20" y="156" font-size="26" fill="#221d18" text-anchor="start" font-weight="400"><tspan font-weight="600">Tonne (metric)</tspan>  2,205 lb · 1,000 kg</text>
+<rect x="20" y="168" width="520" height="44" rx="6" fill="#e8553d"/>
+<text x="20" y="260" font-size="26" fill="#221d18" text-anchor="start" font-weight="400"><tspan font-weight="600">Long ton (UK)</tspan>  2,240 lb · 1,016 kg</text>
+<rect x="20" y="272" width="528.3" height="44" rx="6" fill="#c08a5b"/>
+</svg>

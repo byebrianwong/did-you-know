@@ -14,6 +14,28 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Cemetery",
       "https://en.wikipedia.org/wiki/Churchyard"
+    ],
+    "images": [
+      {
+        "src": "/images/graveyard-cemetery/graveyard.jpg",
+        "label": "Graveyard",
+        "note": "Graves in the grounds of a church",
+        "alt": "Gravestones in the grass around a small stone church with a tower, in Ovens, County Cork",
+        "credit": "Hywel Williams",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Abandoned_church_and_graveyard_-_geograph.org.uk_-_4860741.jpg"
+      },
+      {
+        "src": "/images/graveyard-cemetery/cemetery.jpg",
+        "label": "Cemetery",
+        "note": "Burial ground on its own land, no church",
+        "alt": "A long gravel avenue lined with tombs and gravestones at Kensal Green Cemetery, London",
+        "credit": "Unknown",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kensal_Green_Cemetery_view_December_2005.jpg"
+      }
     ]
   },
   {
@@ -31,6 +53,28 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Coffin",
       "https://www.todayifoundout.com/index.php/2011/12/the-difference-between-a-coffin-and-a-casket/"
+    ],
+    "images": [
+      {
+        "src": "/images/coffin-casket/coffin.jpg",
+        "label": "Coffin",
+        "note": "Six sides, wider at the shoulders",
+        "alt": "A tapered wooden coffin with brass handles, inside an old railway hearse van",
+        "credit": "Phil Parker",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Coffin_in_Hearse_van.jpg"
+      },
+      {
+        "src": "/images/coffin-casket/casket.jpg",
+        "label": "Casket",
+        "note": "Rectangular box, lid in two parts",
+        "alt": "A plain wooden casket on display, with one half of its lid open",
+        "credit": "JJonahJackalope",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Casket,_Spindletop-Gladys_City_Boomtown_Museum.jpg"
+      }
     ]
   },
   {
@@ -49,6 +93,36 @@
       "https://en.wikipedia.org/wiki/Mausoleum",
       "https://en.wikipedia.org/wiki/Crypt",
       "https://memorialplanning.com/resources/burials/mausoleum-vs-crypt-vs-tomb/"
+    ],
+    "images": [
+      {
+        "src": "/images/mausoleum-crypt-tomb/mausoleum.jpg",
+        "label": "Mausoleum",
+        "note": "Free-standing buildings above ground",
+        "alt": "A row of small stone family mausoleums with carved names over their doors, in a New York cemetery",
+        "credit": "Antony-22",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Cemetery_of_the_Holy_Rood_Section_6_2021c.jpg"
+      },
+      {
+        "src": "/images/mausoleum-crypt-tomb/crypt.jpg",
+        "label": "Crypt",
+        "alt": "Rows of stone columns and low vaulted arches in the crypt beneath Worcester Cathedral",
+        "credit": "Mattana",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Worcester_cathedral_031.JPG"
+      },
+      {
+        "src": "/images/mausoleum-crypt-tomb/tomb.jpg",
+        "label": "Tomb",
+        "note": "Carved into a sandstone cliff",
+        "alt": "The Urn Tomb at Petra, Jordan, a tomb with a columned front carved into a sandstone cliff",
+        "credit": "Bernard Gagnon",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Urn_Tomb,_Petra_01.jpg"
+      }
     ]
   },
   {
@@ -68,6 +142,38 @@
       "https://en.wikipedia.org/wiki/Columbarium",
       "https://funeral.com/blogs/the-journal/what-is-a-columbarium-niche-urn-and-inurnment-terms-explained",
       "https://funeral.com/blogs/the-journal/are-cremains-really-ashes-what-they-look-like-weigh-and-why"
+    ],
+    "images": [
+      {
+        "src": "/images/urn-niche-columbarium/urn.jpg",
+        "label": "Urn",
+        "alt": "A polished dark stone urn engraved with the name A.D.N. van Gendt, standing in a stone compartment",
+        "fit": "contain",
+        "credit": "DF Blom",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Adolf_Daniel_Nicolaas_van_Gendt_urn_te_Westerveld.JPG"
+      },
+      {
+        "src": "/images/urn-niche-columbarium/niche.jpg",
+        "label": "Niche",
+        "note": "One niche open, the rest sealed with plaques",
+        "alt": "A stone columbarium with a grid of compartments sealed by name plaques, one of them open",
+        "credit": "Ikar.us",
+        "license": "CC BY 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/de/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Ebingen_Friedhof_Urnennische.jpg"
+      },
+      {
+        "src": "/images/urn-niche-columbarium/columbarium.jpg",
+        "label": "Columbarium",
+        "note": "A wall made up of many niches",
+        "alt": "An outdoor brick wall made of many small compartments, each with a memorial plaque and flowers",
+        "credit": "Kerry",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Lawnton-columbarium-wall.JPG"
+      }
     ]
   },
   {
@@ -251,6 +357,50 @@
     "sources": [
       "https://www.ordnancesurvey.co.uk/blog/whats-the-difference-between-uk-britain-and-british-isles",
       "https://www.dictionary.com/articles/great-britain-vs-uk-vs-england"
+    ],
+    "images": [
+      {
+        "src": "/images/england-britain-uk-british-isles/england.png",
+        "label": "England",
+        "note": "One part of one island",
+        "alt": "Map of Great Britain and Ireland with England shaded red",
+        "fit": "contain",
+        "credit": "Cnbrb",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:British_Isles_England.svg"
+      },
+      {
+        "src": "/images/england-britain-uk-british-isles/great-britain.png",
+        "label": "Great Britain",
+        "note": "Northern Ireland, light green, is left out",
+        "alt": "Map with England, Scotland and Wales in dark green and Northern Ireland in light green, with a zoomed-out view of Europe",
+        "fit": "contain",
+        "credit": "Rob984, from maps by Alphathon and maix",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:England,_Scotland_and_Wales_within_the_UK_and_Europe.svg"
+      },
+      {
+        "src": "/images/england-britain-uk-british-isles/united-kingdom.png",
+        "label": "United Kingdom",
+        "note": "Adds Northern Ireland",
+        "alt": "Map of Great Britain and Ireland with the United Kingdom shaded red, including Northern Ireland but not the rest of Ireland",
+        "fit": "contain",
+        "credit": "Georgezh9617",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:United_Kingdom_in_the_British_Isles_(Fix_Rathlin_Island).svg"
+      },
+      {
+        "src": "/images/england-britain-uk-british-isles/british-isles.png",
+        "label": "British Isles",
+        "note": "All of Ireland too",
+        "alt": "Map with Great Britain, all of Ireland and the smaller nearby islands all shaded red",
+        "fit": "contain",
+        "credit": "Cnbrb",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:British_Isles_all.svg"
+      }
     ]
   },
   {
@@ -269,6 +419,30 @@
       "https://en.wikipedia.org/wiki/Holland",
       "https://en.wikipedia.org/wiki/Netherlands",
       "https://qz.com/1776078/why-the-netherlands-is-ditching-holland-as-its-nickname"
+    ],
+    "images": [
+      {
+        "src": "/images/holland-netherlands/north-holland.png",
+        "label": "North Holland",
+        "note": "Northern part of Holland, in red",
+        "alt": "Map of the Netherlands with the province of North Holland shaded red",
+        "fit": "contain",
+        "credit": "NordNordWest",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Noord-Holland_in_the_Netherlands_2019.svg"
+      },
+      {
+        "src": "/images/holland-netherlands/south-holland.png",
+        "label": "South Holland",
+        "note": "Southern part of Holland, in red",
+        "alt": "Map of the Netherlands with the province of South Holland shaded red",
+        "fit": "contain",
+        "credit": "NordNordWest",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Zuid-Holland_in_the_Netherlands_2019.svg"
+      }
     ]
   },
   {
@@ -357,6 +531,29 @@
       "https://en.wikipedia.org/wiki/Scandinavia",
       "https://www.britannica.com/place/Nordic-countries",
       "https://en.wikipedia.org/wiki/Nordic_countries"
+    ],
+    "images": [
+      {
+        "src": "/images/scandinavia-nordic/scandinavia.png",
+        "label": "Scandinavia",
+        "note": "Red: Denmark, Norway and Sweden",
+        "alt": "Map of northern Europe with Denmark, Norway and Sweden in red, and Finland and Iceland in orange as a wider use of the name",
+        "fit": "contain",
+        "credit": "DemonDays64",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Map_of_Scandinavia.svg"
+      },
+      {
+        "src": "/images/scandinavia-nordic/nordic-countries.png",
+        "label": "Nordic countries",
+        "note": "Adds Finland, Iceland and Greenland",
+        "alt": "Globe view with the Nordic countries in green: Denmark, Norway, Sweden, Finland, Iceland, Greenland and the Faroe Islands",
+        "fit": "contain",
+        "credit": "Alphathon, from a map by Rob984 and others",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Nordic_countries_orthographic.svg"
+      }
     ]
   }
 ]

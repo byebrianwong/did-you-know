@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" font-family="-apple-system, system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<rect width="400" height="300" fill="#fff"/>
+<circle cx="200" cy="150" r="135" fill="#f4ede3" stroke="#d9cfc1" stroke-width="2"/>
+<circle cx="200" cy="150" r="100" fill="#fff" stroke="#d9cfc1" stroke-width="2"/>
+<circle cx="200" cy="150" r="65" fill="#f4ede3" stroke="#d9cfc1" stroke-width="2"/>
+<circle cx="200" cy="150" r="30" fill="#e8553d" stroke="#d9cfc1" stroke-width="2"/>
+<circle cx="188" cy="142" r="12" fill="#221d18" stroke="#fff" stroke-width="3"/>
+<circle cx="211" cy="138" r="12" fill="#221d18" stroke="#fff" stroke-width="3"/>
+<circle cx="196" cy="163" r="12" fill="#221d18" stroke="#fff" stroke-width="3"/>
+<circle cx="214" cy="157" r="12" fill="#221d18" stroke="#fff" stroke-width="3"/>
+<circle cx="185" cy="155" r="12" fill="#221d18" stroke="#fff" stroke-width="3"/>
+</svg>

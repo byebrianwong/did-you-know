@@ -25,6 +25,37 @@
       "https://medlineplus.gov/viralinfections.html",
       "https://www.cdc.gov/antibiotic-use/about/index.html",
       "https://wis-wander.weizmann.ac.il/node/7871"
+    ],
+    "images": [
+      {
+        "src": "/images/virus-bacteria/bacteria.jpg",
+        "label": "Bacteria (E. coli)",
+        "alt": "Rod-shaped E. coli bacteria seen through a scanning electron microscope",
+        "fit": "contain",
+        "credit": "NIAID",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:E._coli_Bacteria_(7316101966).jpg"
+      },
+      {
+        "src": "/images/virus-bacteria/virus.jpg",
+        "label": "Virus (influenza A)",
+        "alt": "Rounded, irregular influenza A virus particles seen through a transmission electron microscope",
+        "fit": "contain",
+        "credit": "CDC / Dr. Erskine Palmer",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Influenza_A_-_late_passage.jpg"
+      },
+      {
+        "src": "/images/virus-bacteria/phage.jpg",
+        "label": "Viruses attacking a bacterium",
+        "note": "Small particles on the cell edge are viruses",
+        "alt": "Bacteriophage viruses attached to a bacterial cell wall, seen through a transmission electron microscope",
+        "fit": "contain",
+        "credit": "Professor Graham Beards",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Phage.jpg"
+      }
     ]
   },
   {
@@ -157,6 +188,18 @@
       "https://my.clevelandclinic.org/health/body/23173-cartilage",
       "https://my.clevelandclinic.org/health/body/21927-achilles-tendon",
       "https://www.niams.nih.gov/health-topics/sprains-and-strains"
+    ],
+    "images": [
+      {
+        "src": "/images/tendon-ligament-cartilage/knee.png",
+        "label": "Tendon, ligaments and cartilage in a knee",
+        "note": "Quadriceps tendon joins muscle to kneecap",
+        "alt": "Labelled diagram of a right knee showing the quadriceps tendon, the cruciate and collateral ligaments, the articular cartilage and the meniscus",
+        "fit": "contain",
+        "credit": "Mysid",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Knee_diagram.svg"
+      }
     ]
   },
   {
@@ -185,6 +228,19 @@
       "https://my.clevelandclinic.org/health/body/21486-pulmonary-arteries",
       "https://health.clevelandclinic.org/what-color-is-blood",
       "https://www.mcgill.ca/oss/article/did-you-know/snails-spiders-and-octupi-all-have-blue-blood"
+    ],
+    "images": [
+      {
+        "src": "/images/artery-vein/artery-and-vein.jpg",
+        "label": "Artery and vein",
+        "note": "Bottom photo: the artery's wall is thicker",
+        "alt": "Labelled diagrams of an artery wall and a vein wall, above a stained micrograph of an artery and a vein cut in cross-section",
+        "fit": "contain",
+        "credit": "OpenStax College",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:2102_Comparison_of_Artery_and_Vein.jpg"
+      }
     ]
   },
   {
@@ -288,6 +344,35 @@
     "sources": [
       "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson1/section11.html",
       "https://www.who.int/news-room/fact-sheets/detail/malaria"
+    ],
+    "images": [
+      {
+        "src": "/images/endemic-epidemic-pandemic/endemic.svg",
+        "label": "Endemic",
+        "note": "Always there, at the expected level",
+        "alt": "Example chart: cases stay close to a dashed expected level the whole time, rising and falling only slightly",
+        "fit": "contain",
+        "credit": "Diagram drawn for this app",
+        "source": "https://github.com/byebrianwong/did-you-know/blob/main/scripts/make-diagrams.mjs"
+      },
+      {
+        "src": "/images/endemic-epidemic-pandemic/epidemic.svg",
+        "label": "Epidemic",
+        "note": "Cases jump above the expected level",
+        "alt": "Example chart: cases sit at the expected level, then rise sharply far above it and fall back",
+        "fit": "contain",
+        "credit": "Diagram drawn for this app",
+        "source": "https://github.com/byebrianwong/did-you-know/blob/main/scripts/make-diagrams.mjs"
+      },
+      {
+        "src": "/images/endemic-epidemic-pandemic/pandemic.svg",
+        "label": "Pandemic",
+        "note": "Epidemics in many countries; each line is one",
+        "alt": "Example chart: three lines, one per country, each rising far above the expected level one after another",
+        "fit": "contain",
+        "credit": "Diagram drawn for this app",
+        "source": "https://github.com/byebrianwong/did-you-know/blob/main/scripts/make-diagrams.mjs"
+      }
     ]
   },
   {
@@ -314,6 +399,26 @@
     "sources": [
       "https://www.nist.gov/pml/owm/si-units-mass",
       "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/weight-equation-2/"
+    ],
+    "images": [
+      {
+        "src": "/images/weight-mass/earth.svg",
+        "label": "On Earth",
+        "note": "Mass 60 kg, weight 589 newtons",
+        "alt": "A box labelled 60 kg with a long arrow pointing down labelled weight 589 N. Earth gravity is 9.81 metres per second squared.",
+        "fit": "contain",
+        "credit": "Diagram drawn for this app",
+        "source": "https://github.com/byebrianwong/did-you-know/blob/main/scripts/make-diagrams.mjs"
+      },
+      {
+        "src": "/images/weight-mass/moon.svg",
+        "label": "On the Moon",
+        "note": "Same mass, about one-sixth the weight",
+        "alt": "The same 60 kg box with a short arrow pointing down labelled weight 97 N, about one-sixth as long as on Earth. Moon gravity is 1.62 metres per second squared.",
+        "fit": "contain",
+        "credit": "Diagram drawn for this app",
+        "source": "https://github.com/byebrianwong/did-you-know/blob/main/scripts/make-diagrams.mjs"
+      }
     ]
   },
   {
@@ -396,7 +501,7 @@
     "category": "Science & Tech",
     "title": "AC vs. DC",
     "question": "Why does your wall outlet give a different kind of electricity than a battery?",
-    "answer": "A battery gives direct current (DC), which flows in one direction. A wall outlet gives alternating current (AC), which reverses direction many times a second: 60 times in the US and 50 in much of the world. The grid uses AC because its voltage is easy to raise and lower with transformers.",
+    "answer": "A battery gives direct current (DC), which flows in one direction. A wall outlet gives alternating current (AC), which switches direction back and forth many times a second. It makes 60 full back-and-forth cycles a second in the US (60 Hz) and 50 in much of the world (50 Hz). The grid uses AC because its voltage is easy to raise and lower with transformers.",
     "details": [
       {
         "term": "DC (direct current)",
@@ -415,6 +520,26 @@
     "sources": [
       "https://www.energy.gov/articles/war-currents-ac-vs-dc-power",
       "https://spectrum.ieee.org/why-does-the-world-harbor-so-many-different-voltages-plugs-and-sockets"
+    ],
+    "images": [
+      {
+        "src": "/images/ac-dc/dc.svg",
+        "label": "DC (direct current)",
+        "note": "Steady, always the same direction",
+        "alt": "Graph of current over time: a flat line above zero, so the current never changes direction",
+        "fit": "contain",
+        "credit": "Diagram drawn for this app",
+        "source": "https://github.com/byebrianwong/did-you-know/blob/main/scripts/make-diagrams.mjs"
+      },
+      {
+        "src": "/images/ac-dc/ac.svg",
+        "label": "AC (alternating current)",
+        "note": "At 60 Hz: 3 full cycles in 1/20 of a second",
+        "alt": "Graph of current over 1/20 of a second: a wave that swings above and below zero three times, so the current keeps reversing",
+        "fit": "contain",
+        "credit": "Diagram drawn for this app",
+        "source": "https://github.com/byebrianwong/did-you-know/blob/main/scripts/make-diagrams.mjs"
+      }
     ]
   },
   {
@@ -471,6 +596,27 @@
     "bonus": "This is why unsaved work disappears when a computer crashes or loses power. It existed only in RAM. Pressing 'save' copies it to storage.",
     "sources": [
       "https://www.intel.com/content/www/us/en/tech-tips-and-tricks/computer-ram.html"
+    ],
+    "images": [
+      {
+        "src": "/images/ram-storage/ram.jpg",
+        "label": "RAM",
+        "alt": "A DDR4 RAM module: a long, thin circuit board under a red metal cover, with gold contacts along the bottom edge",
+        "fit": "contain",
+        "credit": "ElooKoN",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:RAM_Module_(SDRAM-DDR4).jpg"
+      },
+      {
+        "src": "/images/ram-storage/storage.jpg",
+        "label": "Storage (SSD)",
+        "alt": "The top of a Samsung solid-state drive, a flat rectangular case labelled Solid State Drive",
+        "credit": "PantheraLeo1359531",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Samsung_870_QVO_8TB_SATA_2,5_Zoll_Internes_Solid_State_Drive_(SSD)_(MZ-77Q8T0BW)_20211008_SSD023_corr.png"
+      }
     ]
   },
   {
@@ -519,6 +665,44 @@
     "sources": [
       "https://bio.libretexts.org/Courses/Irvine_Valley_College/Biotechnology_Techniques:_From_Theory_to_Practice_(BIOT173_at_IVC)/05:_Lab_Technician's_Guide_to_Accuracy_Precision_and_Reliability",
       "https://www.iso.org/standard/69418.html"
+    ],
+    "images": [
+      {
+        "src": "/images/accuracy-precision/accurate-and-precise.svg",
+        "label": "Accurate and precise",
+        "note": "Close together, on the bullseye",
+        "alt": "A target with five darts grouped tightly on the bullseye",
+        "fit": "contain",
+        "credit": "Diagram drawn for this app",
+        "source": "https://github.com/byebrianwong/did-you-know/blob/main/scripts/make-diagrams.mjs"
+      },
+      {
+        "src": "/images/accuracy-precision/precise-not-accurate.svg",
+        "label": "Precise, not accurate",
+        "note": "Like a scale that always reads 2 kg heavy",
+        "alt": "A target with five darts grouped tightly together, but up and to the right of the bullseye",
+        "fit": "contain",
+        "credit": "Diagram drawn for this app",
+        "source": "https://github.com/byebrianwong/did-you-know/blob/main/scripts/make-diagrams.mjs"
+      },
+      {
+        "src": "/images/accuracy-precision/accurate-not-precise.svg",
+        "label": "Accurate, not precise",
+        "note": "Scattered, but centred on the bullseye",
+        "alt": "A target with five darts scattered all around, spread evenly around the bullseye",
+        "fit": "contain",
+        "credit": "Diagram drawn for this app",
+        "source": "https://github.com/byebrianwong/did-you-know/blob/main/scripts/make-diagrams.mjs"
+      },
+      {
+        "src": "/images/accuracy-precision/neither.svg",
+        "label": "Neither",
+        "note": "Scattered and off to one side",
+        "alt": "A target with five darts scattered over the upper right, away from the bullseye",
+        "fit": "contain",
+        "credit": "Diagram drawn for this app",
+        "source": "https://github.com/byebrianwong/did-you-know/blob/main/scripts/make-diagrams.mjs"
+      }
     ]
   },
   {
@@ -546,6 +730,18 @@
       "https://www.nist.gov/pml/owm/metric-si/unit-conversion/approximate-conversions-us-customary-measures-metric",
       "https://www.nist.gov/document/nist-hb-44-2024-appendix-c-general-tables-units-measurement",
       "https://en.wikipedia.org/wiki/Tonnage"
+    ],
+    "images": [
+      {
+        "src": "/images/ton-tonne/three-tons.svg",
+        "label": "The three tons, to scale",
+        "note": "Bars start at zero; dashed line is 1,000 kg",
+        "alt": "Three bars drawn to scale: short ton 2,000 lb or 907 kg, tonne 2,205 lb or 1,000 kg, long ton 2,240 lb or 1,016 kg. The tonne and long ton are almost the same length; the short ton is about 10% shorter.",
+        "fit": "contain",
+        "wide": true,
+        "credit": "Diagram drawn for this app",
+        "source": "https://github.com/byebrianwong/did-you-know/blob/main/scripts/make-diagrams.mjs"
+      }
     ]
   }
 ]

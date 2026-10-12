@@ -24,6 +24,25 @@
       "https://www.guinnessworldrecords.com/world-records/78143-mammal-with-the-most-names",
       "https://mdc.mo.gov/wildlife/report-wildlife-sightings/mountain-lion-reports/mountain-lion-facts",
       "https://panthera.org/blog-post/florida-panther"
+    ],
+    "images": [
+      {
+        "src": "/images/cougar-puma-mountain-lion-panther/cougar.jpg",
+        "label": "Cougar (puma, mountain lion)",
+        "alt": "A cougar walking over rocks toward the camera, against a blue sky, in Glacier National Park",
+        "credit": "National Park Service",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Mountain_Lion_in_Glacier_National_Park.jpg"
+      },
+      {
+        "src": "/images/cougar-puma-mountain-lion-panther/black-leopard.jpg",
+        "label": "Black leopard ('black panther')",
+        "alt": "A black leopard standing on a tree branch in a forest in India",
+        "credit": "Davidvraju",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Black_Panther_-_India.jpg"
+      }
     ]
   },
   {
@@ -55,6 +74,47 @@
       "https://hub.four-paws.org/en-za/publications-guides/exclusive-za/jaguar-versus-leopard-spots-heads-and-more",
       "https://nationalzoo.si.edu/node/10504",
       "https://www.discoverwildlife.com/animal-facts/mammals/which-big-cat-has-the-strongest-bite"
+    ],
+    "images": [
+      {
+        "src": "/images/leopard-jaguar-cheetah/jaguar.jpg",
+        "label": "Jaguar",
+        "note": "Stocky, broad head",
+        "alt": "A jaguar crouching in grass, facing the camera, with large rosettes on its coat",
+        "credit": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Jaguar_(Panthera_onca_palustris)_female_Piquiri_River_2.JPG"
+      },
+      {
+        "src": "/images/leopard-jaguar-cheetah/leopard.jpg",
+        "label": "Leopard",
+        "note": "Small, tightly packed rosettes",
+        "alt": "A male leopard lying on a tree branch in the Maasai Mara, Kenya",
+        "credit": "Sumeet Moghe",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:African_leopard_male_(cropped).jpg"
+      },
+      {
+        "src": "/images/leopard-jaguar-cheetah/cheetah.jpg",
+        "label": "Cheetah",
+        "note": "Solid round spots, no rosettes",
+        "alt": "A cheetah standing on sandy ground in South Africa, looking to the right",
+        "credit": "AfricanConservation",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Male_cheetah_facing_left_in_South_Africa.jpg"
+      },
+      {
+        "src": "/images/leopard-jaguar-cheetah/black-panther.jpg",
+        "label": "Black panther (black leopard)",
+        "alt": "A black leopard standing on a tree branch in a forest in India",
+        "credit": "Davidvraju",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Black_Panther_-_India.jpg"
+      }
     ]
   },
   {
@@ -82,6 +142,37 @@
       "https://www.pbs.org/wnet/nature/blog/alligator-vs-crocodile-whats-the-difference",
       "https://www.discoverwildlife.com/animal-facts/reptiles/crocodile-vs-alligator",
       "https://www.worldatlas.com/articles/what-are-the-differences-between-a-caiman-and-an-alligator.html"
+    ],
+    "images": [
+      {
+        "src": "/images/alligator-crocodile-caiman/alligator.jpg",
+        "label": "American alligator",
+        "note": "Dark color, broad snout",
+        "alt": "A dark American alligator resting on a log in the Okefenokee Swamp, Georgia",
+        "credit": "Leafyplant",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:AlligatorFL2007.JPG"
+      },
+      {
+        "src": "/images/alligator-crocodile-caiman/crocodile.jpg",
+        "label": "American crocodile",
+        "note": "Teeth show with mouth shut",
+        "alt": "An American crocodile resting in shallow water in Jalisco, Mexico, with teeth showing along its closed jaw",
+        "credit": "Tomás Castelazo",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "source": "https://commons.wikimedia.org/wiki/File:Crocodylus_acutus_mexico_02-edit1.jpg"
+      },
+      {
+        "src": "/images/alligator-crocodile-caiman/caiman.jpg",
+        "label": "Spectacled caiman",
+        "alt": "A spectacled caiman standing on a muddy riverbank in Venezuela",
+        "credit": "Berrucomons",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Caiman_crocodilus_llanos.JPG"
+      }
     ]
   },
   {
@@ -108,6 +199,28 @@
     "sources": [
       "https://www.psu.edu/news/research/story/probing-question-whats-difference-between-frogs-and-toads",
       "https://sciencenotes.org/frogs-vs-toads-what-is-the-difference-between-frogs-and-toads/"
+    ],
+    "images": [
+      {
+        "src": "/images/frog-toad/frog.jpg",
+        "label": "Common frog",
+        "note": "Smooth skin, long back legs",
+        "alt": "A brown common frog sitting on a log, seen from the side",
+        "credit": "Richard Bartz",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "source": "https://commons.wikimedia.org/wiki/File:European_Common_Frog_Rana_temporaria.jpg"
+      },
+      {
+        "src": "/images/frog-toad/toad.jpg",
+        "label": "Common toad",
+        "note": "Dry, bumpy skin",
+        "alt": "A dark brown common toad walking over leaf litter in a forest in Poland",
+        "credit": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Common_toad_(Bufo_bufo)_Kampinos.jpg"
+      }
     ]
   },
   {
@@ -134,6 +247,35 @@
     "sources": [
       "https://www.nationalgeographic.com/animals/article/141219-rabbits-hares-animals-science-mating-courtship",
       "https://modernfarmer.com/2017/03/five-differences-rabbits-hares/"
+    ],
+    "images": [
+      {
+        "src": "/images/rabbit-hare/rabbit.jpg",
+        "label": "European rabbit",
+        "alt": "A wild grey-brown European rabbit sitting on grass on Skomer Island, Wales, facing left",
+        "credit": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Rabbit_(Oryctolagus_cuniculus)_Skomer.jpg"
+      },
+      {
+        "src": "/images/rabbit-hare/hare.jpg",
+        "label": "European hare",
+        "alt": "A brown European hare sitting on grass, facing left, with long upright ears",
+        "credit": "Nagusb",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:European_hare_(_Lepus_europaeus).jpg"
+      },
+      {
+        "src": "/images/rabbit-hare/jackrabbit.jpg",
+        "label": "Black-tailed jackrabbit (a hare)",
+        "alt": "A black-tailed jackrabbit sitting on grass in Texas, with very long upright ears",
+        "credit": "Chuck Homler",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Black-tailed_Jack_Rabbit_(Lepus_californicus).jpg"
+      }
     ]
   },
   {
@@ -161,6 +303,36 @@
       "https://www.mentalfloss.com/animals/reptiles/whats-difference-between-turtle-and-tortoise",
       "https://www.dictionary.com/e/?p=174973",
       "https://www.pbspettravel.co.uk/blog/what-is-the-difference-between-terrapins-and-turtles/"
+    ],
+    "images": [
+      {
+        "src": "/images/turtle-tortoise-terrapin/turtle.jpg",
+        "label": "Green sea turtle",
+        "note": "Flatter shell and flippers",
+        "alt": "A green sea turtle swimming over a sandy sea floor, seen from above",
+        "credit": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Green_sea_turtle_(Chelonia_mydas)_Moorea.jpg"
+      },
+      {
+        "src": "/images/turtle-tortoise-terrapin/tortoise.jpg",
+        "label": "Galápagos giant tortoise",
+        "note": "High domed shell, thick legs",
+        "alt": "A Galápagos giant tortoise walking on dry ground, with a high domed shell and thick legs",
+        "credit": "Matthew Field",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Galapagos_giant_tortoise_Geochelone_elephantopus.jpg"
+      },
+      {
+        "src": "/images/turtle-tortoise-terrapin/terrapin.jpg",
+        "label": "Diamondback terrapin",
+        "alt": "A diamondback terrapin walking on grass, with ringed patterns on its shell and a spotted grey head",
+        "credit": "Ryan Hagerty",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Diamond_terrapin_turtle_reptile_malaclemys_terrapin.jpg"
+      }
     ]
   },
   {
@@ -187,6 +359,28 @@
     "sources": [
       "https://australian.museum/learn/animals/insects/what-are-the-differences-between-butterflies-and-moths/",
       "https://en.wikipedia.org/wiki/Comparison_of_butterflies_and_moths"
+    ],
+    "images": [
+      {
+        "src": "/images/moth-butterfly/moth.jpg",
+        "label": "Small emperor moth",
+        "note": "Feathery antennae, wings flat",
+        "alt": "A male small emperor moth resting on a twig with its wings spread flat, showing eyespots and feathery antennae",
+        "credit": "jean-pierre Hamon",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:20_petit_paon_de_nuit.jpg"
+      },
+      {
+        "src": "/images/moth-butterfly/butterfly.jpg",
+        "label": "Common brimstone butterfly",
+        "note": "Clubbed antennae, wings held upright",
+        "alt": "A pale green-yellow brimstone butterfly feeding on a purple thistle flower, with its wings closed upright",
+        "credit": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Common_brimstone_butterfly_(Gonepteryx_rhamni)_male.jpg"
+      }
     ]
   },
   {
@@ -214,6 +408,27 @@
       "https://oceanservice.noaa.gov/facts/dolphin_porpoise.html",
       "https://www.fisheries.noaa.gov/feature-story/it-dolphin-or-porpoise",
       "https://www.fisheries.noaa.gov/species/killer-whale"
+    ],
+    "images": [
+      {
+        "src": "/images/dolphin-porpoise/dolphin.jpg",
+        "label": "Bottlenose dolphin",
+        "note": "Long beak, curved dorsal fin",
+        "alt": "A bottlenose dolphin leaping through the wake of a boat in Florida",
+        "credit": "NASA",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Tursiops_truncatus_01.jpg"
+      },
+      {
+        "src": "/images/dolphin-porpoise/porpoise.jpg",
+        "label": "Harbour porpoise",
+        "note": "Short rounded face, triangular fin",
+        "alt": "A harbour porpoise swimming just under the surface of green water, seen from above",
+        "credit": "Erik Christensen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Phocoena_phocoena.2.jpg"
+      }
     ]
   },
   {
@@ -241,6 +456,38 @@
       "https://oceanservice.noaa.gov/facts/seal-sealion.html",
       "https://www.fisheries.noaa.gov/seals-sea-lions",
       "https://seaworld.org/animals/all-about/walrus/characteristics/"
+    ],
+    "images": [
+      {
+        "src": "/images/seal-sea-lion-walrus/sea-lion.jpg",
+        "label": "California sea lion",
+        "note": "Small ear flap, upright on front flippers",
+        "alt": "A dark brown California sea lion sitting upright on a dock in Monterey, propped on its front flippers",
+        "credit": "Jonathan Eisen",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:California_Sea_Lion,_Monterey,_California,_United_States_imported_from_iNaturalist_photo_203598492.jpg"
+      },
+      {
+        "src": "/images/seal-sea-lion-walrus/seal.jpg",
+        "label": "Harbour seal",
+        "note": "Lies on its belly, short front flippers",
+        "alt": "A spotted grey harbour seal lying on its belly on a mossy rock in Scotland",
+        "credit": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Common_seal_(Phoca_vitulina)_2.jpg"
+      },
+      {
+        "src": "/images/seal-sea-lion-walrus/walrus.jpg",
+        "label": "Walrus",
+        "note": "Long tusks",
+        "alt": "A walrus with two long white tusks lying on a gravel beach in the Russian Arctic",
+        "credit": "Nixette",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Walrus_in_the_Russian_Arctic_National_Park,_Novaya_Zemlya_2015-2.jpg"
+      }
     ]
   },
   {
@@ -268,6 +515,36 @@
       "https://www.nhm.ac.uk/discover/bite-or-be-bitten.html",
       "https://australian.museum/blog-archive/at-the-museum/venomous-vs-poisonous/",
       "https://www.sciencefocus.com/nature/what-is-the-difference-between-venomous-and-poisonous"
+    ],
+    "images": [
+      {
+        "src": "/images/venomous-poisonous/lionfish.jpg",
+        "label": "Red lionfish (venomous)",
+        "note": "Long venomous spines",
+        "alt": "A red lionfish with long striped fin spines swimming above a coral reef in Indonesia",
+        "credit": "Alexander Vasenin",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Red_lionfish_near_Gilli_Banta_Island.JPG"
+      },
+      {
+        "src": "/images/venomous-poisonous/poison-dart-frog.jpg",
+        "label": "Strawberry poison dart frog (poisonous)",
+        "alt": "A small bright red poison dart frog with blue legs sitting on a leaf in Costa Rica",
+        "credit": "Rhododendrites",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Strawberry_poison_dart_frog_(70539).jpg"
+      },
+      {
+        "src": "/images/venomous-poisonous/blue-ringed-octopus.jpg",
+        "label": "Greater blue-ringed octopus (both)",
+        "alt": "A greater blue-ringed octopus on a reef, its pale body covered in blue rings",
+        "credit": "Jens Petersen",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "source": "https://commons.wikimedia.org/wiki/File:Hapalochlaena_lunulata2.JPG"
+      }
     ]
   },
   {
@@ -294,6 +571,36 @@
     "sources": [
       "https://wonderopolis.org/wonder/whats-the-difference-between-apes-and-monkeys",
       "https://www.discoverwildlife.com/animal-facts/monkey-vs-ape"
+    ],
+    "images": [
+      {
+        "src": "/images/monkey-ape/monkey.jpg",
+        "label": "Geoffroy's spider monkey",
+        "note": "Long tail curled around a branch",
+        "alt": "A black spider monkey sitting in a tree in Guatemala, its long tail curled around a branch",
+        "credit": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Geoffroy%27s_spider_monkey_(Ateles_geoffroyi_yucatanensis)_Peten_4.jpg"
+      },
+      {
+        "src": "/images/monkey-ape/ape.jpg",
+        "label": "Chimpanzee",
+        "alt": "An adult male chimpanzee sitting on the forest floor in Kibale National Park, Uganda",
+        "credit": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:013_Alpha_male_chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg"
+      },
+      {
+        "src": "/images/monkey-ape/barbary-macaque.jpg",
+        "label": "Barbary macaque",
+        "alt": "A Barbary macaque mother and baby sitting on a wooden rail in a grassy park",
+        "credit": "Vitold Muratov",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Macaca_sylvanus.Mother_and_baby.jpg"
+      }
     ]
   },
   {
@@ -325,6 +632,46 @@
       "https://extension.psu.edu/baldfaced-hornet",
       "https://uwm.edu/field-station/bug-of-the-week/bald-faced-hornet/",
       "https://sare.org/publications/managing-alternative-pollinators/chapter-three-a-brief-natural-history-of-bees"
+    ],
+    "images": [
+      {
+        "src": "/images/bee-wasp-hornet-yellowjacket/bee.jpg",
+        "label": "Western honey bee",
+        "note": "Fuzzy body, pollen on its leg",
+        "alt": "A hairy honey bee collecting pollen on a yellow flower, with an orange ball of pollen on its back leg",
+        "credit": "Andreas Trepte",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "source": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_Western_honey_bee.jpg"
+      },
+      {
+        "src": "/images/bee-wasp-hornet-yellowjacket/wasp.jpg",
+        "label": "European paper wasp",
+        "note": "Smooth, slim body, narrow waist",
+        "alt": "A slim black-and-yellow paper wasp resting on a green leaf, seen from above",
+        "credit": "Judy Gallagher",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:European_Paper_Wasp_-_Polistes_dominula,_Saanichton,_British_Columbia,_August_5,_2016_(53552917108).jpg"
+      },
+      {
+        "src": "/images/bee-wasp-hornet-yellowjacket/yellowjacket.jpg",
+        "label": "German yellowjacket",
+        "alt": "A black-and-yellow German yellowjacket standing on a leaf, seen from the side",
+        "credit": "Richard Bartz",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "source": "https://commons.wikimedia.org/wiki/File:Vespula_germanica_Horizontalview_Richard_Bartz.jpg"
+      },
+      {
+        "src": "/images/bee-wasp-hornet-yellowjacket/hornet.jpg",
+        "label": "European hornet",
+        "alt": "A large European hornet, reddish-brown with a yellow face, standing on a white surface",
+        "credit": "Bernie",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:AD2009Aug08_Vespa_crabro_05.jpg"
+      }
     ]
   },
   {
@@ -352,6 +699,36 @@
       "https://www.dictionary.com/articles/bison-vs-buffalo",
       "https://www.worldwildlife.org/resources/explainers/bison-vs-buffalo/",
       "https://www.gpo.gov/fdsys/pkg/PLAW-114publ152/html/PLAW-114publ152.htm"
+    ],
+    "images": [
+      {
+        "src": "/images/bison-buffalo/bison.jpg",
+        "label": "American bison",
+        "note": "Shoulder hump, beard, short horns",
+        "alt": "A male American bison standing in tall grass on a prairie",
+        "credit": "Jack Dykinga",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:American_bison_k5680-1.jpg"
+      },
+      {
+        "src": "/images/bison-buffalo/water-buffalo.jpg",
+        "label": "Water buffalo",
+        "note": "Long curved horns, no hump",
+        "alt": "A dark grey water buffalo with long curved horns standing in dry woodland on Rinca Island, Indonesia",
+        "credit": "Alexander Vasenin",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Water_buffalo_at_Rinca.jpg"
+      },
+      {
+        "src": "/images/bison-buffalo/cape-buffalo.jpg",
+        "label": "Cape buffalo",
+        "alt": "A male Cape buffalo walking through grass by a river in Botswana, with a white egret on its back",
+        "credit": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:African_buffalo_(Syncerus_caffer_caffer)_male_with_cattle_egret.jpg"
+      }
     ]
   },
   {
@@ -383,6 +760,33 @@
       "https://horses.extension.org/is-there-a-chance-that-a-mule-may-reproduce-if-bred/",
       "https://equinehelper.com/difference-between-mule-and-hinny/",
       "https://pubmed.ncbi.nlm.nih.gov/3378453/"
+    ],
+    "images": [
+      {
+        "src": "/images/donkey-mule-hinny/donkey.jpg",
+        "label": "Donkey",
+        "alt": "A grey-brown donkey grazing in a field in Devon, England, seen from the side",
+        "credit": "Adrian Pingstone",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Donkey_in_Clovelly,_North_Devon,_England.jpg"
+      },
+      {
+        "src": "/images/donkey-mule-hinny/mule.jpg",
+        "label": "Mules",
+        "alt": "A line of pack mules carrying loaded saddle bags, waiting on a forest track in California",
+        "credit": "Pacific Southwest Region 5",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Pack_Mules_Waiting_(15755930793).jpg"
+      },
+      {
+        "src": "/images/donkey-mule-hinny/hinny.jpg",
+        "label": "Hinny",
+        "alt": "An old grey-brown hinny standing in a dry winter field in Oklahoma",
+        "credit": "Ragesoss",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Old_hinny_in_Oklahoma.jpg"
+      }
     ]
   },
   {
@@ -410,6 +814,26 @@
       "https://uaf.edu/news/archives/news-archives-2002-2010/featured/04/reindeer/difference.php",
       "https://www.pbs.org/wnet/nature/blog/reindeer-fact-sheet",
       "https://www.mentalfloss.com/animals/reindeer-vs-caribou-difference"
+    ],
+    "images": [
+      {
+        "src": "/images/reindeer-caribou/reindeer.jpg",
+        "label": "Reindeer (herded)",
+        "note": "Herded, wearing a collar",
+        "alt": "A pale reindeer wearing a red collar walking along a road in snowy Finland",
+        "credit": "Ludovic Rivallain",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Rennes_d%27%C3%A9levage,_mais_en_libert%C3%A9,_pr%C3%A8s_de_Suomussalmi._-_panoramio.jpg"
+      },
+      {
+        "src": "/images/reindeer-caribou/caribou.jpg",
+        "label": "Caribou (wild)",
+        "alt": "A wild male caribou with large antlers grazing on tundra in Alaska, with mountains behind",
+        "credit": "Dean Biggins (U.S. Fish and Wildlife Service)",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Caribou.jpg"
+      }
     ]
   },
   {
@@ -437,6 +861,27 @@
       "https://www.discoverwildlife.com/animal-facts/mammals/moose-elk-difference",
       "https://www.countryfile.com/wildlife/mammals/moose-elk-difference",
       "https://www.dictionary.com/browse/wapiti"
+    ],
+    "images": [
+      {
+        "src": "/images/elk-moose/moose.jpg",
+        "label": "Moose (European 'elk')",
+        "note": "Broad, flat antlers, long muzzle",
+        "alt": "A bull moose with broad, flat antlers standing in tall autumn grass in Alaska",
+        "credit": "Paxson Woelber",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Alaska_moose.jpg"
+      },
+      {
+        "src": "/images/elk-moose/elk.jpg",
+        "label": "Elk (wapiti)",
+        "note": "Antlers branch like a tree",
+        "alt": "A bull elk with tall branching antlers standing in grass, seen from the side",
+        "credit": "MONGO",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Rocky_Mountain_Bull_Elk.jpg"
+      }
     ]
   },
   {
@@ -468,6 +913,36 @@
       "https://ocean.si.edu/ocean-life/invertebrates/cephalopods",
       "https://www.smithsonianmag.com/science-nature/fourteen-fun-facts-about-squid-octopuses-and-other-cephalopods-45444510/",
       "https://www.scienceabc.com/nature/animals/why-do-octopuses-have-three-hearts.html"
+    ],
+    "images": [
+      {
+        "src": "/images/octopus-squid-cuttlefish/octopus.jpg",
+        "label": "Common octopus",
+        "note": "Eight flexible arms",
+        "alt": "A common octopus crawling over the sea floor on its arms",
+        "credit": "albert kok",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Octopus2.jpg"
+      },
+      {
+        "src": "/images/octopus-squid-cuttlefish/squid.jpg",
+        "label": "Caribbean reef squid",
+        "alt": "A Caribbean reef squid swimming above the sea floor, its arms held together in a point",
+        "credit": "Nhobgood Nick Hobgood",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Sepioteuthis_sepioidea_(Caribbean_Reef_Squid).jpg"
+      },
+      {
+        "src": "/images/octopus-squid-cuttlefish/cuttlefish.jpg",
+        "label": "Common cuttlefish",
+        "alt": "A common cuttlefish swimming low over a rocky, weedy sea floor in Portugal",
+        "credit": "Diego Delso",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Sepia_com%C3%BAn_(Sepia_officinalis),_Parque_natural_de_la_Arr%C3%A1bida,_Portugal,_2020-07-21,_DD_62.jpg"
+      }
     ]
   },
   {
@@ -499,6 +974,27 @@
       "https://corvidresearch.blog/2020/04/16/the-definitive-guide-for-distinguishing-american-crows-common-ravens/",
       "https://birds.cornell.edu/k12/identifying-black-birds",
       "https://www.allaboutbirds.org/news/?p=17109"
+    ],
+    "images": [
+      {
+        "src": "/images/raven-crow/raven.jpg",
+        "label": "Common raven",
+        "note": "Shaggy throat feathers",
+        "alt": "A common raven calling with its beak open, standing on grass in California",
+        "credit": "Frank Schulenburg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Corvus_corax_clarionensis,_Point_Reyes_National_Seashore.jpg"
+      },
+      {
+        "src": "/images/raven-crow/crow.jpg",
+        "label": "American crow",
+        "alt": "An American crow standing on sandy ground, seen from the side",
+        "credit": "Unknown",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Corvus-brachyrhynchos-001.jpg"
+      }
     ]
   },
   {
@@ -526,6 +1022,28 @@
       "https://pmc.ncbi.nlm.nih.gov/articles/PMC1088918",
       "https://modernfarmer.com/2015/09/difference-between-llama-and-alpaca/",
       "https://www.farmbrite.com/amp/7-differences-between-llamas-and-alpacas"
+    ],
+    "images": [
+      {
+        "src": "/images/llama-alpaca/llama.jpg",
+        "label": "Llama",
+        "note": "Long, curved, banana-shaped ears",
+        "alt": "The head and neck of a white and brown llama in front of the ruins of Machu Picchu, Peru",
+        "credit": "Alexandre Buisse (Nattfodd)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Llama_on_Machu_Picchu.jpg"
+      },
+      {
+        "src": "/images/llama-alpaca/alpaca.jpg",
+        "label": "Alpaca",
+        "note": "Short ears, blunt face",
+        "alt": "Close-up of the head of a grey and white alpaca, seen from the side, with its short ears laid back",
+        "credit": "H. Zell",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Vicugna_pacos_-_Karlsruhe_Zoo_01.jpg"
+      }
     ]
   },
   {
@@ -553,6 +1071,46 @@
       "https://www.amnh.org/explore/news-blogs/mammoth-mastodon-differences",
       "https://story.illinoisstatemuseum.org/node/152",
       "https://zmescience.com/feature-post/the-difference-between-mammoths-and-mastodons"
+    ],
+    "images": [
+      {
+        "src": "/images/mammoth-mastodon/mastodon-skeleton.jpg",
+        "label": "American mastodon skeleton",
+        "alt": "A mounted fossil skeleton of an American mastodon in the American Museum of Natural History, New York",
+        "credit": "AbstractionBlue",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Mastodon_AMNH_9951.jpg"
+      },
+      {
+        "src": "/images/mammoth-mastodon/mammoth-skeleton.jpg",
+        "label": "Woolly mammoth skeleton",
+        "note": "Domed skull, strongly curved tusks",
+        "alt": "A mounted woolly mammoth skeleton with long curved tusks in the mammoth museum at Siegsdorf, Germany",
+        "credit": "Lou.gruber",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Siegsdorfer_Mammut.jpg"
+      },
+      {
+        "src": "/images/mammoth-mastodon/mastodon-molar.jpg",
+        "label": "Mastodon molar",
+        "note": "Cone-shaped bumps",
+        "alt": "A fossil American mastodon molar in a museum case, with rows of rounded, cone-shaped bumps on its chewing surface",
+        "credit": "JJonahJackalope",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Mastodon_tooth,_Tellus_Science_Museum_2.jpg"
+      },
+      {
+        "src": "/images/mammoth-mastodon/mammoth-molar.jpg",
+        "label": "Mammoth molar",
+        "note": "Flat ridges, like a washboard",
+        "alt": "The chewing surface of a fossil mammoth molar, crossed by many thin, flat ridges",
+        "credit": "James St. John",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Mammoth_fossil_tooth_-_Pleistocene,_USA_-_23202566565.jpg"
+      }
     ]
   },
   {
@@ -584,6 +1142,45 @@
       "https://www.amnh.org/learn-teach/curriculum-collections/dinosaurs-activities-and-lesson-plans/what-makes-a-dinosaur-a-dinosaur",
       "https://www.amnh.org/explore/videos/dinosaurs-and-fossils/why-isn-t-pterodactyl-a-dinosaur",
       "https://www.snexplores.org/article/lets-learn-about-dinosaur-relatives-pterosaurs-batrachopus-ichthyosaurs-mesozoic-reptiles"
+    ],
+    "images": [
+      {
+        "src": "/images/dinosaur-pterosaur-marine-reptile/dinosaur.jpg",
+        "label": "Tyrannosaurus rex skeleton (a dinosaur)",
+        "note": "Legs held straight under the body",
+        "alt": "The mounted fossil skeleton of Tyrannosaurus rex at the Carnegie Museum of Natural History, Pittsburgh",
+        "credit": "ScottRobertAnselmo",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Tyrannosaurus_Rex_Holotype.jpg"
+      },
+      {
+        "src": "/images/dinosaur-pterosaur-marine-reptile/pterosaur.jpg",
+        "label": "Pterodactylus fossil (a pterosaur)",
+        "alt": "A complete fossil skeleton of Pterodactylus pressed flat in a slab of pale limestone",
+        "credit": "Dean Falk Schnabel",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Holotype_Specimen_of_Pterodactylus_antiquus.jpg"
+      },
+      {
+        "src": "/images/dinosaur-pterosaur-marine-reptile/plesiosaur.jpg",
+        "label": "Plesiosaur skeleton (a marine reptile)",
+        "alt": "A plesiosaur skeleton with a long neck and four paddle-shaped flippers, hanging in a dark museum hall in Houston",
+        "credit": "Kim Alaniz",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Paleo_Hall_at_HMNS_plesiosaur.jpg"
+      },
+      {
+        "src": "/images/dinosaur-pterosaur-marine-reptile/pigeon.jpg",
+        "label": "Rock dove (a bird, so a dinosaur)",
+        "alt": "A grey rock dove with a green and purple neck standing on a rock ledge in Scotland",
+        "credit": "william_stephens",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Columba_livia_(Rock_Dove,_wild),_Duncansby_Head,_Caithness,_Scotland_1.jpg"
+      }
     ]
   }
 ]

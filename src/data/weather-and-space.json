@@ -28,6 +28,35 @@
       "https://oceanservice.noaa.gov/facts/cyclone.html",
       "https://gpm.nasa.gov/resources/faq/what-difference-between-tornado-and-hurricane",
       "https://www.foxweather.com/weather-news/hurricane-dora-wildfires-high-surf-hawaii"
+    ],
+    "images": [
+      {
+        "src": "/images/tornado-hurricane-typhoon-cyclone/hurricane.jpg",
+        "label": "Hurricane",
+        "alt": "Satellite view of Hurricane Katrina over the Gulf of Mexico, a huge spiral of cloud with a clear eye in the middle",
+        "fit": "contain",
+        "credit": "NASA",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Katrina_2005-08-28_1700Z.jpg"
+      },
+      {
+        "src": "/images/tornado-hurricane-typhoon-cyclone/typhoon.jpg",
+        "label": "Typhoon",
+        "alt": "Satellite view of Typhoon Haiyan over the western Pacific Ocean, a huge spiral of cloud with a clear eye",
+        "fit": "contain",
+        "credit": "NASA",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Haiyan_2013-11-07_0425Z.jpg"
+      },
+      {
+        "src": "/images/tornado-hurricane-typhoon-cyclone/tornado.jpg",
+        "label": "Tornado",
+        "alt": "A tornado funnel reaching down from a dark cloud to flat farmland in Manitoba",
+        "credit": "Justin Hobson",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:F5_tornado_Elie_Manitoba_2007.jpg"
+      }
     ]
   },
   {
@@ -76,6 +105,26 @@
     "sources": [
       "https://science.nasa.gov/solar-system/meteors-meteorites/facts/",
       "https://www.planetary.org/articles/asteroids-vs-comets-vs-meteorites-meteoroids-meteors"
+    ],
+    "images": [
+      {
+        "src": "/images/meteoroid-meteor-meteorite/meteor.jpg",
+        "label": "Meteor",
+        "alt": "A bright streak of light from a meteor across a starry night sky",
+        "credit": "Navicore",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Leonid_Meteor.jpg"
+      },
+      {
+        "src": "/images/meteoroid-meteor-meteorite/meteorite.jpg",
+        "label": "Meteorite",
+        "alt": "The Willamette Meteorite, a huge, pitted lump of iron, on display in a museum",
+        "credit": "Dante Alighieri",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Willamette_Meteorite_AMNH.jpg"
+      }
     ]
   },
   {
@@ -103,6 +152,35 @@
       "https://science.nasa.gov/solar-system/asteroids/facts/",
       "https://science.nasa.gov/solar-system/comets/facts/",
       "https://www.planetary.org/articles/asteroids-vs-comets-vs-meteorites-meteoroids-meteors"
+    ],
+    "images": [
+      {
+        "src": "/images/asteroid-comet/asteroid.jpg",
+        "label": "Asteroid",
+        "alt": "Asteroid Eros photographed by the NEAR Shoemaker spacecraft, a long, cratered, rocky body",
+        "credit": "NASA/JPL/JHUAPL",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Eros_-_PIA02923_(color).jpg"
+      },
+      {
+        "src": "/images/asteroid-comet/comet.jpg",
+        "label": "Comet",
+        "alt": "The small solid core of Comet Hartley 2, photographed by a NASA spacecraft, with jets of gas, dust and ice streaming off it",
+        "fit": "contain",
+        "credit": "NASA, JPL-Caltech, UMD, EPOXI Mission",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Hartley2jets2_epoxi_big.jpg"
+      },
+      {
+        "src": "/images/asteroid-comet/tail.jpg",
+        "label": "The tail",
+        "note": "Blue gas tail, white dust tail",
+        "alt": "Comet Hale-Bopp in a starry sky, with a bright head and two long tails",
+        "credit": "E. Kolmhofer, H. Raab; Johannes Kepler Observatory, Linz",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Comet_Hale-Bopp_1995O1.jpg"
+      }
     ]
   },
   {
@@ -134,6 +212,44 @@
       "https://forecast.weather.gov/glossary.php?word=sleet",
       "https://nssl.noaa.gov/education/svrwx101/hail/types",
       "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/snow/sleet"
+    ],
+    "images": [
+      {
+        "src": "/images/sleet-freezing-rain-hail-graupel/sleet.jpg",
+        "label": "Sleet",
+        "alt": "Small clear ice pellets next to a US one-cent coin for scale",
+        "credit": "Runningonbrains",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Sleet_(ice_pellets).jpg"
+      },
+      {
+        "src": "/images/sleet-freezing-rain-hail-graupel/freezing-rain.jpg",
+        "label": "Freezing rain",
+        "alt": "A tree branch coated in a clear shell of ice from freezing rain",
+        "credit": "Velatrix",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Freezing_Rain_on_Tree_Branch.jpg"
+      },
+      {
+        "src": "/images/sleet-freezing-rain-hail-graupel/hail.jpg",
+        "label": "Hail",
+        "note": "Rings show the ice layers",
+        "alt": "The middle of a large hailstone, showing rings of clear and white ice",
+        "credit": "ERZ",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Hagelkorn_mit_Anlagerungsschichten.jpg"
+      },
+      {
+        "src": "/images/sleet-freezing-rain-hail-graupel/graupel.jpg",
+        "label": "Graupel",
+        "alt": "Small, round, white snow pellets scattered over a car at night",
+        "credit": "Famartin",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:2013-02-23_03_59_28_Graupel_(snow_pellets)_in_Elko,_Nevada.JPG"
+      }
     ]
   },
   {
@@ -160,6 +276,26 @@
     "sources": [
       "https://www.metoffice.gov.uk/blog/2025/whats-the-difference-between-mist-fog-and-haze",
       "https://metoffice.gov.uk/learning/fog/difference-mist-and-fog"
+    ],
+    "images": [
+      {
+        "src": "/images/fog-mist-haze/fog.jpg",
+        "label": "Fog",
+        "alt": "Sea fog at Brighton beach, with the far end of the pier hidden in grey cloud",
+        "credit": "Richard Rutter",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Sea_fog_encroaching_on_Brighton_pier.jpg"
+      },
+      {
+        "src": "/images/fog-mist-haze/haze.jpg",
+        "label": "Haze",
+        "alt": "Dusty haze from the Sahara giving a reddish glow to the sky over the National Mosque in Abuja, Nigeria",
+        "credit": "Kipp Jones from Atlanta, US",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:MosqueinAbuja.jpg"
+      }
     ]
   },
   {
@@ -230,6 +366,16 @@
     "sources": [
       "https://www.usgs.gov/media/audio/what-difference-between-magma-and-lava",
       "https://www.usgs.gov/faqs/how-hot-hawaiian-volcano"
+    ],
+    "images": [
+      {
+        "src": "/images/magma-lava/lava.jpg",
+        "label": "Lava",
+        "alt": "A glowing orange lava flow on Kilauea, Hawaii, with dark, cooled lava around it",
+        "credit": "USGS",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Aa_large.jpg"
+      }
     ]
   },
   {
@@ -256,6 +402,19 @@
     "sources": [
       "https://www.nps.gov/grba/learn/nature/speleothems-cave-formations.htm",
       "https://www.nps.gov/ozar/learn/education/speleothems.htm"
+    ],
+    "images": [
+      {
+        "src": "/images/stalactite-stalagmite/stalactites-stalagmites.jpg",
+        "label": "Stalactites and stalagmites",
+        "note": "Stalactites hang down, stalagmites rise up",
+        "alt": "A cave with labelled formations: stalactites hanging from the ceiling, stalagmites rising from the floor, and a column where the two have joined",
+        "fit": "contain",
+        "credit": "Dave Bunnell / Under Earth Images",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "source": "https://commons.wikimedia.org/wiki/File:Labeled_speleothems.jpg"
+      }
     ]
   },
   {
@@ -279,6 +438,28 @@
       "https://www.usgs.gov/faqs/what-difference-between-a-rock-and-a-mineral",
       "https://www.usgs.gov/news/earthword-rock-vs-mineral",
       "https://geology.com/articles/water-mineral/"
+    ],
+    "images": [
+      {
+        "src": "/images/rock-mineral/mineral.jpg",
+        "label": "Mineral",
+        "note": "Quartz",
+        "alt": "A cluster of clear, pointed quartz crystals",
+        "credit": "Didier Descouens",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Quartz_Br%C3%A9sil.jpg"
+      },
+      {
+        "src": "/images/rock-mineral/rock.jpg",
+        "label": "Rock",
+        "note": "Granite: white feldspar, grey quartz",
+        "alt": "Close-up of polished granite, a speckled mix of white feldspar, grey quartz and dark grains",
+        "credit": "The stone gate",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Bianco_Sardo_Granit_mit_polierter_Oberfl%C3%A4che.jpg"
+      }
     ]
   },
   {
@@ -306,6 +487,44 @@
       "https://science.nasa.gov/dwarf-planets/",
       "https://ssd.jpl.nasa.gov/planets/def.html",
       "https://starchild.gsfc.nasa.gov/docs/StarChild/solar_system_level1/ceres.html"
+    ],
+    "images": [
+      {
+        "src": "/images/planet-dwarf-planet/planet.jpg",
+        "label": "Planet",
+        "note": "Earth",
+        "alt": "Earth seen whole from space by the Apollo 17 crew, showing Africa, Antarctica and swirling clouds",
+        "credit": "NASA / Apollo 17 crew",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg"
+      },
+      {
+        "src": "/images/planet-dwarf-planet/dwarf-planet.jpg",
+        "label": "Dwarf planet",
+        "note": "Pluto",
+        "alt": "Pluto photographed by the New Horizons spacecraft, a round world with a large pale heart-shaped region",
+        "credit": "NASA/JHUAPL/SwRI/Alex Parker",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.jpg"
+      },
+      {
+        "src": "/images/planet-dwarf-planet/ceres.jpg",
+        "label": "Ceres",
+        "alt": "The dwarf planet Ceres photographed by the Dawn spacecraft, a grey, cratered, nearly round world",
+        "credit": "Justin Cowart",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Ceres_-_RC3_-_Haulani_Crater_(22381131691)_(cropped).jpg"
+      },
+      {
+        "src": "/images/planet-dwarf-planet/sizes-to-scale.svg",
+        "label": "Sizes to scale",
+        "note": "Blue: planets. Tan: the five dwarf planets.",
+        "alt": "Earth, Mercury and the five dwarf planets drawn to scale. Earth is by far the largest. Mercury, the smallest planet, is about twice as wide as Pluto. Pluto and Eris are nearly the same size, Haumea is egg-shaped, and Ceres is the smallest.",
+        "fit": "contain",
+        "wide": true,
+        "credit": "Diagram drawn for this app",
+        "source": "https://github.com/byebrianwong/did-you-know/blob/main/scripts/make-diagrams.mjs"
+      }
     ]
   },
   {
@@ -381,6 +600,26 @@
     "bonus": "Because each step is about 32 times more energy, a magnitude 7 releases roughly 1,000 times the energy of a magnitude 5.",
     "sources": [
       "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity"
+    ],
+    "images": [
+      {
+        "src": "/images/earthquake-magnitude-intensity/magnitude-energy.svg",
+        "label": "Magnitude: one number per quake",
+        "note": "Square area shows energy: ≈32× per step",
+        "alt": "Three squares whose areas show energy released: magnitude 5 is a tiny dot, magnitude 6 is about 32 times larger, magnitude 7 is about 1,000 times larger than magnitude 5.",
+        "fit": "contain",
+        "credit": "Diagram drawn for this app",
+        "source": "https://github.com/byebrianwong/did-you-know/blob/main/scripts/make-diagrams.mjs"
+      },
+      {
+        "src": "/images/earthquake-magnitude-intensity/intensity-example.svg",
+        "label": "Intensity: one reading per place",
+        "note": "Shaking usually weakens farther away",
+        "alt": "An example map: a star marks an earthquake, and three towns at increasing distance show Modified Mercalli intensities VIII, VI and IV.",
+        "fit": "contain",
+        "credit": "Diagram drawn for this app",
+        "source": "https://github.com/byebrianwong/did-you-know/blob/main/scripts/make-diagrams.mjs"
+      }
     ]
   },
   {
@@ -404,6 +643,30 @@
       "https://www.weather.gov/ilx/spring-begins",
       "https://svs.gsfc.nasa.gov/14366/",
       "https://www.nationalgeographic.com/science/article/what-is-perihelion-earth-orbit"
+    ],
+    "images": [
+      {
+        "src": "/images/equinox-solstice/solstice.png",
+        "label": "Solstice",
+        "note": "June: Arctic lit, Antarctic dark",
+        "alt": "Diagram of sunlight on Earth at the June solstice: Earth's northern half leans toward the Sun, so the Arctic stays lit and the Antarctic stays dark",
+        "fit": "contain",
+        "credit": "Przemyslaw Idzkiewicz",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Earth-lighting-summer-solstice_EN.png"
+      },
+      {
+        "src": "/images/equinox-solstice/equinox.png",
+        "label": "Equinox",
+        "note": "Day and night split pole to pole",
+        "alt": "Diagram of sunlight on Earth at an equinox: the line between day and night runs straight from pole to pole",
+        "fit": "contain",
+        "credit": "Przemyslaw Idzkiewicz",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Earth-lighting-equinox_EN.png"
+      }
     ]
   },
   {
@@ -496,6 +759,34 @@
     "sources": [
       "https://www.nps.gov/yell/learn/nature/hydrothermal-features.htm",
       "https://home.nps.gov/yell/learn/kidsyouth/hydrothermal.htm"
+    ],
+    "images": [
+      {
+        "src": "/images/geyser-hot-spring/hot-spring.jpg",
+        "label": "Hot spring",
+        "alt": "Aerial view of Grand Prismatic Spring in Yellowstone, a wide, deep blue pool ringed with yellow and orange",
+        "credit": "Carsten Steger",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Grand_Prismatic_Spring_(view_from_the_south).jpg"
+      },
+      {
+        "src": "/images/geyser-hot-spring/geyser.jpg",
+        "label": "Geyser",
+        "alt": "Old Faithful geyser in Yellowstone shooting a tall column of water and steam into the air",
+        "credit": "Dietmar Rabich",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Yellowstone_National_Park_(WY,_USA),_Old_Faithful_Geyser_--_2022_--_2599.jpg"
+      },
+      {
+        "src": "/images/geyser-hot-spring/fumarole.jpg",
+        "label": "Fumarole",
+        "alt": "Two scientists sampling gas at a steaming vent crusted with yellow sulfur on top of Mount Baker, Washington",
+        "credit": "W. Chadwick",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Baker_Fumarole.jpg"
+      }
     ]
   }
 ]
