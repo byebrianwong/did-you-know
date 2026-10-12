@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 924 310" width="924" height="310" font-family="-apple-system, system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<rect width="924" height="310" fill="#fff"/>
+<ellipse cx="141" cy="130" rx="121" ry="121" fill="#3a78c2"/>
+<text x="141" y="286" font-size="26" fill="#221d18" text-anchor="middle" font-weight="600">Earth</text>
+<ellipse cx="335.1" cy="130" rx="46.4" ry="46.4" fill="#3a78c2"/>
+<text x="335.1" y="286" font-size="26" fill="#221d18" text-anchor="middle" font-weight="600">Mercury</text>
+<ellipse cx="444.4" cy="130" rx="22.6" ry="22.6" fill="#c08a5b"/>
+<text x="444.4" y="286" font-size="26" fill="#221d18" text-anchor="middle" font-weight="400">Pluto</text>
+<ellipse cx="531.9" cy="130" rx="22.1" ry="22.1" fill="#c08a5b"/>
+<text x="531.9" y="286" font-size="26" fill="#221d18" text-anchor="middle" font-weight="400">Eris</text>
+<ellipse cx="626.7" cy="130" rx="20.2" ry="9.8" fill="#c08a5b"/>
+<text x="626.7" y="286" font-size="26" fill="#221d18" text-anchor="middle" font-weight="400">Haumea</text>
+<ellipse cx="750.7" cy="130" rx="13.6" ry="13.6" fill="#c08a5b"/>
+<text x="750.7" y="286" font-size="26" fill="#221d18" text-anchor="middle" font-weight="400">Makemake</text>
+<ellipse cx="867.3" cy="130" rx="8.9" ry="8.9" fill="#c08a5b"/>
+<text x="867.3" y="286" font-size="26" fill="#221d18" text-anchor="middle" font-weight="400">Ceres</text>
+</svg>

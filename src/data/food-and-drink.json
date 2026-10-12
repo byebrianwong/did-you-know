@@ -15,6 +15,38 @@
       "https://www.law.cornell.edu/cfr/text/21/150.140",
       "https://www.law.cornell.edu/cfr/text/21/150.160",
       "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32001L0113"
+    ],
+    "images": [
+      {
+        "src": "/images/jam-jelly-preserves-marmalade/jelly.jpg",
+        "label": "Jelly (redcurrant)",
+        "note": "Clear and smooth, no fruit pieces",
+        "alt": "An open glass jar of clear, smooth red redcurrant jelly.",
+        "credit": "Amanda Slater from Coventry, West Midlands, UK",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Redcurrant_jelly_(2699068744).jpg"
+      },
+      {
+        "src": "/images/jam-jelly-preserves-marmalade/jam.jpg",
+        "label": "Jam / preserves (strawberry)",
+        "note": "Whole fruit pieces",
+        "alt": "A glass bowl of strawberry jam with whole strawberries in red syrup.",
+        "credit": "Moonsun1981",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Az-Strawberry_jam,_making_by_e-citizen_(moonsun1981).JPG"
+      },
+      {
+        "src": "/images/jam-jelly-preserves-marmalade/marmalade.jpg",
+        "label": "Marmalade",
+        "note": "Strips of citrus peel",
+        "alt": "A glass jar of homemade marmalade with shreds of citrus peel.",
+        "credit": "Amanda Slater",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Homemade_marmalade,_England.jpg"
+      }
     ]
   },
   {
@@ -31,6 +63,28 @@
     "bonus": "True yams can grow up to five feet long and weigh more than 100 pounds.",
     "sources": [
       "https://extension.illinois.edu/blogs/good-growing/2019-11-25-whats-difference-between-sweet-potatoes-and-yams"
+    ],
+    "images": [
+      {
+        "src": "/images/sweet-potato-yam/sweet-potato.jpg",
+        "label": "Sweet potato",
+        "note": "Thin, smooth skin",
+        "alt": "A pile of whole sweet potatoes with thin, smooth, reddish-tan skin.",
+        "credit": "Llez",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Ipomoea_batatas_006.JPG"
+      },
+      {
+        "src": "/images/sweet-potato-yam/true-yam.jpg",
+        "label": "True yam",
+        "note": "Rough, bark-like skin",
+        "alt": "Large true yam tubers with rough brown skin at a market stall, with cut pieces showing white flesh behind.",
+        "credit": "Unknown",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:YamsatBrixtonMarket.jpg"
+      }
     ]
   },
   {
@@ -49,6 +103,34 @@
       "https://en.wikipedia.org/wiki/Coriander",
       "https://en.wiktionary.org/wiki/cilantro",
       "https://flavourjournal.biomedcentral.com/articles/10.1186/2044-7248-1-22"
+    ],
+    "images": [
+      {
+        "src": "/images/cilantro-coriander/cilantro.jpg",
+        "label": "Cilantro (leaves and stems)",
+        "alt": "Close-up of fresh, flat, lobed green coriander leaves on thin stems.",
+        "credit": "Thamizhpparithi Maari",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:A_scene_of_Coriander_leaves.JPG"
+      },
+      {
+        "src": "/images/cilantro-coriander/coriander-seeds.jpg",
+        "label": "Coriander (dried seeds)",
+        "alt": "A close-up of many small, ridged, tan coriander seeds.",
+        "credit": "Sanjay Acharya",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Coriander_Seeds.jpg"
+      },
+      {
+        "src": "/images/cilantro-coriander/roots.jpg",
+        "label": "Coriander roots",
+        "alt": "Two cleaned coriander roots with the stem bases trimmed off, on a white background.",
+        "credit": "Malcolm Morley",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Coriander_roots.JPG"
+      }
     ]
   },
   {
@@ -167,6 +249,26 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Fruit",
       "https://en.wikipedia.org/wiki/Nix_v._Hedden"
+    ],
+    "images": [
+      {
+        "src": "/images/fruit-vegetable/tomato.jpg",
+        "label": "Tomato (a botanical fruit)",
+        "note": "It holds seeds, so it is a fruit",
+        "alt": "A tomato cut in two: one half shows the seeds inside, the other shows the smooth red skin.",
+        "credit": "Ramesh NG",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Tomato_-_Two_pieces.jpg"
+      },
+      {
+        "src": "/images/fruit-vegetable/rhubarb.jpg",
+        "label": "Rhubarb (a leaf stalk)",
+        "alt": "A bundle of red and green rhubarb stalks with the leaves trimmed off.",
+        "credit": "Evan-Amos",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:CSA-Rhubarb.jpg"
+      }
     ]
   },
   {
@@ -184,6 +286,36 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Berry_(botany)",
       "https://en.wikipedia.org/wiki/Strawberry"
+    ],
+    "images": [
+      {
+        "src": "/images/what-counts-as-a-berry/kiwifruit.jpg",
+        "label": "Kiwifruit (a true berry)",
+        "alt": "Whole fuzzy brown kiwifruits and two halves showing green flesh with rings of small black seeds.",
+        "credit": "Luc Viatour",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "source": "https://commons.wikimedia.org/wiki/File:Kiwi_(Actinidia_chinensis)_1_Luc_Viatour.jpg"
+      },
+      {
+        "src": "/images/what-counts-as-a-berry/strawberry.jpg",
+        "label": "Strawberry",
+        "alt": "A whole strawberry dotted with small yellow seeds on its surface, next to a strawberry cut in half.",
+        "credit": "Ivar Leidus",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Garden_strawberry_(Fragaria_%C3%97_ananassa).jpg"
+      },
+      {
+        "src": "/images/what-counts-as-a-berry/raspberry.jpg",
+        "label": "Raspberry",
+        "note": "Each bump is one drupelet",
+        "alt": "A close-up of many raspberries, each made of many small round red bumps.",
+        "credit": "Ivar Leidus",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Raspberries_(Rubus_idaeus).jpg"
+      }
     ]
   },
   {
@@ -202,6 +334,36 @@
       "https://en.wikipedia.org/wiki/Nut_(fruit)",
       "https://en.wikipedia.org/wiki/Peanut",
       "https://www.ipm.org/amomentofscience/why-cashews-arent-sold-in-the-shell/"
+    ],
+    "images": [
+      {
+        "src": "/images/what-counts-as-a-nut/hazelnut.jpg",
+        "label": "Hazelnut (a true nut)",
+        "alt": "Two hazelnuts in their hard brown shells, with a kernel in its brown skin and a peeled kernel in front.",
+        "credit": "Ivar Leidus",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Hazelnuts_(Corylus_avellana)_-_whole_with_kernels.jpg"
+      },
+      {
+        "src": "/images/what-counts-as-a-nut/peanut.jpg",
+        "label": "Peanut",
+        "note": "Pods form at the tips of pegs",
+        "alt": "A pulled-up peanut plant with pale young pods at the tips of stalks that had grown down into the soil.",
+        "credit": "Delince",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Developing_pods_of_Peanut.jpg"
+      },
+      {
+        "src": "/images/what-counts-as-a-nut/almond.jpg",
+        "label": "Almond",
+        "note": "The almond is the seed inside",
+        "alt": "Fuzzy green unripe almond fruits, one split open to show the pale almond seed inside.",
+        "credit": "6th Happiness",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Green_almonds.jpg"
+      }
     ]
   },
   {
@@ -220,6 +382,36 @@
       "https://www.mccormickscienceinstitute.com/about/faqs",
       "https://yardandgarden.extension.iastate.edu/faq/what-difference-between-herb-and-spice",
       "https://www.uvm.edu/news/extension/saffron-worlds-most-expensive-spice"
+    ],
+    "images": [
+      {
+        "src": "/images/herb-spice/basil.jpg",
+        "label": "Basil (herb: leaves)",
+        "alt": "Fresh green basil plants with broad, glossy leaves.",
+        "credit": "Photo by David J. Stang",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Ocimum_basilicum_8zz.jpg"
+      },
+      {
+        "src": "/images/herb-spice/cinnamon.jpg",
+        "label": "Cinnamon (spice: bark)",
+        "note": "Rolled strips of dried bark",
+        "alt": "Rolled cinnamon sticks, a small pile of ground cinnamon and some dried cinnamon flowers.",
+        "credit": "Simon A. Eugster",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Cinnamomum_verum_spices.jpg"
+      },
+      {
+        "src": "/images/herb-spice/clove.jpg",
+        "label": "Clove (spice: flower bud)",
+        "alt": "A close-up of a single dried clove, a brown stalk topped with a round, unopened flower bud.",
+        "credit": "Sanjay Acharya",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Clove_close_up.jpg"
+      }
     ]
   },
   {
@@ -236,6 +428,28 @@
     "bonus": "\"Macaron\" and \"macaroni\" come from the same Italian root word.",
     "sources": [
       "https://www.mentalfloss.com/food/macaroon-vs-macaron-whats-the-difference"
+    ],
+    "images": [
+      {
+        "src": "/images/macaron-macaroon/macaron.jpg",
+        "label": "Macaron",
+        "note": "Smooth shells sandwiched with filling",
+        "alt": "A pile of brightly colored French macarons, each two smooth round shells with a filling in between.",
+        "credit": "Nicolas Halftermeyer",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Macarons,_French_made_mini_cakes.JPG"
+      },
+      {
+        "src": "/images/macaron-macaroon/macaroon.jpg",
+        "label": "Macaroon",
+        "note": "Shredded coconut, some chocolate-dipped",
+        "alt": "A plate of golden coconut macaroons, some with chocolate-dipped bottoms.",
+        "credit": "Gatorfan252525",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:A_plate_of_coconut_and_chocolate_coconut_macaroons_served_on_Passover.jpg"
+      }
     ]
   },
   {
@@ -254,6 +468,37 @@
       "https://en.wikipedia.org/wiki/Flat_white",
       "https://en.wikipedia.org/wiki/Cappuccino",
       "https://www.breville.com/nz/en/coffee-journey/inspiration/taste/How-are-flat-whites-cappuccinos-lattes-different.html"
+    ],
+    "images": [
+      {
+        "src": "/images/latte-cappuccino-flat-white/cappuccino.jpg",
+        "label": "Cappuccino",
+        "note": "Thick cap of white foam",
+        "alt": "A cappuccino in a white cup, topped with a thick, white cap of milk foam and a few dots of cocoa.",
+        "credit": "Vee Satayamas",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Cappuccino_in_original.jpg"
+      },
+      {
+        "src": "/images/latte-cappuccino-flat-white/latte.jpg",
+        "label": "Latte",
+        "note": "Mostly milk, thin foam on top",
+        "alt": "A latte in a glass, mostly pale steamed milk, with a fern pattern in the thin foam on top.",
+        "credit": "B adger1",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Caffe_Latte_at_Pulse_Cafe.jpg"
+      },
+      {
+        "src": "/images/latte-cappuccino-flat-white/flat-white.jpg",
+        "label": "Flat white",
+        "alt": "A flat white in a green cup, with a light-brown surface and a faint milk pattern.",
+        "credit": "Ashley Van Haeften",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Flat_white.jpg"
+      }
     ]
   },
   {
@@ -272,6 +517,34 @@
       "https://en.wikipedia.org/wiki/Scallion",
       "https://en.wikipedia.org/wiki/Shallot",
       "https://en.wikipedia.org/wiki/Leek"
+    ],
+    "images": [
+      {
+        "src": "/images/scallion-shallot-leek/scallion.jpg",
+        "label": "Scallions / green onions",
+        "alt": "Bunches of scallions with long, hollow green leaves and slim white-to-pink bases, tied with string.",
+        "credit": "Jonathunder",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:GreenOnions.jpg"
+      },
+      {
+        "src": "/images/scallion-shallot-leek/shallot.jpg",
+        "label": "Shallot",
+        "alt": "A whole shallot with coppery papery skin next to a halved shallot showing pale pink layers.",
+        "credit": "Charles P.",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Shallots_-_sliced_and_whole.jpg"
+      },
+      {
+        "src": "/images/scallion-shallot-leek/leek.jpg",
+        "label": "Leek",
+        "alt": "Bunches of thick leeks in a supermarket, with long white stems and flat, dark green leaves.",
+        "credit": "Raysonho",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:LeeksSupermarket_(cropped).jpg"
+      }
     ]
   },
   {
@@ -288,6 +561,18 @@
     "bonus": "After E. coli outbreaks in the late 1990s were traced to unpasteurized cider, the FDA required juice makers in 2001 to cut harmful bacteria by a factor of 100,000.",
     "sources": [
       "https://en.wikipedia.org/wiki/Apple_cider"
+    ],
+    "images": [
+      {
+        "src": "/images/cider-us-uk/cider-and-juice.jpg",
+        "label": "US apple cider (left) and apple juice (right)",
+        "note": "Cider is cloudy, juice is clear",
+        "alt": "Two glasses side by side: cloudy brown apple cider on the left and clear golden apple juice on the right.",
+        "credit": "Unknown",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Cider_and_apple_juice.jpg"
+      }
     ]
   },
   {
@@ -305,6 +590,36 @@
     "sources": [
       "https://www.177milkstreet.com/2021/09/whats-the-difference-between-grits-and-polenta",
       "https://en.wikipedia.org/wiki/Polenta"
+    ],
+    "images": [
+      {
+        "src": "/images/grits-polenta/grits.jpg",
+        "label": "Grits",
+        "alt": "A white bowl of cooked white grits with a pat of melting butter.",
+        "credit": "Ernesto Andrade",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Gritsonly.jpg"
+      },
+      {
+        "src": "/images/grits-polenta/hominy.jpg",
+        "label": "Hominy (whole kernels, before grinding)",
+        "alt": "A bowl of large, pale, puffed hominy corn kernels.",
+        "credit": "Glane23",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Hominy_(maize).JPG"
+      },
+      {
+        "src": "/images/grits-polenta/polenta.jpg",
+        "label": "Polenta",
+        "note": "Cooled until firm, then sliced",
+        "alt": "A firm round loaf of yellow polenta on a wooden board, with a wedge cut from it.",
+        "credit": "Dorothy61n1",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Polenta.jpg"
+      }
     ]
   },
   {
