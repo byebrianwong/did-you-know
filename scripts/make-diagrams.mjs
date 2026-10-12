@@ -406,6 +406,189 @@ diagrams.push(
 }
 
 // ---------------------------------------------------------------------------
+// Relative humidity vs. dew point: the National Weather Service example from the
+// fact text. 50 °F air with a 50 °F dew point is 100% humidity. 90 °F air with a
+// 69 °F dew point is 50%. (Checked with the Magnus formula: 50.2%.)
+// Both panels use the same °F scale, so the gaps compare directly.
+
+function humidityPanel(air, dew, rh) {
+  const lo = 40
+  const hi = 100
+  const yTop = 30
+  const yBot = 240
+  const y = (f) => yBot - ((f - lo) / (hi - lo)) * (yBot - yTop)
+  const x0 = 70
+  const cx = 160
+  const parts = [`<line x1="${x0}" y1="${yTop}" x2="${x0}" y2="${yBot}" stroke="${MUTED}" stroke-width="2"/>`]
+  for (const f of [40, 60, 80, 100]) {
+    parts.push(`<line x1="${x0 - 8}" y1="${r1(y(f))}" x2="${x0}" y2="${r1(y(f))}" stroke="${MUTED}" stroke-width="2"/>`)
+    parts.push(text(x0 - 14, y(f) + 8, `${f}°`, { size: 22, anchor: 'end', fill: MUTED }))
+  }
+  if (air !== dew) {
+    parts.push(`<rect x="${cx - 18}" y="${r1(y(air))}" width="36" height="${r1(y(dew) - y(air))}" fill="${SOFT}"/>`)
+    parts.push(`<circle cx="${cx}" cy="${r1(y(air))}" r="14" fill="${ACCENT}"/>`)
+    parts.push(`<circle cx="${cx}" cy="${r1(y(dew))}" r="14" fill="${BLUE}"/>`)
+    parts.push(text(cx + 28, y(air) + 8, `air ${air} °F`, { size: 24, fill: ACCENT, weight: 600 }))
+    parts.push(text(cx + 28, y(dew) + 8, `dew point ${dew} °F`, { size: 24, fill: BLUE, weight: 600 }))
+  } else {
+    parts.push(`<circle cx="${cx}" cy="${r1(y(air))}" r="14" fill="${ACCENT}"/>`)
+    parts.push(`<circle cx="${cx}" cy="${r1(y(dew))}" r="9" fill="${BLUE}"/>`)
+    parts.push(text(cx + 28, y(air) - 6, `air ${air} °F`, { size: 24, fill: ACCENT, weight: 600 }))
+    parts.push(text(cx + 28, y(dew) + 22, `dew point ${dew} °F`, { size: 24, fill: BLUE, weight: 600 }))
+  }
+  parts.push(text(20, 288, `relative humidity ${rh}%`, { size: 24, weight: 600 }))
+  return svg(W, H, parts.join('\n'))
+}
+
+diagrams.push(
+  {
+    factId: 'humidity-dew-point',
+    slug: 'cool-day',
+    svg: humidityPanel(50, 50, 100),
+    label: '50 °F day: 100% humidity',
+    note: 'Dew point 50 °F, so the air is full',
+    alt: 'A temperature scale with the air temperature and the dew point both at 50 degrees Fahrenheit. Relative humidity is 100%.',
+  },
+  {
+    factId: 'humidity-dew-point',
+    slug: 'hot-day',
+    svg: humidityPanel(90, 69, 50),
+    label: '90 °F day: 50% humidity',
+    note: 'Higher dew point, so it feels muggier',
+    alt: 'The same temperature scale with the air at 90 degrees Fahrenheit and the dew point at 69. Relative humidity is only 50%, but the dew point is 19 degrees higher than on the 50-degree day.',
+  },
+)
+
+// ---------------------------------------------------------------------------
+// Felony vs. misdemeanor: the line is the longest sentence the law allows.
+// Federal classes from 18 U.S.C. § 3559(a): Class E more than 1 year and less
+// than 5; Class D 5 to less than 10; Class C 10 to less than 25; Class B 25 or
+// more; Class A life or death. Misdemeanors are 1 year or less. The axis is
+// linear and stops at 12 years; the arrow means the felony classes go on.
+
+{
+  const width = 570
+  const height = 300
+  const x0 = 24
+  const px = 42 // px per year
+  const x = (yr) => x0 + yr * px
+  const parts = []
+  // Misdemeanor row.
+  parts.push(`<rect x="${x0}" y="40" width="${px}" height="44" rx="4" fill="${TAN}"/>`)
+  parts.push(text(x(1) + 14, 71, '<tspan font-weight="600">Misdemeanor</tspan>  1 year or less', { size: 24 }))
+  // Felony row, split into the federal classes.
+  const y2 = 136
+  const classes = [
+    { from: 1, to: 5, name: 'Class E' },
+    { from: 5, to: 10, name: 'Class D' },
+    { from: 10, to: 12, name: 'C, B, A' },
+  ]
+  for (const c of classes) {
+    parts.push(`<rect x="${r1(x(c.from))}" y="${y2}" width="${r1((c.to - c.from) * px - 3)}" height="44" fill="${ACCENT}"/>`)
+    parts.push(text((x(c.from) + x(c.to)) / 2, y2 + 72, c.name, { size: 22, anchor: 'middle', fill: MUTED }))
+  }
+  parts.push(arrowHead(x(12) + 16, y2 + 22, 'right', 22, ACCENT))
+  parts.push(text(x(1) + 14, y2 - 14, '<tspan font-weight="600">Felony</tspan>  more than 1 year', { size: 24 }))
+  // The one-year line and the axis.
+  const axisY = 240
+  parts.push(`<line x1="${x(1)}" y1="28" x2="${x(1)}" y2="${axisY}" stroke="${INK}" stroke-width="2" stroke-dasharray="6 5"/>`)
+  parts.push(`<line x1="${x0}" y1="${axisY}" x2="${x(12) + 16}" y2="${axisY}" stroke="${MUTED}" stroke-width="2"/>`)
+  for (const yr of [0, 1, 5, 10]) {
+    parts.push(`<line x1="${x(yr)}" y1="${axisY}" x2="${x(yr)}" y2="${axisY + 8}" stroke="${MUTED}" stroke-width="2"/>`)
+    parts.push(text(x(yr), axisY + 32, String(yr), { size: 22, anchor: 'middle', fill: MUTED }))
+  }
+  parts.push(text(x0, 292, 'longest sentence the law allows, in years', { size: 22, fill: MUTED }))
+  diagrams.push({
+    factId: 'felony-misdemeanor',
+    slug: 'one-year-line',
+    width,
+    height,
+    wide: true,
+    svg: svg(width, height, parts.join('\n')),
+    label: 'The one-year line',
+    note: 'US federal classes; each state sets its own',
+    alt: 'A scale of the longest sentence the law allows, in years. Misdemeanors cover up to 1 year. Felonies start above 1 year: federal Class E runs to 5 years, Class D to 10, and Classes C, B and A go higher, up to life.',
+  })
+}
+
+// ---------------------------------------------------------------------------
+// Probation vs. parole: where a sentence is served. Shapes, not real lengths.
+
+function sentencePanel(segments) {
+  const x0 = 30
+  const x1 = 370
+  const parts = [text(x0, 60, 'one sentence, start to end', { size: 22, fill: MUTED })]
+  for (const s of segments) {
+    const a = x0 + s.from * (x1 - x0)
+    const b = x0 + s.to * (x1 - x0)
+    parts.push(`<rect x="${r1(a)}" y="80" width="${r1(b - a)}" height="64" fill="${s.color}"/>`)
+    parts.push(text((a + b) / 2, 122, s.name, { size: 24, anchor: 'middle', fill: '#fff', weight: 600 }))
+  }
+  parts.push(arrowHead(x1 + 16, 112, 'right', 14, MUTED))
+  parts.push(text(x0, 196, segments.length === 1 ? 'Ordered by a judge,' : 'Granted by a parole board', { size: 22 }))
+  parts.push(text(x0, 226, segments.length === 1 ? 'usually instead of prison' : 'or by law, after prison time', { size: 22 }))
+  parts.push(text(x0, 288, 'example, not to scale', { size: 20, fill: MUTED }))
+  return svg(W, H, parts.join('\n'))
+}
+
+diagrams.push(
+  {
+    factId: 'parole-probation',
+    slug: 'probation',
+    svg: sentencePanel([{ from: 0, to: 1, name: 'in the community', color: BLUE }]),
+    label: 'Probation',
+    note: 'Served in the community, under supervision',
+    alt: 'A bar for one sentence, filled entirely with "in the community". Probation is ordered by a judge, usually instead of prison.',
+  },
+  {
+    factId: 'parole-probation',
+    slug: 'parole',
+    svg: sentencePanel([
+      { from: 0, to: 0.55, name: 'prison', color: INK },
+      { from: 0.55, to: 1, name: 'parole', color: BLUE },
+    ]),
+    label: 'Parole',
+    note: 'Early release for the rest of the sentence',
+    alt: 'A bar for one sentence: the first part is spent in prison, the rest on parole in the community. Parole is granted by a parole board or by law.',
+  },
+)
+
+// ---------------------------------------------------------------------------
+// Emigrate vs. immigrate: one move, named from each end. Uses the fact's own
+// example countries.
+
+{
+  const width = 570
+  const height = 260
+  const box = (cx, name) =>
+    `<rect x="${cx - 100}" y="40" width="200" height="90" rx="12" fill="${SOFT}" stroke="${INK}" stroke-width="3"/>\n` +
+    text(cx, 96, name, { size: 30, anchor: 'middle', weight: 600 })
+  const left = 130
+  const right = 440
+  const parts = [
+    box(left, 'Ireland'),
+    box(right, 'Canada'),
+    `<line x1="${left + 108}" y1="85" x2="${right - 124}" y2="85" stroke="${ACCENT}" stroke-width="6"/>`,
+    arrowHead(right - 106, 85, 'right', 18, ACCENT),
+    text(left, 178, '<tspan font-weight="600">emigrates from</tspan>', { size: 26, anchor: 'middle', fill: ACCENT }),
+    text(left, 210, 'e- = out', { size: 22, anchor: 'middle', fill: MUTED }),
+    text(right, 178, '<tspan font-weight="600">immigrates to</tspan>', { size: 26, anchor: 'middle', fill: ACCENT }),
+    text(right, 210, 'im- = in', { size: 22, anchor: 'middle', fill: MUTED }),
+  ]
+  diagrams.push({
+    factId: 'emigrate-immigrate-migrate',
+    slug: 'one-move',
+    width,
+    height,
+    wide: true,
+    svg: svg(width, height, parts.join('\n')),
+    label: 'One move, two words',
+    note: 'Which word depends on which end you mean',
+    alt: 'Two boxes, Ireland and Canada, with an arrow from Ireland to Canada. Under Ireland: emigrates from, e- means out. Under Canada: immigrates to, im- means in.',
+  })
+}
+
+// ---------------------------------------------------------------------------
 
 for (const d of diagrams) {
   const rel = `images/${d.factId}/${d.slug}.svg`

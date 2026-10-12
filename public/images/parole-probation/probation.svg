@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" font-family="-apple-system, system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<rect width="400" height="300" fill="#fff"/>
+<text x="30" y="60" font-size="22" fill="#6f655a" text-anchor="start" font-weight="400">one sentence, start to end</text>
+<rect x="30" y="80" width="340" height="64" fill="#3a78c2"/>
+<text x="200" y="122" font-size="24" fill="#fff" text-anchor="middle" font-weight="600">in the community</text>
+<polygon points="372,102.2 372,121.8 386,112" fill="#6f655a"/>
+<text x="30" y="196" font-size="22" fill="#221d18" text-anchor="start" font-weight="400">Ordered by a judge,</text>
+<text x="30" y="226" font-size="22" fill="#221d18" text-anchor="start" font-weight="400">usually instead of prison</text>
+<text x="30" y="288" font-size="20" fill="#6f655a" text-anchor="start" font-weight="400">example, not to scale</text>
+</svg>

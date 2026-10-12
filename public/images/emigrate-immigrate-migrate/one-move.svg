@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570 260" width="570" height="260" font-family="-apple-system, system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<rect width="570" height="260" fill="#fff"/>
+<rect x="30" y="40" width="200" height="90" rx="12" fill="#f4ede3" stroke="#221d18" stroke-width="3"/>
+<text x="130" y="96" font-size="30" fill="#221d18" text-anchor="middle" font-weight="600">Ireland</text>
+<rect x="340" y="40" width="200" height="90" rx="12" fill="#f4ede3" stroke="#221d18" stroke-width="3"/>
+<text x="440" y="96" font-size="30" fill="#221d18" text-anchor="middle" font-weight="600">Canada</text>
+<line x1="238" y1="85" x2="316" y2="85" stroke="#e8553d" stroke-width="6"/>
+<polygon points="316,72.4 316,97.6 334,85" fill="#e8553d"/>
+<text x="130" y="178" font-size="26" fill="#e8553d" text-anchor="middle" font-weight="400"><tspan font-weight="600">emigrates from</tspan></text>
+<text x="130" y="210" font-size="22" fill="#6f655a" text-anchor="middle" font-weight="400">e- = out</text>
+<text x="440" y="178" font-size="26" fill="#e8553d" text-anchor="middle" font-weight="400"><tspan font-weight="600">immigrates to</tspan></text>
+<text x="440" y="210" font-size="22" fill="#6f655a" text-anchor="middle" font-weight="400">im- = in</text>
+</svg>

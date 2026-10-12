@@ -83,6 +83,40 @@
       "https://www.nhlbi.nih.gov/health/heart-attack",
       "https://www.nhlbi.nih.gov/health/cardiac-arrest",
       "https://www.nhlbi.nih.gov/health/stroke"
+    ],
+    "images": [
+      {
+        "src": "/images/heart-attack-cardiac-arrest-stroke/heart-attack.jpg",
+        "label": "Heart attack",
+        "note": "A blocked artery starves the muscle below it",
+        "alt": "Illustration of a heart with a close-up of a coronary artery blocked by fatty buildup, and a darker patch of damaged heart muscle below the blockage",
+        "fit": "contain",
+        "credit": "Blausen Medical",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Blausen_0463_HeartAttack.png"
+      },
+      {
+        "src": "/images/heart-attack-cardiac-arrest-stroke/aed.jpg",
+        "label": "AED, for cardiac arrest",
+        "note": "Its shock can restore a normal heart rhythm",
+        "alt": "A public defibrillator (AED) in a green wall cabinet marked AED, with a heart-and-lightning-bolt sign above it",
+        "credit": "Chercher1105",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:AED_machine_medisource.jpg"
+      },
+      {
+        "src": "/images/heart-attack-cardiac-arrest-stroke/stroke.jpg",
+        "label": "Stroke (ischemic)",
+        "note": "A clot blocks an artery in the brain",
+        "alt": "Illustration of a head and brain with a close-up of a brain artery blocked by a blood clot",
+        "fit": "contain",
+        "credit": "Blausen Medical",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Blausen_0836_Stroke.png"
+      }
     ]
   },
   {
@@ -109,6 +143,18 @@
     "sources": [
       "https://www.alz.org/alzheimers-dementia/difference-between-dementia-and-alzheimer-s",
       "https://www.cdc.gov/alzheimers-dementia/about/index.html"
+    ],
+    "images": [
+      {
+        "src": "/images/alzheimers-dementia/healthy-vs-alzheimers.jpg",
+        "label": "Healthy brain vs. severe Alzheimer's",
+        "note": "As brain cells die, the brain shrinks",
+        "alt": "Side-by-side slices of a healthy brain and a brain with severe Alzheimer's disease. The Alzheimer's brain is shrunken, with wider gaps in its folds and a larger fluid-filled space inside",
+        "fit": "contain",
+        "credit": "NIH",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Alzheimers_brain.jpg"
+      }
     ]
   },
   {
@@ -267,6 +313,38 @@
     "sources": [
       "https://www.cdc.gov/flu/about/coldflu.html",
       "https://www.cdc.gov/norovirus/about/index.html"
+    ],
+    "images": [
+      {
+        "src": "/images/cold-flu/rhinovirus.png",
+        "label": "Cold virus: rhinovirus",
+        "note": "Model built from its measured structure",
+        "alt": "Computer model of a rhinovirus shell, a rounded ball made of many knobbly protein pieces",
+        "fit": "contain",
+        "credit": "Thomas Splettstoesser",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Rhinovirus_isosurface.png"
+      },
+      {
+        "src": "/images/cold-flu/cold-coronavirus.jpg",
+        "label": "Cold virus: coronavirus OC43",
+        "note": "A seasonal coronavirus that causes colds",
+        "alt": "Many small round coronavirus OC43 particles, each with a fringe of spikes, seen through a transmission electron microscope",
+        "fit": "contain",
+        "credit": "CDC / Dr. Erskine Palmer",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:TEM_of_coronavirus_OC43.jpg"
+      },
+      {
+        "src": "/images/cold-flu/flu-virus.jpg",
+        "label": "Flu virus: influenza",
+        "alt": "A single influenza virus particle with a fuzzy coat of surface spikes, seen through a transmission electron microscope",
+        "fit": "contain",
+        "credit": "CDC / Cynthia Goldsmith",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Influenza_virus_particle_8430_lores.jpg"
+      }
     ]
   },
   {
@@ -318,6 +396,30 @@
     "bonus": "A memory trick: strain has a 't', like tendon. A rolled ankle is usually a sprain. A pulled hamstring is a strain.",
     "sources": [
       "https://www.niams.nih.gov/health-topics/sprains-and-strains"
+    ],
+    "images": [
+      {
+        "src": "/images/sprain-strain/ankle-sprain.png",
+        "label": "Sprain: ankle ligaments",
+        "note": "Red marks show damage to ligaments joining bones",
+        "alt": "Drawing of the bones of the ankle and foot from the side. The grey ligament bands joining the bones at the ankle are marked with red, showing they are damaged",
+        "fit": "contain",
+        "credit": "Laboratoires Servier",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Ankle_sprain_4_--_Smart-Servier.png"
+      },
+      {
+        "src": "/images/sprain-strain/pulled-hamstring.png",
+        "label": "Strain: pulled hamstring",
+        "note": "The tear is in a muscle, not a ligament",
+        "alt": "Labelled drawing of the three hamstring muscles at the back of both thighs, with a circled tear in one muscle",
+        "fit": "contain",
+        "credit": "BruceBlaus",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Pulled_Hamstring.png"
+      }
     ]
   },
   {
@@ -494,6 +596,37 @@
       "https://www.energy.gov/ne/articles/fission-and-fusion-what-difference",
       "https://lmf.llnl.gov/science/achieving-fusion-ignition",
       "https://www.optica-opn.org/home/newsroom/2022/december/ignition_accomplished_nif_looks_to_the_future/"
+    ],
+    "images": [
+      {
+        "src": "/images/fission-fusion/fission.png",
+        "label": "Fission: a uranium atom splits",
+        "note": "Three new neutrons can split more atoms",
+        "alt": "Diagram: a neutron hits a uranium-235 nucleus, which becomes uranium-236 and then splits into krypton-92 and barium-141, giving off three neutrons",
+        "fit": "contain",
+        "credit": "Fastfission",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Nuclear_fission.svg"
+      },
+      {
+        "src": "/images/fission-fusion/fusion.png",
+        "label": "Fusion: two hydrogen atoms join",
+        "note": "Deuterium and tritium are forms of hydrogen",
+        "alt": "Diagram: a deuterium nucleus (one proton, one neutron) and a tritium nucleus (one proton, two neutrons) join into a helium-4 nucleus and release a fast neutron",
+        "fit": "contain",
+        "credit": "Wykis",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Deuterium-tritium_fusion.svg"
+      },
+      {
+        "src": "/images/fission-fusion/power-plant.jpg",
+        "label": "A fission power plant",
+        "note": "Vogtle, Georgia. The towers give off water vapor",
+        "alt": "Vogtle nuclear power plant in Georgia at dusk, with two large cooling towers giving off clouds of water vapor next to the domed reactor buildings",
+        "credit": "US Nuclear Regulatory Commission",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Vogtle_NPP.jpg"
+      }
     ]
   },
   {
@@ -571,6 +704,18 @@
       "https://www.nist.gov/pml/owm/si-units-electric-current",
       "https://www.eia.gov/energyexplained/electricity/measuring-electricity.php",
       "https://spectrum.ieee.org/why-does-the-world-harbor-so-many-different-voltages-plugs-and-sockets"
+    ],
+    "images": [
+      {
+        "src": "/images/volt-amp-watt/mains-voltage-map.png",
+        "label": "Outlet voltage around the world",
+        "note": "Red and orange: 100–127 V. Blue and green: 220–240 V",
+        "alt": "World map coloured by the voltage of household outlets. North America and parts of Central and South America are red, and Japan is orange, for 100 to 127 volts. Most of Europe, Africa, Asia and Australia are blue, for 220 to 240 volts",
+        "fit": "contain",
+        "credit": "SomnusDe",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:World_Map_of_Mains_Voltages_and_Frequencies,_Detailed.svg"
+      }
     ]
   },
   {
@@ -639,6 +784,39 @@
     "sources": [
       "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/",
       "https://www.darpa.mil/news/features/arpanet"
+    ],
+    "images": [
+      {
+        "src": "/images/internet-web/arpanet-1969.jpg",
+        "label": "ARPANET, December 1969",
+        "note": "The network that grew into the internet: 4 sites",
+        "alt": "Hand-drawn sketch titled The ARPA Network, Dec 1969, 4 nodes, showing UCLA, SRI, UCSB and Utah connected by lines, each attached to a computer",
+        "fit": "contain",
+        "credit": "DARPA",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:A_sketch_of_the_ARPANET_in_December_1969.png"
+      },
+      {
+        "src": "/images/internet-web/arpanet-1973.jpg",
+        "label": "ARPANET, May 1973",
+        "note": "Four years later it spanned the US",
+        "alt": "Map titled ARPA Network, Logical Map, May 1973, showing dozens of connected sites across the United States and one in Hawaii",
+        "fit": "contain",
+        "credit": "DARPA",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Arpanet_map_1973.jpg"
+      },
+      {
+        "src": "/images/internet-web/first-web-server.jpg",
+        "label": "The first web server",
+        "note": "A NeXT computer, on display at CERN",
+        "alt": "A black NeXT computer with monitor and keyboard in a glass case, under a sign reading The World's First Web Server",
+        "fit": "contain",
+        "credit": "Skyscraper2010",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:The_world%E2%80%99s_first_web_server,_exhibited_at_CERN_in_Geneva._DSC03299.jpg"
+      }
     ]
   },
   {
