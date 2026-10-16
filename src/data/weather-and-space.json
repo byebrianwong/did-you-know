@@ -79,6 +79,29 @@
     "sources": [
       "https://www.nesdis.noaa.gov/about/k-12-education/understanding-our-planet/whats-the-difference-between-weather-and-climate",
       "https://climatekids.nasa.gov/weather-climate/weather-climate_poster.pdf"
+    ],
+    "images": [
+      {
+        "src": "/images/weather-climate/storm.jpg",
+        "label": "Weather",
+        "note": "One storm, on one night",
+        "alt": "Lightning strikes over a harbor and lighthouse during a storm at night",
+        "credit": "Maxime Raynal",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Port_and_lighthouse_overnight_storm_with_lightning_in_Port-la-Nouvelle.jpg"
+      },
+      {
+        "src": "/images/weather-climate/hawaii-climates.png",
+        "label": "Climate",
+        "note": "Many zones on the Big Island, bottom right",
+        "alt": "Map of the Hawaiian islands colored by climate type. The Big Island, bottom right, has many colors, from rainforest on its east coast to tundra on its peaks",
+        "fit": "contain",
+        "credit": "Icy98",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:K%C3%B6ppen_Climate_Types_Hawaii.png"
+      }
     ]
   },
   {
@@ -318,6 +341,38 @@
     "sources": [
       "https://www.usgs.gov/media/audio/what-difference-between-lake-and-pond-mountain-and-hill-or-river-and-creek",
       "https://en.wikipedia.org/wiki/Pond"
+    ],
+    "images": [
+      {
+        "src": "/images/lake-pond/walden.jpg",
+        "label": "Walden Pond",
+        "note": "A pond: 61 acres, 102 feet deep",
+        "alt": "Walden Pond in Massachusetts seen through trees, a wide stretch of water with forest on the far shore",
+        "credit": "Erik Granlund",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Walden_Pond_outlook.jpg"
+      },
+      {
+        "src": "/images/lake-pond/central-park-lake.jpg",
+        "label": "The Lake, Central Park",
+        "note": "A man-made lake: about 20 acres",
+        "alt": "Bow Bridge, a white cast-iron footbridge, crossing the Lake in New York's Central Park",
+        "credit": "Christian David",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Bow_Bridge_over_the_Lake,_Central_Park,_Manhattan,_New_York.jpg"
+      },
+      {
+        "src": "/images/lake-pond/assawompset.jpg",
+        "label": "Assawompset Pond",
+        "note": "A pond: about 2,400 acres",
+        "alt": "A gravel causeway leading to a small brick building, with wide open water on both sides",
+        "credit": "T.S. Custadio",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Lakeville_Assawomsett.jpg"
+      }
     ]
   },
   {
@@ -340,6 +395,39 @@
     "sources": [
       "https://oceanservice.noaa.gov/facts/oceanorsea.html",
       "https://en.wikipedia.org/wiki/Caspian_Sea"
+    ],
+    "images": [
+      {
+        "src": "/images/sea-ocean/bering.png",
+        "label": "Bering Sea",
+        "note": "A sea that is part of the Pacific",
+        "alt": "Map of the North Pacific, with the Bering Sea labeled at the top between Russia and Alaska and the Pacific Ocean labeled below it",
+        "fit": "contain",
+        "credit": "DanMS",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Bering_Sea_Location.png"
+      },
+      {
+        "src": "/images/sea-ocean/sargasso.png",
+        "label": "Sargasso Sea",
+        "note": "No coastline, just a ring of currents",
+        "alt": "Map of the North Atlantic. The Sargasso Sea sits in open ocean, ringed by currents drawn as arrows, including the Gulf Stream",
+        "fit": "contain",
+        "credit": "López Miranda et al.",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Sargasso_2.svg"
+      },
+      {
+        "src": "/images/sea-ocean/caspian.jpg",
+        "label": "Caspian Sea",
+        "note": "Land on every side",
+        "alt": "Satellite view of the Caspian Sea, a large dark body of water surrounded entirely by land",
+        "fit": "contain",
+        "credit": "NASA",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Caspian_Sea_from_orbit.jpg"
+      }
     ]
   },
   {
@@ -552,6 +640,28 @@
       "https://www.weather.gov/safety/tornado-ww",
       "https://oceanservice.noaa.gov/facts/watch-warning.html",
       "https://www.weather.gov/wrn/hurricane-sm"
+    ],
+    "images": [
+      {
+        "src": "/images/watch-warning/watch.png",
+        "label": "Tornado watch",
+        "note": "Dozens of counties in Kentucky and Ohio",
+        "alt": "Storm Prediction Center map of Tornado Watch 269 on May 16, 2025, shading dozens of counties across Kentucky and Ohio in red",
+        "fit": "contain",
+        "credit": "NOAA Storm Prediction Center",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Tornado_Watch_no._269_(2025).gif"
+      },
+      {
+        "src": "/images/watch-warning/warning.jpg",
+        "label": "Tornado warning",
+        "note": "A strip of suburbs; this map is zoomed in much closer",
+        "alt": "National Weather Service tornado warning graphic from June 20, 2021, a red polygon covering a strip of suburbs southwest of Chicago",
+        "fit": "contain",
+        "credit": "NWS Chicago",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:NapervilleWoodridgeGraphic.jpg"
+      }
     ]
   },
   {
@@ -575,6 +685,37 @@
       "https://oceanservice.noaa.gov/facts/tidalwave.html",
       "https://oceanservice.noaa.gov/facts/tsunami.html",
       "https://www.noaa.gov/jetstream/tsunamis/tsunami-propagation"
+    ],
+    "images": [
+      {
+        "src": "/images/tsunami-tidal-wave/tsunami.jpg",
+        "label": "Tsunami",
+        "note": "Ao Nang, Thailand, 2004",
+        "alt": "The 2004 tsunami surging ashore through palm trees in Ao Nang, Thailand, as people on the street turn and run",
+        "credit": "David Rydevik",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:2004-tsunami.jpg"
+      },
+      {
+        "src": "/images/tsunami-tidal-wave/tide-high.jpg",
+        "label": "High tide",
+        "note": "Alma harbor, Bay of Fundy",
+        "alt": "Fishing boats floating in a full harbor at Alma, on the Bay of Fundy",
+        "credit": "Dylan Kereluk",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Bay_of_Fundy_-_Tide_In.jpg"
+      },
+      {
+        "src": "/images/tsunami-tidal-wave/tide-low.jpg",
+        "label": "Low tide",
+        "note": "Same harbor, same boats",
+        "alt": "The same harbor at Alma with the water gone, and the same fishing boats resting on the mud",
+        "credit": "Dylan Kereluk",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Bay_of_Fundy_-_Tide_Out.jpg"
+      }
     ]
   },
   {
@@ -690,6 +831,19 @@
       "https://www.scientificamerican.com/article/why-do-stars-twinkle",
       "https://starchild.gsfc.nasa.gov/docs/StarChild/questions/question26.html",
       "https://science.nasa.gov/image-article/apod-2000-july-25-why-stars-twinkle/"
+    ],
+    "images": [
+      {
+        "src": "/images/stars-planets-twinkle/jupiter.jpg",
+        "label": "Jupiter in a small telescope",
+        "note": "A disk, not a point",
+        "alt": "Jupiter seen through a backyard telescope as a small striped disk, with four of its moons as tiny dots in a line beside it",
+        "fit": "contain",
+        "credit": "Freak-Line-Community",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Jupiter_and_galilean_moons.jpg"
+      }
     ]
   },
   {
@@ -711,6 +865,26 @@
     "bonus": "The National Weather Service gives this example: 50 °F with a 50 °F dew point is 100% humidity, while 90 °F with a 69 °F dew point is only 50%. The 90-degree day feels far more humid.",
     "sources": [
       "https://www.weather.gov/tbw/dewpoint"
+    ],
+    "images": [
+      {
+        "src": "/images/humidity-dew-point/cool-day.svg",
+        "label": "50 °F day: 100% humidity",
+        "note": "Dew point 50 °F, so the air is full",
+        "alt": "A temperature scale with the air temperature and the dew point both at 50 degrees Fahrenheit. Relative humidity is 100%.",
+        "fit": "contain",
+        "credit": "Diagram drawn for this app",
+        "source": "https://github.com/byebrianwong/did-you-know/blob/main/scripts/make-diagrams.mjs"
+      },
+      {
+        "src": "/images/humidity-dew-point/hot-day.svg",
+        "label": "90 °F day: 50% humidity",
+        "note": "Higher dew point, so it feels muggier",
+        "alt": "The same temperature scale with the air at 90 degrees Fahrenheit and the dew point at 69. Relative humidity is only 50%, but the dew point is 19 degrees higher than on the 50-degree day.",
+        "fit": "contain",
+        "credit": "Diagram drawn for this app",
+        "source": "https://github.com/byebrianwong/did-you-know/blob/main/scripts/make-diagrams.mjs"
+      }
     ]
   },
   {
@@ -733,6 +907,28 @@
     "sources": [
       "https://www.weather.gov/abr/blizzardrecap",
       "https://www.weather.gov/dtx/winter_defs"
+    ],
+    "images": [
+      {
+        "src": "/images/blizzard-snowstorm/whiteout.jpg",
+        "label": "Near whiteout",
+        "note": "Wind-blown snow hides the view",
+        "alt": "A snowy field in Minnesota where blowing snow turns the trees into faint gray shapes and hides the distance",
+        "credit": "Googleaseerch",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Nearwhiteoutinminnesota.JPG"
+      },
+      {
+        "src": "/images/blizzard-snowstorm/ground-blizzard.jpg",
+        "label": "Ground blizzard",
+        "note": "Old snow blown around, with the sun out",
+        "alt": "Wind lifting loose snow off a mountain slope in Poland into a glittering haze, with the sun shining overhead",
+        "credit": "Jakub Hałun",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Babia_G%C3%B3ra,_zamie%C4%87_%C5%9Bnie%C5%BCna,_20230304_0704_3190.jpg"
+      }
     ]
   },
   {

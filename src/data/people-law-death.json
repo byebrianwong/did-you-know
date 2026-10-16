@@ -210,6 +210,28 @@
       "https://bjs.ojp.gov/topics/corrections/correctional-institutions",
       "https://bjs.ojp.gov/library/publications/jail-inmates-2023-statistical-tables/web-report",
       "https://www.law.umich.edu/facultyhome/margoschlanger/Documents/Resources/The_Difference_Between_Jails_and_Prisons%20.pdf"
+    ],
+    "images": [
+      {
+        "src": "/images/jail-prison/jail.jpg",
+        "label": "Jail",
+        "note": "Twin Towers, run by the Los Angeles County Sheriff",
+        "alt": "A tall beige jail building with narrow slit windows, behind a wall with signs for the booking compound",
+        "credit": "Jjz3d83",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Twin_Towers_Correctional_Facility.JPG"
+      },
+      {
+        "src": "/images/jail-prison/prison.jpg",
+        "label": "Prison",
+        "note": "Clinton Correctional Facility, a New York State prison",
+        "alt": "A long, high concrete wall with guard towers running beside a town street",
+        "credit": "Xamreb",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Clinton_correctional_facility,_Dannemora,_NY,_2007.jpg"
+      }
     ]
   },
   {
@@ -246,6 +268,18 @@
       "https://www.law.cornell.edu/uscode/text/18/3559",
       "https://www.womenslaw.org/laws/nj/state-gun-laws/basic-info-and-definitions/what-are-definitions-felony-indictable-offense-and",
       "https://www.law.cornell.edu/wex/felony"
+    ],
+    "images": [
+      {
+        "src": "/images/felony-misdemeanor/one-year-line.svg",
+        "label": "The one-year line",
+        "note": "US federal classes; each state sets its own",
+        "alt": "A scale of the longest sentence the law allows, in years. Misdemeanors cover up to 1 year. Felonies start above 1 year: federal Class E runs to 5 years, Class D to 10, and Classes C, B and A go higher, up to life.",
+        "fit": "contain",
+        "wide": true,
+        "credit": "Diagram drawn for this app",
+        "source": "https://github.com/byebrianwong/did-you-know/blob/main/scripts/make-diagrams.mjs"
+      }
     ]
   },
   {
@@ -265,6 +299,18 @@
       "https://www.law.cornell.edu/wex/defamation",
       "https://www.legislation.gov.uk/ukpga/1990/42/section/166/enacted/data.htm",
       "https://volokh.com/2008/07/29/defamacast/"
+    ],
+    "images": [
+      {
+        "src": "/images/defamation-libel-slander/sullivan-ad.jpg",
+        "label": "The ad in New York Times v. Sullivan",
+        "note": "Ruled not libel: no actual malice was shown",
+        "alt": "A full-page New York Times advertisement from March 29, 1960, headlined \"Heed Their Rising Voices\", with columns of text and lists of names",
+        "fit": "contain",
+        "credit": "Committee to Defend Martin Luther King and the Struggle for Freedom in the South",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Heed_Their_Rising_Voices.jpg"
+      }
     ]
   },
   {
@@ -284,6 +330,28 @@
       "https://www.law.cornell.edu/wex/attorney",
       "https://learnmore.lawbore.net/article/solicitor-or-barrister",
       "https://targetjobs.co.uk/careers-advice/job-descriptions/advocate-scotland-job-description"
+    ],
+    "images": [
+      {
+        "src": "/images/lawyer-attorney-barrister-solicitor/barrister.png",
+        "label": "Barrister",
+        "note": "Court dress: wig and gown",
+        "alt": "Old ink drawing of an English barrister in a curled wig and black gown, standing at a desk with one arm raised as if speaking",
+        "fit": "contain",
+        "credit": "Nordisk familjebok",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Advokat,_Engelsk_advokatdr%C3%A4kt,_Nordisk_familjebok.png"
+      },
+      {
+        "src": "/images/lawyer-attorney-barrister-solicitor/chambers.jpg",
+        "label": "Chambers",
+        "note": "Offices shared by a group of barristers, in Portsmouth",
+        "alt": "A white bay window on a terraced house, with \"Portsmouth Barristers Chambers\" lettered on the glass",
+        "credit": "Basher Eyre",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Portsmouth_Barristers%27_Chambers_in_Bellevue_Terrace_-_geograph.org.uk_-_1995095.jpg"
+      }
     ]
   },
   {
@@ -302,6 +370,26 @@
       "https://bjs.ojp.gov/topics/corrections/community-corrections",
       "https://www.justice.gov/archives/united-states-parole-commission",
       "https://www.dictionary.com/browse/parole"
+    ],
+    "images": [
+      {
+        "src": "/images/parole-probation/probation.svg",
+        "label": "Probation",
+        "note": "Served in the community, under supervision",
+        "alt": "A bar for one sentence, filled entirely with \"in the community\". Probation is ordered by a judge, usually instead of prison.",
+        "fit": "contain",
+        "credit": "Diagram drawn for this app",
+        "source": "https://github.com/byebrianwong/did-you-know/blob/main/scripts/make-diagrams.mjs"
+      },
+      {
+        "src": "/images/parole-probation/parole.svg",
+        "label": "Parole",
+        "note": "Early release for the rest of the sentence",
+        "alt": "A bar for one sentence: the first part is spent in prison, the rest on parole in the community. Parole is granted by a parole board or by law.",
+        "fit": "contain",
+        "credit": "Diagram drawn for this app",
+        "source": "https://github.com/byebrianwong/did-you-know/blob/main/scripts/make-diagrams.mjs"
+      }
     ]
   },
   {
@@ -460,6 +548,19 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Republic",
       "https://en.wikipedia.org/wiki/Democracy"
+    ],
+    "images": [
+      {
+        "src": "/images/republic-democracy/republics-map.png",
+        "label": "Republics of the world",
+        "note": "Blue: republics. Gray: not republics, such as the UK, Sweden and Japan",
+        "alt": "World map with republics in two shades of blue and other countries in gray. The UK, Sweden, Japan, Canada and Australia are gray.",
+        "fit": "contain",
+        "credit": "PharaohCrab",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Map_of_Republics.svg"
+      }
     ]
   },
   {
@@ -478,6 +579,37 @@
       "https://grammarist.com/usage/emigrate-immigrate/",
       "https://languagetool.org/insights/post/word-choice-immigrate-emigrate-migrate",
       "https://www.dictionary.com/browse/emigre"
+    ],
+    "images": [
+      {
+        "src": "/images/emigrate-immigrate-migrate/emigrate.jpg",
+        "label": "Emigrate",
+        "note": "\"Emigrants Leave Ireland\", an 1868 engraving",
+        "alt": "Engraving of a family on a rocky Irish shore, waving to a sailing ship as it leaves",
+        "fit": "contain",
+        "credit": "Henry Edward Doyle",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Emigrants_Leave_Ireland_by_Henry_Doyle_1868.jpg"
+      },
+      {
+        "src": "/images/emigrate-immigrate-migrate/immigrate.jpg",
+        "label": "Immigrate",
+        "note": "Arriving at Ellis Island, New York",
+        "alt": "Old black and white photo of men, women and a boy carrying suitcases and bundles past a large brick building, captioned \"Arriving at Ellis Island\"",
+        "credit": "Bain News Service",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Arriving_at_Ellis_Island_LCCN2014710704.jpg"
+      },
+      {
+        "src": "/images/emigrate-immigrate-migrate/one-move.svg",
+        "label": "One move, two words",
+        "note": "Which word depends on which end you mean",
+        "alt": "Two boxes, Ireland and Canada, with an arrow from Ireland to Canada. Under Ireland: emigrates from, e- means out. Under Canada: immigrates to, im- means in.",
+        "fit": "contain",
+        "wide": true,
+        "credit": "Diagram drawn for this app",
+        "source": "https://github.com/byebrianwong/did-you-know/blob/main/scripts/make-diagrams.mjs"
+      }
     ]
   },
   {
@@ -496,6 +628,28 @@
       "https://www.boundless.com/blog/consulate-vs-embassy-whats-the-difference",
       "https://cjc.org.za/2019/02/01/nowhere-to-run-somewhere-to-hide-the-status-of-embassies-as-places-of-refuge/",
       "https://en.wikipedia.org/wiki/List_of_diplomatic_missions_in_the_Netherlands"
+    ],
+    "images": [
+      {
+        "src": "/images/embassy-consulate/embassy.jpg",
+        "label": "Embassy",
+        "note": "US Embassy in Ottawa, Canada's capital",
+        "alt": "The front of a stone and glass building with \"Embassy of the United States of America\" over its doors",
+        "credit": "Tony Webster",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Embassy_of_the_United_States_of_America_(14786429593).jpg"
+      },
+      {
+        "src": "/images/embassy-consulate/consulate.jpg",
+        "label": "Consulate",
+        "note": "US Consulate General in Toronto",
+        "alt": "A low stone office building with a US flag on a pole, on a corner of University Avenue in downtown Toronto",
+        "credit": "Aquintero82",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Consulate-General_of_the_USA,_Toronto.jpg"
+      }
     ]
   },
   {
@@ -513,6 +667,29 @@
     "sources": [
       "https://blogs.loc.gov/law/2023/08/whats-in-a-name-the-four-u-s-states-that-are-technically-commonwealths/",
       "https://www.dictionary.com/e/commonwealth-vs-state/"
+    ],
+    "images": [
+      {
+        "src": "/images/state-commonwealth/commonwealths-map.png",
+        "label": "The four commonwealths",
+        "note": "Green: Kentucky, Massachusetts, Pennsylvania, Virginia",
+        "alt": "Map of the United States with Kentucky, Massachusetts, Pennsylvania and Virginia shaded green and the other states gray",
+        "fit": "contain",
+        "credit": "Thesavagenorwegian",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Commonwealth_US_States.svg"
+      },
+      {
+        "src": "/images/state-commonwealth/kentucky-seal.png",
+        "label": "Seal of Kentucky",
+        "note": "The official name is on the seal",
+        "alt": "Round blue and gold seal reading \"Commonwealth of Kentucky\" around two men shaking hands, with the motto \"United we stand, divided we fall\"",
+        "fit": "contain",
+        "credit": "Commonwealth of Kentucky",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_Kentucky.svg"
+      }
     ]
   },
   {

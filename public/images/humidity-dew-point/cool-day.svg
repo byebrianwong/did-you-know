@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" font-family="-apple-system, system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<rect width="400" height="300" fill="#fff"/>
+<line x1="70" y1="30" x2="70" y2="240" stroke="#6f655a" stroke-width="2"/>
+<line x1="62" y1="240" x2="70" y2="240" stroke="#6f655a" stroke-width="2"/>
+<text x="56" y="248" font-size="22" fill="#6f655a" text-anchor="end" font-weight="400">40°</text>
+<line x1="62" y1="170" x2="70" y2="170" stroke="#6f655a" stroke-width="2"/>
+<text x="56" y="178" font-size="22" fill="#6f655a" text-anchor="end" font-weight="400">60°</text>
+<line x1="62" y1="100" x2="70" y2="100" stroke="#6f655a" stroke-width="2"/>
+<text x="56" y="108" font-size="22" fill="#6f655a" text-anchor="end" font-weight="400">80°</text>
+<line x1="62" y1="30" x2="70" y2="30" stroke="#6f655a" stroke-width="2"/>
+<text x="56" y="38" font-size="22" fill="#6f655a" text-anchor="end" font-weight="400">100°</text>
+<circle cx="160" cy="205" r="14" fill="#e8553d"/>
+<circle cx="160" cy="205" r="9" fill="#3a78c2"/>
+<text x="188" y="199" font-size="24" fill="#e8553d" text-anchor="start" font-weight="600">air 50 °F</text>
+<text x="188" y="227" font-size="24" fill="#3a78c2" text-anchor="start" font-weight="600">dew point 50 °F</text>
+<text x="20" y="288" font-size="24" fill="#221d18" text-anchor="start" font-weight="600">relative humidity 100%</text>
+</svg>
