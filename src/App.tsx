@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useLayoutEffect, useState } from 'react'
 import { BrowseList } from './components/BrowseList'
 import { DoneState } from './components/DoneState'
 import { FactDetail } from './components/FactDetail'
@@ -53,7 +53,10 @@ export default function App({ facts, store, shuffle = true, initialMode = 'learn
   }
 
   // Keyboard, Learn mode only: Space or Enter reveals. After that, K = knew it, N = new to me.
-  useEffect(() => {
+  // useLayoutEffect, not useEffect: the listener is attached as part of the render,
+  // so a key pressed right after the card appears is never lost. Tests press keys
+  // immediately (Chromatic failed on this with useEffect).
+  useLayoutEffect(() => {
     if (mode !== 'learn') return
     const onKey = (e: KeyboardEvent) => {
       if (e.metaKey || e.ctrlKey || e.altKey) return
