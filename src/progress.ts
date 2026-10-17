@@ -1,6 +1,6 @@
-// Saves which facts the reader already knows, in this browser only.
-// Storage can be missing or blocked (private windows), so every access is guarded
-// and the app still works without it.
+// Saves which facts the reader already knows.
+// The app reads and writes progress through a ProgressStore, so stories and tests
+// can start from any state without touching the browser's storage.
 
 const KEY = 'did-you-know:v1'
 
@@ -9,26 +9,45 @@ export type Progress = {
   seen: string[] // every fact revealed at least once
 }
 
-const empty: Progress = { known: [], seen: [] }
-
-export function loadProgress(): Progress {
-  try {
-    const raw = localStorage.getItem(KEY)
-    if (!raw) return empty
-    const parsed = JSON.parse(raw)
-    return {
-      known: Array.isArray(parsed.known) ? parsed.known : [],
-      seen: Array.isArray(parsed.seen) ? parsed.seen : [],
-    }
-  } catch {
-    return empty
-  }
+export type ProgressStore = {
+  load: () => Progress
+  save: (progress: Progress) => void
 }
 
-export function saveProgress(p: Progress) {
-  try {
-    localStorage.setItem(KEY, JSON.stringify(p))
-  } catch {
-    // Ignore: progress just won't survive a reload.
+export const emptyProgress: Progress = { known: [], seen: [] }
+
+// The real store: localStorage, in this browser only. Storage can be missing or
+// blocked (private windows), so every access is guarded and the app still works.
+export const browserStore: ProgressStore = {
+  load() {
+    try {
+      const raw = localStorage.getItem(KEY)
+      if (!raw) return emptyProgress
+      const parsed = JSON.parse(raw)
+      return {
+        known: Array.isArray(parsed.known) ? parsed.known : [],
+        seen: Array.isArray(parsed.seen) ? parsed.seen : [],
+      }
+    } catch {
+      return emptyProgress
+    }
+  },
+  save(progress) {
+    try {
+      localStorage.setItem(KEY, JSON.stringify(progress))
+    } catch {
+      // Ignore: progress just won't survive a reload.
+    }
+  },
+}
+
+// A store that keeps progress in memory. Used by stories and tests.
+export function memoryStore(initial: Progress = emptyProgress): ProgressStore {
+  let current = initial
+  return {
+    load: () => current,
+    save: (progress) => {
+      current = progress
+    },
   }
 }
