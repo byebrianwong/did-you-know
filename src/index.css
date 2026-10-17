@@ -1,17 +1,27 @@
 :root {
-  --bg: #fbf6ee;
-  --card: #fffdf9;
-  --ink: #221d18;
-  --muted: #6f655a;
-  --line: #e9dfd1;
-  --accent: #e8553d;
-  --accent-ink: #fff8ef;
-  --accent-soft: #fde6dd;
-  --bonus-bg: #fff3c9;
-  --bonus-ink: #5c4500;
-  --shadow: 0 1px 2px rgb(60 40 20 / 6%), 0 8px 30px rgb(60 40 20 / 8%);
-
+  /* Each colour is light-dark(light value, dark value). The browser picks one
+     from color-scheme: it follows the system setting, unless data-theme on <html>
+     forces light or dark (Storybook's theme switch sets it). */
   color-scheme: light dark;
+
+  --bg: light-dark(#fbf6ee, #17140f);
+  --card: light-dark(#fffdf9, #221e18);
+  --ink: light-dark(#221d18, #f3ebe0);
+  --muted: light-dark(#6a6055, #a8998a);
+  --line: light-dark(#e9dfd1, #3a332a);
+  /* --accent is for shapes and large text (meter, borders, logo).
+     --accent-strong is for small text and for backgrounds behind text, where the
+     light value must be darker to pass WCAG AA contrast (4.5:1). */
+  --accent: light-dark(#e8553d, #ff7a5c);
+  --accent-strong: light-dark(#b93a25, #ff7a5c);
+  --accent-ink: light-dark(#fff8ef, #1b120d);
+  --accent-soft: light-dark(#fde6dd, #3d2219);
+  --bonus-bg: light-dark(#fff3c9, #3a3014);
+  --bonus-ink: light-dark(#5c4500, #f5dc8a);
+  --shadow-near: light-dark(rgb(60 40 20 / 6%), rgb(0 0 0 / 30%));
+  --shadow-far: light-dark(rgb(60 40 20 / 8%), rgb(0 0 0 / 30%));
+  --shadow: 0 1px 2px var(--shadow-near), 0 8px 30px var(--shadow-far);
+
   font-family: Inter, system-ui, -apple-system, 'Segoe UI', sans-serif;
   font-size: 17px;
   line-height: 1.55;
@@ -20,20 +30,12 @@
   -webkit-font-smoothing: antialiased;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #17140f;
-    --card: #221e18;
-    --ink: #f3ebe0;
-    --muted: #a8998a;
-    --line: #3a332a;
-    --accent: #ff7a5c;
-    --accent-ink: #1b120d;
-    --accent-soft: #3d2219;
-    --bonus-bg: #3a3014;
-    --bonus-ink: #f5dc8a;
-    --shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 8px 30px rgb(0 0 0 / 30%);
-  }
+:root[data-theme='light'] {
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
 }
 
 * {
@@ -224,7 +226,7 @@ body {
   display: grid;
   place-items: center;
   border-radius: 99px;
-  background: var(--accent);
+  background: var(--accent-strong);
   color: var(--accent-ink);
   font-size: 0.8rem;
   font-weight: 700;
@@ -291,7 +293,7 @@ body {
   font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--accent-strong);
   background: var(--accent-soft);
   padding: 3px 10px;
   border-radius: 99px;
@@ -463,7 +465,7 @@ body {
 }
 
 .btn-primary {
-  background: var(--accent);
+  background: var(--accent-strong);
   color: var(--accent-ink);
 }
 
@@ -483,6 +485,13 @@ body {
 
 .btn-wide {
   width: 100%;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+  filter: none;
 }
 
 .actions {
@@ -506,6 +515,19 @@ body {
 .sources a:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
+}
+
+/* Read by screen readers, not shown on screen. */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
 }
 
 .foot {

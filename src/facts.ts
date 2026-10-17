@@ -33,6 +33,4 @@ const modules = import.meta.glob<{ default: Fact[] }>('./data/*.json', { eager: 
 
 export const facts: Fact[] = Object.values(modules).flatMap((m) => m.default)
 
-export const categories: string[] = [...new Set(facts.map((f) => f.category))].sort()
-
 export const factsById = new Map(facts.map((f) => [f.id, f]))
