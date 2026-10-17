@@ -10,7 +10,7 @@ export function fact(id: string): Fact {
 }
 
 export const facts = {
-  noImages: fact('jail-prison'),
+  noImages: fact('md-do'),
   oneImage: fact('magma-lava'),
   twoImages: fact('raven-crow'),
   threeImages: fact('alligator-crocodile-caiman'),
