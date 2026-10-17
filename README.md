@@ -64,7 +64,8 @@ What the stories check:
 
 The GitHub workflow in `.github/workflows/storybook.yml` runs `npm test` and
 publishes to Chromatic on every push. The Chromatic job needs a
-`CHROMATIC_PROJECT_TOKEN` repository secret.
+`CHROMATIC_PROJECT_TOKEN` repository secret. Until that secret is added, the job
+is skipped.
 
 ## Deploys
 
