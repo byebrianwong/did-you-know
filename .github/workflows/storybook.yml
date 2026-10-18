@@ -1,0 +1,50 @@
+# Runs on every push.
+# - test: runs every story as a test in Chromium (render, play function, accessibility).
+# - chromatic: publishes Storybook to Chromatic, which snapshots every story in
+#   light and dark (and phone width for pages) and shows visual changes for review.
+#   Needs the CHROMATIC_PROJECT_TOKEN repository secret. Until that secret is
+#   added, this job skips its steps and passes, with a notice saying why.
+name: Storybook
+
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm test
+
+  chromatic:
+    runs-on: ubuntu-latest
+    env:
+      # Secrets can't be read in an `if`, so copy it to an env var first.
+      CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+    steps:
+      - if: env.CHROMATIC_PROJECT_TOKEN == ''
+        run: echo "::notice::Skipping Chromatic. Add the CHROMATIC_PROJECT_TOKEN repository secret to turn it on."
+      - if: env.CHROMATIC_PROJECT_TOKEN != ''
+        uses: actions/checkout@v7
+        with:
+          # Chromatic needs the git history to find the baseline build.
+          fetch-depth: 0
+      - if: env.CHROMATIC_PROJECT_TOKEN != ''
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - if: env.CHROMATIC_PROJECT_TOKEN != ''
+        run: npm ci
+      # Chromatic recommends @latest, so the CLI stays in step with its service.
+      - if: env.CHROMATIC_PROJECT_TOKEN != ''
+        uses: chromaui/action@latest
+        with:
+          projectToken: ${{ env.CHROMATIC_PROJECT_TOKEN }}
+          # TurboSnap: only snapshot stories whose files changed.
+          onlyChanged: true

@@ -23,6 +23,50 @@ npm install
 npm run dev
 ```
 
+## Storybook
+
+This app is also an example of a well-organised Storybook. Every piece of the UI
+is a small component with its own stories, and the whole app has page stories
+that test the main flows.
+
+```bash
+npm run storybook   # open Storybook at http://localhost:6006
+npm test            # run every story as a test in a headless browser
+```
+
+How the code is split:
+
+- `src/components/` holds components that only display things. They get
+  everything through props and hold no app state. Each has a `.stories.tsx` file
+  next to it.
+- `src/useLearnDeck.ts` holds the deck state: which facts are known, which topic
+  is chosen, and which card is next.
+- `src/App.tsx` connects the two. It takes the facts and a progress store as
+  props. The real app passes all facts and `browserStore` (localStorage). Stories
+  pass a small deck and `memoryStore`, so each story starts from a known state.
+- `src/stories/fixtures.ts` picks real facts for stories, each chosen for a
+  layout case (no pictures, four pictures, a wide diagram, a long title, and so on).
+
+What the stories check:
+
+- **Interactions.** Stories with a `play` function click and type like a person,
+  then check the result: revealing a card, "New to me" bringing a card back 4
+  cards later, the keyboard shortcuts, filtering by topic, and marking a card as
+  known from Browse. They show step by step in the Interactions panel.
+- **Accessibility.** Every story is checked with axe, and `npm test` fails on
+  any violation (`a11y.test: 'error'` in `.storybook/preview.tsx`).
+- **Themes.** The toolbar switches between light and dark. It sets `data-theme`
+  on `<html>`. Without it, the app follows the system setting. Colours are
+  defined once in `src/index.css` with `light-dark()`.
+- **Visual changes.** Chromatic snapshots every story in light and dark. Page
+  and header stories are also snapshotted at phone width. The modes are listed
+  in `.storybook/modes.ts`.
+
+The GitHub workflow in `.github/workflows/storybook.yml` runs `npm test` and
+publishes to Chromatic on every push. The Chromatic job needs a
+`CHROMATIC_PROJECT_TOKEN` repository secret. Until that secret is added, the job
+is skipped.
+
 ## Deploys
 
 The repo is connected to a Vercel project. Every push to `main` deploys to the
