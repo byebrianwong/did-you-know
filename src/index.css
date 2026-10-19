@@ -181,9 +181,11 @@ body {
   box-shadow: 0 1px 3px rgb(0 0 0 / 12%);
 }
 
-/* Topic colours, set by data-topic on a card, a topic heading or a chip.
-   --topic is for icons and for the "vs." in card titles. Every value passes
-   4.5:1 contrast on --card. --topic-soft is a pale background behind icons. */
+/* Topic colours, set by data-topic on a card, a topic heading, a chip, or the
+   tag and title at the top of a fact. --topic is for icons, the "vs." in titles
+   and the tag's text. --topic-soft is a pale background behind icons and the
+   tag. Every --topic value passes 4.5:1 contrast on both --card and its own
+   --topic-soft, so it can be used for small text on either. */
 
 [data-topic] {
   --topic: var(--accent-strong);
@@ -191,12 +193,12 @@ body {
 }
 
 [data-topic='animals'] {
-  --topic: light-dark(#2c7a4b, #6fcf97);
+  --topic: light-dark(#2b784a, #6fcf97);
   --topic-soft: light-dark(#e2f1e6, #1f3327);
 }
 
 [data-topic='body'] {
-  --topic: light-dark(#c0354f, #ff8fa3);
+  --topic: light-dark(#bc344d, #ff8fa3);
   --topic-soft: light-dark(#fbe3e7, #3d1f25);
 }
 
@@ -206,7 +208,7 @@ body {
 }
 
 [data-topic='food'] {
-  --topic: light-dark(#b8560f, #ffaa66);
+  --topic: light-dark(#ac500e, #ffaa66);
   --topic-soft: light-dark(#fdebd9, #3d2a17);
 }
 
@@ -216,12 +218,12 @@ body {
 }
 
 [data-topic='people'] {
-  --topic: light-dark(#806e12, #e2cc5c);
+  --topic: light-dark(#7b6911, #e2cc5c);
   --topic-soft: light-dark(#f4eed2, #353016);
 }
 
 [data-topic='science'] {
-  --topic: light-dark(#0f7a86, #5fd0dc);
+  --topic: light-dark(#0e7580, #5fd0dc);
   --topic-soft: light-dark(#dcf1f3, #173236);
 }
 
@@ -435,18 +437,6 @@ body {
   text-wrap: balance;
 }
 
-.fcard-title .vs {
-  font-style: italic;
-  font-weight: 500;
-  color: var(--topic);
-}
-
-/* Moves to the next line as one piece. When it is wider than the card, its
-   words wrap inside it instead of overflowing. */
-.vs-part {
-  display: inline-block;
-}
-
 .fcard-question {
   font-size: 0.82rem;
   line-height: 1.4;
@@ -565,15 +555,23 @@ body {
 }
 
 .tag {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--accent-strong);
-  background: var(--accent-soft);
+  color: var(--topic);
+  background: var(--topic-soft);
   padding: 3px 10px;
   border-radius: 99px;
+}
+
+.tag svg {
+  width: 14px;
+  height: 14px;
+  margin-left: -2px;
 }
 
 .title {
@@ -584,6 +582,21 @@ body {
   letter-spacing: -0.015em;
   margin: 14px 0 8px;
   text-wrap: balance;
+}
+
+/* The "vs." in a title (the big card title and the Browse cards), in the
+   topic's colour. No italic face is loaded, so the browser slants the upright
+   one, the same as the logo. */
+.vs {
+  font-style: italic;
+  font-weight: 500;
+  color: var(--topic);
+}
+
+/* Moves to the next line as one piece. When it is wider than the card, its
+   words wrap inside it instead of overflowing. */
+.vs-part {
+  display: inline-block;
 }
 
 .question {
