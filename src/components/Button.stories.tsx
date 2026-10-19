@@ -28,6 +28,25 @@ export const Wide: Story = {
   ],
 }
 
+// A button with a keyboard shortcut shows the key after its label. The button's
+// name stays "Tell me"; screen readers get the key from aria-keyshortcuts.
+// Phones and touch screens hide the key.
+export const WithShortcut: Story = {
+  args: { wide: true, shortcut: 'Space' },
+  decorators: [
+    (Story) => (
+      <div style={{ width: 480 }}>
+        <Story />
+      </div>
+    ),
+  ],
+  play: async ({ canvas }) => {
+    const button = canvas.getByRole('button', { name: 'Tell me' })
+    await expect(button).toHaveAttribute('aria-keyshortcuts', 'Space')
+    await expect(button).toHaveTextContent('Space')
+  },
+}
+
 export const Disabled: Story = {
   args: { disabled: true },
   play: async ({ args, canvas, userEvent }) => {
@@ -40,10 +59,12 @@ export const Disabled: Story = {
 export const Pair: Story = {
   render: (args) => (
     <div className="actions" style={{ width: 480 }}>
-      <Button {...args} variant="quiet">
+      <Button {...args} variant="quiet" shortcut="K">
         I knew that
       </Button>
-      <Button {...args}>New to me · next</Button>
+      <Button {...args} shortcut="N">
+        New to me · next
+      </Button>
     </div>
   ),
 }

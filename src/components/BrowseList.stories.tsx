@@ -11,7 +11,7 @@ const meta = {
   args: {
     facts: sampleDeck,
     knownIds: new Set(['raven-crow', 'sea-ocean', 'jail-prison']),
-    showCategory: true,
+    groupByTopic: true,
     onOpen: fn(),
   },
   argTypes: { facts: { control: false }, knownIds: { control: false } },
@@ -20,12 +20,15 @@ const meta = {
 export default meta
 type Story = StoryObj<typeof meta>
 
-// All topics: each row names its topic. Known facts have a check mark.
+// All topics: one section per topic, each with its own count. Known facts have a
+// check mark.
 export const AllTopics: Story = {
   play: async ({ args, canvas, userEvent }) => {
-    // Sorted by title, whatever the order of the facts passed in.
-    const rows = canvas.getAllByRole('listitem')
-    await expect(rows[0]).toHaveTextContent('Elk vs. Moose')
+    // Topics A–Z, then facts by title, whatever the order of the facts passed in.
+    const topics = canvas.getAllByRole('heading', { level: 2 }).map((h) => h.textContent)
+    await expect(topics).toEqual(['Animals', 'Law & Crime', 'Weather & Space'])
+    await expect(canvas.getAllByRole('listitem')[0]).toHaveTextContent('Elk vs. Moose')
+    await expect(canvas.getByRole('region', { name: 'Animals' })).toHaveTextContent('1 of 3 known')
     await expect(canvas.getByRole('button', { name: /Raven vs\. Crow.*Known/ })).toBeVisible()
 
     await userEvent.click(canvas.getByRole('button', { name: /Frog vs\. Toad/ }))
@@ -33,11 +36,16 @@ export const AllTopics: Story = {
   },
 }
 
-// One topic chosen: the topic name under each title is left out.
+// One topic chosen: a single list with no topic heading. The header's progress
+// bar already counts this topic.
 export const OneTopic: Story = {
   args: {
     facts: sampleDeck.filter((f) => f.category === 'Animals'),
-    showCategory: false,
+    groupByTopic: false,
+  },
+  play: async ({ canvas }) => {
+    await expect(canvas.queryByRole('heading')).not.toBeInTheDocument()
+    await expect(canvas.getAllByRole('listitem')).toHaveLength(3)
   },
 }
 
