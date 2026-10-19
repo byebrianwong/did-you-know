@@ -106,7 +106,7 @@ export default function App({ facts, store, shuffle = true, initialMode = 'learn
           <BrowseList
             facts={deck.visible}
             knownIds={deck.knownIds}
-            showCategory={topicName === null}
+            groupByTopic={topicName === null}
             onOpen={openCard}
           />
         ) : current ? (
@@ -134,12 +134,6 @@ export default function App({ facts, store, shuffle = true, initialMode = 'learn
           />
         )}
       </main>
-
-      {mode === 'learn' && (
-        <footer className="foot">
-          <span className="keys">Space to reveal · K knew it · N next</span>
-        </footer>
-      )}
     </div>
   )
 }

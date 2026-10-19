@@ -24,15 +24,19 @@ type Story = StoryObj<typeof meta>
 // Before "Tell me": only the question.
 export const Question: Story = {
   play: async ({ args, canvas, userEvent }) => {
+    await expect(canvas.getByRole('button', { name: 'Tell me' })).toHaveAttribute('aria-keyshortcuts', 'Space')
     await userEvent.click(canvas.getByRole('button', { name: 'Tell me' }))
     await expect(args.onReveal).toHaveBeenCalledOnce()
   },
 }
 
-// After "Tell me": the answer, pictures, details and the two choices.
+// After "Tell me": the answer, pictures, details and the two choices, each with
+// its shortcut key.
 export const Revealed: Story = {
   args: { revealed: true },
   play: async ({ args, canvas, userEvent }) => {
+    await expect(canvas.getByRole('button', { name: 'I knew that' })).toHaveAttribute('aria-keyshortcuts', 'K')
+    await expect(canvas.getByRole('button', { name: 'New to me · next' })).toHaveAttribute('aria-keyshortcuts', 'N')
     await userEvent.click(canvas.getByRole('button', { name: 'I knew that' }))
     await expect(args.onKnewIt).toHaveBeenCalledOnce()
     await userEvent.click(canvas.getByRole('button', { name: 'New to me · next' }))

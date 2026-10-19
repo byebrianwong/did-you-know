@@ -10,9 +10,13 @@ It shows one fact at a time. Tap **Tell me** to see the answer. Then pick:
 - **I knew that** — the card is marked as known and does not come back.
 - **New to me · next** — the card comes back after a few other cards.
 
-**Browse** (top right) lists every fact in the chosen topic. Facts you marked as
-known have a ✓. Open any fact to read it again, put it back into Learn, or mark
-it as known.
+On a computer, each button shows its keyboard shortcut: Space for **Tell me**,
+K for **I knew that**, N for **New to me**. Phones hide them.
+
+**Browse** (top right) lists every fact in the chosen topic. With **All** chosen,
+the facts are grouped by topic, and each topic shows how many of its facts you
+know. Facts you marked as known have a ✓. Open any fact to read it again, put it
+back into Learn, or mark it as known.
 
 Progress is saved in your browser (localStorage). Nothing is sent anywhere.
 
