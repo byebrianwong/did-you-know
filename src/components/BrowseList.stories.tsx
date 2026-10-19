@@ -11,7 +11,6 @@ const meta = {
   args: {
     facts: sampleDeck,
     knownIds: new Set(['raven-crow', 'sea-ocean', 'jail-prison']),
-    showCategory: true,
     onOpen: fn(),
   },
   argTypes: { facts: { control: false }, knownIds: { control: false } },
@@ -20,24 +19,30 @@ const meta = {
 export default meta
 type Story = StoryObj<typeof meta>
 
-// All topics: each row names its topic. Known facts have a check mark.
+// All topics: a heading for each topic, then its cards. Known facts are marked.
+// Cards fade in from opacity 0, so checks use toBeInTheDocument() rather than
+// toBeVisible(), which would fail during the fade.
 export const AllTopics: Story = {
   play: async ({ args, canvas, userEvent }) => {
-    // Sorted by title, whatever the order of the facts passed in.
-    const rows = canvas.getAllByRole('listitem')
-    await expect(rows[0]).toHaveTextContent('Elk vs. Moose')
-    await expect(canvas.getByRole('button', { name: /Raven vs\. Crow.*Known/ })).toBeVisible()
+    // Topics in alphabetical order, each with a count.
+    const headings = canvas.getAllByRole('heading', { level: 2 })
+    await expect(headings.map((h) => h.textContent)).toEqual(['Animals', 'Law & Crime', 'Weather & Space'])
+    await expect(canvas.getByText('1 fact · 1 known')).toBeInTheDocument()
 
-    await userEvent.click(canvas.getByRole('button', { name: /Frog vs\. Toad/ }))
+    // Facts sorted by title within their topic, whatever the order passed in.
+    const cards = canvas.getAllByRole('listitem')
+    await expect(cards[0]).toHaveTextContent('Elk vs. Moose')
+    await expect(canvas.getByRole('button', { name: /^Raven vs\. Crow.*Known$/ })).toBeInTheDocument()
+
+    await userEvent.click(canvas.getByRole('button', { name: /^Frog vs\. Toad/ }))
     await expect(args.onOpen).toHaveBeenCalledWith('frog-toad')
   },
 }
 
-// One topic chosen: the topic name under each title is left out.
+// One topic chosen: one heading.
 export const OneTopic: Story = {
   args: {
     facts: sampleDeck.filter((f) => f.category === 'Animals'),
-    showCategory: false,
   },
 }
 

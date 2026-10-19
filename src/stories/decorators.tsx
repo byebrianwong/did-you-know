@@ -7,3 +7,10 @@ export const appColumn: Decorator = (Story) => (
     <Story />
   </div>
 )
+
+// Shows one Browse card at the width it has in the app's three-column grid.
+export const cardWidth: Decorator = (Story) => (
+  <div style={{ width: 210, display: 'flex' }}>
+    <Story />
+  </div>
+)

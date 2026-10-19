@@ -114,12 +114,22 @@ body {
   font: inherit;
   font-size: 0.85rem;
   font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   padding: 6px 14px;
   border-radius: 99px;
   border: 1px solid var(--line);
   background: transparent;
   color: var(--muted);
   cursor: pointer;
+}
+
+.chip svg {
+  width: 15px;
+  height: 15px;
+  margin-left: -3px;
+  color: var(--topic);
 }
 
 .chip:hover {
@@ -132,6 +142,10 @@ body {
   background: var(--ink);
   border-color: var(--ink);
   color: var(--bg);
+}
+
+.chip-on svg {
+  color: inherit;
 }
 
 .top-row {
@@ -167,69 +181,311 @@ body {
   box-shadow: 0 1px 3px rgb(0 0 0 / 12%);
 }
 
-/* Browse list */
+/* Topic colours, set by data-topic on a card, a topic heading or a chip.
+   --topic is for icons and for the "vs." in card titles. Every value passes
+   4.5:1 contrast on --card. --topic-soft is a pale background behind icons. */
 
-.list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: 20px;
-  box-shadow: var(--shadow);
-  overflow: hidden;
+[data-topic] {
+  --topic: var(--accent-strong);
+  --topic-soft: var(--accent-soft);
 }
 
-.list li + li {
-  border-top: 1px solid var(--line);
+[data-topic='animals'] {
+  --topic: light-dark(#2c7a4b, #6fcf97);
+  --topic-soft: light-dark(#e2f1e6, #1f3327);
 }
 
-.row {
-  font: inherit;
-  width: 100%;
+[data-topic='body'] {
+  --topic: light-dark(#c0354f, #ff8fa3);
+  --topic-soft: light-dark(#fbe3e7, #3d1f25);
+}
+
+[data-topic='death'] {
+  --topic: light-dark(#7a4f8c, #d1a8e3);
+  --topic-soft: light-dark(#efe5f3, #2f2436);
+}
+
+[data-topic='food'] {
+  --topic: light-dark(#b8560f, #ffaa66);
+  --topic-soft: light-dark(#fdebd9, #3d2a17);
+}
+
+[data-topic='law'] {
+  --topic: light-dark(#48618a, #9fb6e0);
+  --topic-soft: light-dark(#e3e9f3, #232a38);
+}
+
+[data-topic='people'] {
+  --topic: light-dark(#806e12, #e2cc5c);
+  --topic-soft: light-dark(#f4eed2, #353016);
+}
+
+[data-topic='science'] {
+  --topic: light-dark(#0f7a86, #5fd0dc);
+  --topic-soft: light-dark(#dcf1f3, #173236);
+}
+
+[data-topic='weather'] {
+  --topic: light-dark(#4b52c2, #a3a8ff);
+  --topic-soft: light-dark(#e5e6fa, #25264a);
+}
+
+/* Browse: a heading per topic, then a grid of cards */
+
+.browse {
+  display: grid;
+  gap: 40px;
+}
+
+.topic-head {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 14px 20px;
-  border: 0;
-  background: transparent;
-  color: var(--ink);
-  text-align: left;
-  cursor: pointer;
+  margin-bottom: 14px;
 }
 
-@media (hover: hover) {
-  .row:hover {
-    background: var(--accent-soft);
+.topic-badge {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  background: var(--topic-soft);
+  color: var(--topic);
+}
+
+.topic-badge svg {
+  width: 22px;
+  height: 22px;
+}
+
+.topic-name {
+  font-family: Fraunces, Georgia, serif;
+  font-weight: 700;
+  font-size: 1.45rem;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  margin: 0;
+}
+
+.topic-count {
+  margin-left: auto;
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+/* Cards come in one after another. --i is the card's place in its topic. */
+.cards > li {
+  display: flex;
+  animation: card-in 0.5s cubic-bezier(0.2, 0.7, 0.3, 1) both;
+  animation-delay: calc(min(var(--i, 0), 11) * 45ms);
+}
+
+@keyframes card-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.97);
   }
 }
 
-.row-main {
+.fcard {
+  font: inherit;
+  position: relative;
   flex: 1;
+  min-width: 0;
   display: flex;
   flex-direction: column;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--card);
+  color: var(--ink);
+  text-align: left;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
 }
 
-.row-title {
-  font-weight: 500;
+.fcard-cover {
+  position: relative;
+  display: grid;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: var(--topic-soft);
 }
 
-.row-cat {
-  font-size: 0.8rem;
-  color: var(--muted);
+.fcard-cover img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  object-fit: cover;
+  transition: transform 0.5s ease;
 }
 
-.row-known {
-  flex-shrink: 0;
-  width: 26px;
-  height: 26px;
+/* Two photos side by side, with a thin line between them. */
+.fcard-cover-2 {
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+  background: var(--card);
+}
+
+/* Maps and diagrams: the whole picture, on white like in the fact itself. */
+.fcard-cover img.fcard-contain {
+  object-fit: contain;
+  padding: 10px;
+  background: #fff;
+}
+
+.fcard-vs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 32px;
+  height: 32px;
   display: grid;
   place-items: center;
   border-radius: 99px;
+  background: var(--card);
+  color: var(--topic);
+  font-family: Fraunces, Georgia, serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 1;
+  padding-bottom: 2px;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 22%);
+}
+
+/* No pictures: the topic's icon on a dotted background in the topic's colour. */
+.fcard-cover-0 {
+  place-items: center;
+  background:
+    radial-gradient(circle, color-mix(in srgb, var(--topic) 22%, transparent) 1.2px, transparent 1.6px) 0 0 / 14px 14px,
+    linear-gradient(140deg, var(--topic-soft), color-mix(in srgb, var(--topic-soft) 65%, var(--topic)));
+}
+
+.fcard-icon {
+  width: 72px;
+  height: 72px;
+  display: grid;
+  place-items: center;
+  border-radius: 99px;
+  background: var(--card);
+  color: var(--topic);
+  box-shadow: 0 4px 18px color-mix(in srgb, var(--topic) 25%, transparent);
+  transition: transform 0.4s ease;
+}
+
+.fcard-icon svg {
+  width: 36px;
+  height: 36px;
+}
+
+.fcard-known {
+  position: absolute;
+  z-index: 1;
+  top: 8px;
+  right: 8px;
+  padding: 3px 10px;
+  border-radius: 99px;
   background: var(--accent-strong);
   color: var(--accent-ink);
-  font-size: 0.8rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 20%);
+}
+
+.fcard-body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 12px 14px 16px;
+}
+
+.fcard-title {
+  font-family: Fraunces, Georgia, serif;
   font-weight: 700;
+  font-size: 1.08rem;
+  line-height: 1.22;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+.fcard-title .vs {
+  font-style: italic;
+  font-weight: 500;
+  color: var(--topic);
+}
+
+/* Moves to the next line as one piece. When it is wider than the card, its
+   words wrap inside it instead of overflowing. */
+.vs-part {
+  display: inline-block;
+}
+
+.fcard-question {
+  font-size: 0.82rem;
+  line-height: 1.4;
+  color: var(--muted);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+@media (hover: hover) {
+  .fcard:hover {
+    transform: translateY(-4px);
+    border-color: color-mix(in srgb, var(--topic) 45%, var(--line));
+    box-shadow:
+      0 2px 4px var(--shadow-near),
+      0 18px 40px var(--shadow-far);
+  }
+
+  .fcard:hover .fcard-cover img {
+    transform: scale(1.06);
+  }
+
+  .fcard:hover .fcard-icon {
+    transform: scale(1.1) rotate(-6deg);
+  }
+}
+
+.fcard:active {
+  transform: translateY(-1px) scale(0.98);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cards > li {
+    animation: none;
+  }
+  .fcard,
+  .fcard:hover,
+  .fcard:active,
+  .fcard:hover .fcard-cover img,
+  .fcard:hover .fcard-icon {
+    transform: none;
+  }
 }
 
 .back {
@@ -510,7 +766,7 @@ body {
 .btn:focus-visible,
 .chip:focus-visible,
 .mode:focus-visible,
-.row:focus-visible,
+.fcard:focus-visible,
 .back:focus-visible,
 .sources a:focus-visible {
   outline: 2px solid var(--accent);
@@ -559,6 +815,33 @@ body {
   }
   .title {
     font-size: 1.6rem;
+  }
+  .browse {
+    gap: 32px;
+  }
+  .cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .fcard {
+    border-radius: 16px;
+  }
+  .fcard-body {
+    padding: 10px 12px 14px;
+  }
+  .fcard-title {
+    font-size: 1rem;
+  }
+  .fcard-question {
+    font-size: 0.78rem;
+  }
+  .fcard-icon {
+    width: 60px;
+    height: 60px;
+  }
+  .fcard-icon svg {
+    width: 30px;
+    height: 30px;
   }
   /* One row of chips that scrolls sideways, so the card stays near the top. */
   .chips {
