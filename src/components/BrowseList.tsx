@@ -6,51 +6,60 @@ import { BrowseCard } from './BrowseCard'
 type BrowseListProps = {
   facts: Fact[]
   knownIds: ReadonlySet<string>
+  // Split the grid into one section per topic, each with a heading and its own
+  // count of known facts. Useful when the grid mixes topics.
+  groupByTopic: boolean
   onOpen: (id: string) => void
 }
 
-// Facts grouped by topic. Topics are in alphabetical order, and so are the facts
-// in each topic.
-function groupByTopic(facts: Fact[]): [string, Fact[]][] {
-  const groups = new Map<string, Fact[]>()
-  for (const f of [...facts].sort((a, b) => a.title.localeCompare(b.title))) {
-    groups.set(f.category, [...(groups.get(f.category) ?? []), f])
-  }
-  return [...groups].sort(([a], [b]) => a.localeCompare(b))
+type CardsProps = Pick<BrowseListProps, 'facts' | 'knownIds' | 'onOpen'>
+
+function byTitle(a: Fact, b: Fact) {
+  return a.title.localeCompare(b.title)
 }
 
-function plural(n: number, word: string) {
-  return `${n} ${word}${n === 1 ? '' : 's'}`
+// A grid of picture cards, sorted by title. Known facts are marked on their card.
+function Cards({ facts, knownIds, onOpen }: CardsProps) {
+  return (
+    <ul className="cards">
+      {[...facts].sort(byTitle).map((f, i) => (
+        // --i staggers the cards' entrance, one after another.
+        <li key={f.id} style={{ '--i': i } as CSSProperties}>
+          <BrowseCard fact={f} known={knownIds.has(f.id)} onOpen={() => onOpen(f.id)} />
+        </li>
+      ))}
+    </ul>
+  )
 }
 
-// Every fact in the chosen topic as a grid of picture cards, with a heading for
-// each topic. Known facts are marked on their card.
-export function BrowseList({ facts, knownIds, onOpen }: BrowseListProps) {
+// Every fact in the chosen topic as picture cards. With all topics shown, the
+// cards are grouped by topic (topics in A–Z order), and each group has the
+// topic's icon and says how many of its facts are known.
+export function BrowseList({ facts, knownIds, groupByTopic, onOpen }: BrowseListProps) {
+  if (!groupByTopic) return <Cards facts={facts} knownIds={knownIds} onOpen={onOpen} />
+
+  const topics = [...new Set(facts.map((f) => f.category))].sort((a, b) => a.localeCompare(b))
   return (
     <div className="browse">
-      {groupByTopic(facts).map(([category, items]) => {
-        const { slug, Icon } = topicLook(category)
-        const known = items.filter((f) => knownIds.has(f.id)).length
+      {topics.map((topic) => {
+        const { slug, Icon } = topicLook(topic)
+        const inTopic = facts.filter((f) => f.category === topic)
+        const known = inTopic.filter((f) => knownIds.has(f.id)).length
+        const headingId = `topic-${topic.replace(/\W+/g, '-').toLowerCase()}`
         return (
-          <section key={category} className="topic" data-topic={slug}>
+          <section key={topic} className="topic" data-topic={slug} aria-labelledby={headingId}>
             <div className="topic-head">
               <span className="topic-badge">
                 <Icon aria-hidden="true" />
               </span>
-              <h2 className="topic-name">{category}</h2>
+              <h2 className="topic-name" id={headingId}>
+                {topic}
+              </h2>
               <span className="topic-count">
-                {plural(items.length, 'fact')}
-                {known > 0 && ` · ${known} known`}
+                {known} of {inTopic.length} known
               </span>
             </div>
-            <ul className="cards">
-              {items.map((f, i) => (
-                // --i staggers the cards' entrance, one after another.
-                <li key={f.id} style={{ '--i': i } as CSSProperties}>
-                  <BrowseCard fact={f} known={knownIds.has(f.id)} onOpen={() => onOpen(f.id)} />
-                </li>
-              ))}
-            </ul>
+            <Cards facts={inTopic} knownIds={knownIds} onOpen={onOpen} />
           </section>
         )
       })}

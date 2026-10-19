@@ -11,6 +11,7 @@ const meta = {
   args: {
     facts: sampleDeck,
     knownIds: new Set(['raven-crow', 'sea-ocean', 'jail-prison']),
+    groupByTopic: true,
     onOpen: fn(),
   },
   argTypes: { facts: { control: false }, knownIds: { control: false } },
@@ -19,19 +20,16 @@ const meta = {
 export default meta
 type Story = StoryObj<typeof meta>
 
-// All topics: a heading for each topic, then its cards. Known facts are marked.
-// Cards fade in from opacity 0, so checks use toBeInTheDocument() rather than
-// toBeVisible(), which would fail during the fade.
+// All topics: one section per topic, each with its icon and its own count. Known
+// facts are marked on their card. Cards fade in from opacity 0, so checks use
+// toBeInTheDocument() rather than toBeVisible(), which would fail during the fade.
 export const AllTopics: Story = {
   play: async ({ args, canvas, userEvent }) => {
-    // Topics in alphabetical order, each with a count.
-    const headings = canvas.getAllByRole('heading', { level: 2 })
-    await expect(headings.map((h) => h.textContent)).toEqual(['Animals', 'Law & Crime', 'Weather & Space'])
-    await expect(canvas.getByText('1 fact · 1 known')).toBeInTheDocument()
-
-    // Facts sorted by title within their topic, whatever the order passed in.
-    const cards = canvas.getAllByRole('listitem')
-    await expect(cards[0]).toHaveTextContent('Elk vs. Moose')
+    // Topics A–Z, then facts by title, whatever the order of the facts passed in.
+    const topics = canvas.getAllByRole('heading', { level: 2 }).map((h) => h.textContent)
+    await expect(topics).toEqual(['Animals', 'Law & Crime', 'Weather & Space'])
+    await expect(canvas.getByRole('region', { name: 'Animals' })).toHaveTextContent('1 of 3 known')
+    await expect(canvas.getAllByRole('listitem')[0]).toHaveTextContent('Elk vs. Moose')
     await expect(canvas.getByRole('button', { name: /^Raven vs\. Crow.*Known$/ })).toBeInTheDocument()
 
     await userEvent.click(canvas.getByRole('button', { name: /^Frog vs\. Toad/ }))
@@ -39,10 +37,16 @@ export const AllTopics: Story = {
   },
 }
 
-// One topic chosen: one heading.
+// One topic chosen: a single grid with no topic heading. The header's progress
+// bar already counts this topic.
 export const OneTopic: Story = {
   args: {
     facts: sampleDeck.filter((f) => f.category === 'Animals'),
+    groupByTopic: false,
+  },
+  play: async ({ canvas }) => {
+    await expect(canvas.queryByRole('heading')).not.toBeInTheDocument()
+    await expect(canvas.getAllByRole('listitem')).toHaveLength(3)
   },
 }
 

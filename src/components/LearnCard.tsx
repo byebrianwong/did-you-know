@@ -18,17 +18,19 @@ export function LearnCard({ fact, revealed, onReveal, onKnewIt, onNewToMe }: Lea
     <article className="card">
       <FactHeading fact={fact} />
       {!revealed ? (
-        <Button wide onClick={onReveal}>
+        <Button wide shortcut="Space" onClick={onReveal}>
           Tell me
         </Button>
       ) : (
         <div className="reveal">
           <FactBody fact={fact} />
           <div className="actions">
-            <Button variant="quiet" onClick={onKnewIt}>
+            <Button variant="quiet" shortcut="K" onClick={onKnewIt}>
               I knew that
             </Button>
-            <Button onClick={onNewToMe}>New to me · next</Button>
+            <Button shortcut="N" onClick={onNewToMe}>
+              New to me · next
+            </Button>
           </div>
           <p className="hint">"I knew that" takes the card out of Learn. You can still read it in Browse.</p>
         </div>
