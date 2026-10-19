@@ -555,9 +555,7 @@ body {
 }
 
 .tag {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
+  display: inline-block;
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.06em;
@@ -568,10 +566,13 @@ body {
   border-radius: 99px;
 }
 
+/* Centred on the text with vertical-align, not flexbox. A flex tag sits 1.5px
+   higher on its line and moves the title and everything under it a little. */
 .tag svg {
   width: 14px;
   height: 14px;
-  margin-left: -2px;
+  margin: 0 5px 0 -2px;
+  vertical-align: -2px;
 }
 
 .title {
