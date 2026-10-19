@@ -13,10 +13,11 @@ It shows one fact at a time. Tap **Tell me** to see the answer. Then pick:
 On a computer, each button shows its keyboard shortcut: Space for **Tell me**,
 K for **I knew that**, N for **New to me**. Phones hide them.
 
-**Browse** (top right) lists every fact in the chosen topic. With **All** chosen,
-the facts are grouped by topic, and each topic shows how many of its facts you
-know. Facts you marked as known have a ✓. Open any fact to read it again, put it
-back into Learn, or mark it as known.
+**Browse** (top right) shows every fact in the chosen topic as a grid of picture
+cards. With **All** chosen, the cards are grouped by topic, and each topic shows
+how many of its facts you know. Facts you marked as known are labelled
+**Known**. Open any fact to read it again, put it back into Learn, or mark it as
+known.
 
 Progress is saved in your browser (localStorage). Nothing is sent anywhere.
 
@@ -96,6 +97,10 @@ loaded automatically. Each fact looks like this:
 
 `id` must be unique across all files. Progress is stored by `id`, so changing an
 id resets that fact for anyone who already marked it.
+
+Each topic (`category`) has an icon and a colour. The icons are listed in
+`src/topics.ts` and the colours in `src/index.css` (`[data-topic='…']`). A new
+topic shows a light bulb in the accent colour until it is added to both.
 
 ## Add pictures
 

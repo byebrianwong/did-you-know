@@ -104,6 +104,8 @@ export default function App({ facts, store, shuffle = true, initialMode = 'learn
           />
         ) : mode === 'browse' ? (
           <BrowseList
+            // A new key replays the cards' entrance when the topic changes.
+            key={deck.topic}
             facts={deck.visible}
             knownIds={deck.knownIds}
             groupByTopic={topicName === null}

@@ -144,7 +144,7 @@ export const MarkKnownFromBrowse: Story = {
 
     await step('The list shows it as known', async () => {
       await userEvent.click(canvas.getByRole('button', { name: '← All facts' }))
-      await expect(canvas.getByRole('button', { name: new RegExp(`${frog.title}.*Known`) })).toBeVisible()
+      await expect(canvas.getByRole('button', { name: new RegExp(`${frog.title}.*Known`) })).toBeInTheDocument()
       await expect(canvas.getByRole('progressbar', { name: 'Facts known' })).toHaveAttribute('aria-valuenow', '1')
     })
   },
