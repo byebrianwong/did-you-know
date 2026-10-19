@@ -21,9 +21,17 @@ export function ProgressMeter({ known, total }: ProgressMeterProps) {
       >
         <div className="meter-fill" style={{ width: `${percent}%` }} />
       </div>
-      {/* Screen readers already hear this from the progress bar. */}
+      {/* Screen readers already hear this from the progress bar.
+          Keep "x / y known" as separate text nodes, as before: one joined string
+          is about 0.01px narrower, which moves the bar's end in every snapshot. */}
       <span className="meter-text" aria-hidden="true">
-        {done ? `✓ All ${total} known` : `${known} / ${total} known`}
+        {done ? (
+          `✓ All ${total} known`
+        ) : (
+          <>
+            {known} / {total} known
+          </>
+        )}
       </span>
     </div>
   )
