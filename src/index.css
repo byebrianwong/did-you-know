@@ -1,3 +1,5 @@
+@import './fonts/fonts.css';
+
 :root {
   /* Each colour is light-dark(light value, dark value). The browser picks one
      from color-scheme: it follows the system setting, unless data-theme on <html>
