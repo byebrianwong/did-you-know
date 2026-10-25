@@ -881,5 +881,65 @@
         "source": "https://commons.wikimedia.org/wiki/File:Syrup_grades_large.JPG"
       }
     ]
+  },
+  {
+    "id": "crisp-crumble-cobbler",
+    "category": "Food & Drink",
+    "title": "Crisp vs. Crumble vs. Cobbler",
+    "question": "Crisp, crumble, cobbler: aren't they all just baked fruit with something on top?",
+    "answer": "Yes. The difference is the topping. A cobbler is topped with biscuit dough. A crisp and a crumble both have a loose topping of flour, sugar and butter, and in the US a crisp usually adds oats, which bake up crunchier. \"Crumble\" is the British name, and many cooks use the two words for the same dish.",
+    "details": [
+      {
+        "term": "Crisp",
+        "text": "Fruit baked under a topping of flour, sugar, butter and, usually, rolled oats, often with nuts. The topping bakes up crunchy, as the name says. Apple crisp is the best-known kind."
+      },
+      {
+        "term": "Crumble",
+        "text": "Fruit baked under a streusel-like topping of flour, sugar and butter. It is the British name for the dish. Apple and rhubarb are the most popular fillings. Some recipes add oats, nuts or coconut, which makes it hard to tell from a crisp."
+      },
+      {
+        "term": "Cobbler",
+        "text": "Fruit baked under biscuit or scone dough, spread over the top or dropped on in spoonfuls. The lumpy top is often said to look like cobblestones, but the origin of the name is not certain. In some parts of the US, \"cobbler\" can also mean a double-crust fruit pie."
+      }
+    ],
+    "bonus": "The oldest known recipes are North American: apple crisp in Good Housekeeping in 1915, and apple crumble in Canada's Farmer's Magazine in 1917. Both had the same topping, with no oats. In Britain, the Ministry of Food promoted crumbles during World War II because they need less butter than pastry and can be made with margarine.",
+    "sources": [
+      "https://www.tasteofhome.com/article/the-difference-between-cobblers-crumbles-crisps-and-buckles/",
+      "https://www.americastestkitchen.com/articles/5965-grunt-slump-and-buckle-what-does-it-mean-fruit-desserts",
+      "https://en.wikipedia.org/wiki/Crumble",
+      "https://en.wikipedia.org/wiki/Cobbler_(food)"
+    ],
+    "images": [
+      {
+        "src": "/images/crisp-crumble-cobbler/crisp.jpg",
+        "label": "Crisp (apple, pear and cranberry)",
+        "note": "Oat flakes and nuts in the topping",
+        "alt": "A bowl of baked red fruit under a crunchy topping with visible rolled oats and sliced almonds, with a scoop of vanilla ice cream beside it.",
+        "credit": "Joy",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Apple_Pear_Cranberry_Crisp.jpg"
+      },
+      {
+        "src": "/images/crisp-crumble-cobbler/crumble.jpg",
+        "label": "Crumble (apple)",
+        "note": "Fine, sandy crumbs, no oats",
+        "alt": "A round green baking dish of apple crumble with a fine, sandy, golden topping, on a wooden table.",
+        "credit": "Suzette - www.suzette.nu from Arnhem, Netherlands",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Vegan_apple_crumble_(8293111737).jpg"
+      },
+      {
+        "src": "/images/crisp-crumble-cobbler/cobbler.jpg",
+        "label": "Cobbler (berry)",
+        "note": "Lumps of biscuit dough, like cobblestones",
+        "alt": "A baking dish of blueberries and blackberries partly covered by lumps of golden-brown biscuit dough.",
+        "credit": "Leslie Seaton from Seattle, WA, USA",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Cobbler_(7303683612).jpg"
+      }
+    ]
   }
 ]
